@@ -1,0 +1,855 @@
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xml:base="http://www.example.org/bestbuy"
+	xmlns="http://www.example.org/bestbuy#">
+
+<owl:Ontology rdf:about="">
+	<rdfs:comment>Taxonomy for bestbuy</rdfs:comment>
+</owl:Ontology>
+
+<owl:Class rdf:ID="Product">
+</owl:Class>
+
+<owl:Class rdf:ID="movies_and_music">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="music">
+	<rdfs:subClassOf rdf:resource="#movies_and_music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="holiday">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="country">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="contemporary_country">
+	<rdfs:subClassOf rdf:resource="#country"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bluegrass">
+	<rdfs:subClassOf rdf:resource="#country"/>
+</owl:Class>
+
+<owl:Class rdf:ID="world">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewish">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="african">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="italian">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="german">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="celtic">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="japanese">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="french">
+	<rdfs:subClassOf rdf:resource="#world"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pop">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="classic_pop_vocals">
+	<rdfs:subClassOf rdf:resource="#pop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="new_wave">
+	<rdfs:subClassOf rdf:resource="#pop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rock">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="alternative">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lo_fi">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="heavy_metal">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="art_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hard_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="folk_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="country_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="psychedelic">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hardcore_punk">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="post_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="experimental_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="progressive_rock">
+	<rdfs:subClassOf rdf:resource="#rock"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_genres">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jazz">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="big_band">
+	<rdfs:subClassOf rdf:resource="#jazz"/>
+</owl:Class>
+
+<owl:Class rdf:ID="soundtracks_and_shows">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="film_composers">
+	<rdfs:subClassOf rdf:resource="#soundtracks_and_shows"/>
+</owl:Class>
+
+<owl:Class rdf:ID="general_soundtracks_and_shows">
+	<rdfs:subClassOf rdf:resource="#soundtracks_and_shows"/>
+</owl:Class>
+
+<owl:Class rdf:ID="electronic_dance">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dance">
+	<rdfs:subClassOf rdf:resource="#electronic_dance"/>
+</owl:Class>
+
+<owl:Class rdf:ID="latin">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="latin">
+	<rdfs:subClassOf rdf:resource="#latin"/>
+</owl:Class>
+
+<owl:Class rdf:ID="brazilian">
+	<rdfs:subClassOf rdf:resource="#latin"/>
+</owl:Class>
+
+<owl:Class rdf:ID="new_age">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="randb_and_soul">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="general_randb_and_soul">
+	<rdfs:subClassOf rdf:resource="#randb_and_soul"/>
+</owl:Class>
+
+<owl:Class rdf:ID="funk">
+	<rdfs:subClassOf rdf:resource="#randb_and_soul"/>
+</owl:Class>
+
+<owl:Class rdf:ID="contemporary_randb">
+	<rdfs:subClassOf rdf:resource="#randb_and_soul"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gospel_and_christian">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="contemp._christian">
+	<rdfs:subClassOf rdf:resource="#gospel_and_christian"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rap_and_hip_hop">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rap">
+	<rdfs:subClassOf rdf:resource="#rap_and_hip_hop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="east_coast_rap">
+	<rdfs:subClassOf rdf:resource="#rap_and_hip_hop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gangsta_hardcore">
+	<rdfs:subClassOf rdf:resource="#rap_and_hip_hop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="folk">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blues">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="easy_listening">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="karaoke">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="box_sets">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="childrens">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="reggae">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dancehall_ragga">
+	<rdfs:subClassOf rdf:resource="#reggae"/>
+</owl:Class>
+
+<owl:Class rdf:ID="comedy_spoken">
+	<rdfs:subClassOf rdf:resource="#music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="spoken_word">
+	<rdfs:subClassOf rdf:resource="#comedy_spoken"/>
+</owl:Class>
+
+<owl:Class rdf:ID="movies_and_tv_shows">
+	<rdfs:subClassOf rdf:resource="#movies_and_music"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computers_and_tablets">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptops">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pc_laptops">
+	<rdfs:subClassOf rdf:resource="#laptops"/>
+</owl:Class>
+
+<owl:Class rdf:ID="refurbished_laptops">
+	<rdfs:subClassOf rdf:resource="#laptops"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_accessories_and_peripherals">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mice_and_keyboards">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="keyboards">
+	<rdfs:subClassOf rdf:resource="#mice_and_keyboards"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hard_drives">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="internal_hard_drives">
+	<rdfs:subClassOf rdf:resource="#hard_drives"/>
+</owl:Class>
+
+<owl:Class rdf:ID="external_and_portable_hard_drives">
+	<rdfs:subClassOf rdf:resource="#hard_drives"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptop_accessories">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptop_bags_and_cases">
+	<rdfs:subClassOf rdf:resource="#laptop_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptop_batteries">
+	<rdfs:subClassOf rdf:resource="#laptop_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cables_and_connectors">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="network_cables">
+	<rdfs:subClassOf rdf:resource="#cables_and_connectors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="usb_cables_and_hubs">
+	<rdfs:subClassOf rdf:resource="#cables_and_connectors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="monitor_and_screen_accessories">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="surge_protectors_and_power">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="usb_flash_drives">
+	<rdfs:subClassOf rdf:resource="#computer_accessories_and_peripherals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="monitors">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_monitors">
+	<rdfs:subClassOf rdf:resource="#monitors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="networking_and_wireless">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ethernet_hubs_and_switches">
+	<rdfs:subClassOf rdf:resource="#networking_and_wireless"/>
+</owl:Class>
+
+<owl:Class rdf:ID="routers">
+	<rdfs:subClassOf rdf:resource="#networking_and_wireless"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wireless_routers">
+	<rdfs:subClassOf rdf:resource="#routers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipad_tablet_and_e_reader_accessories">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipad_accessories">
+	<rdfs:subClassOf rdf:resource="#ipad_tablet_and_e_reader_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipad_cases_covers_and_sleeves">
+	<rdfs:subClassOf rdf:resource="#ipad_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tablet_accessories">
+	<rdfs:subClassOf rdf:resource="#ipad_tablet_and_e_reader_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tablet_cases_covers_and_sleeves">
+	<rdfs:subClassOf rdf:resource="#tablet_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="e_reader_accessories">
+	<rdfs:subClassOf rdf:resource="#ipad_tablet_and_e_reader_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="desktop_and_all_in_one_computers">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="towers_only">
+	<rdfs:subClassOf rdf:resource="#desktop_and_all_in_one_computers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_desktops">
+	<rdfs:subClassOf rdf:resource="#desktop_and_all_in_one_computers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="refurbished_desktops">
+	<rdfs:subClassOf rdf:resource="#desktop_and_all_in_one_computers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_cards_and_components">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_memory">
+	<rdfs:subClassOf rdf:resource="#computer_cards_and_components"/>
+</owl:Class>
+
+<owl:Class rdf:ID="desktop_memory">
+	<rdfs:subClassOf rdf:resource="#computer_memory"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptop_memory">
+	<rdfs:subClassOf rdf:resource="#computer_memory"/>
+</owl:Class>
+
+<owl:Class rdf:ID="video_graphics_cards">
+	<rdfs:subClassOf rdf:resource="#computer_cards_and_components"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pci_express_graphics_cards">
+	<rdfs:subClassOf rdf:resource="#video_graphics_cards"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_cases_and_hard_drive_enclosures">
+	<rdfs:subClassOf rdf:resource="#computer_cards_and_components"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipad_tablets_and_e_readers">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tablets">
+	<rdfs:subClassOf rdf:resource="#ipad_tablets_and_e_readers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="servers_and_thin_clients">
+	<rdfs:subClassOf rdf:resource="#computers_and_tablets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="servers">
+	<rdfs:subClassOf rdf:resource="#servers_and_thin_clients"/>
+</owl:Class>
+
+<owl:Class rdf:ID="audio_and_mp3">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="headphones">
+	<rdfs:subClassOf rdf:resource="#audio_and_mp3"/>
+</owl:Class>
+
+<owl:Class rdf:ID="earbud_and_in_ear_headphones">
+	<rdfs:subClassOf rdf:resource="#headphones"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_headphones">
+	<rdfs:subClassOf rdf:resource="#headphones"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_audio">
+	<rdfs:subClassOf rdf:resource="#audio_and_mp3"/>
+</owl:Class>
+
+<owl:Class rdf:ID="speakers">
+	<rdfs:subClassOf rdf:resource="#home_audio"/>
+</owl:Class>
+
+<owl:Class rdf:ID="in_wall_and_in_ceiling_speakers">
+	<rdfs:subClassOf rdf:resource="#speakers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipod_and_mp3_player_accessories">
+	<rdfs:subClassOf rdf:resource="#audio_and_mp3"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cases_armbands_and_watchbands">
+	<rdfs:subClassOf rdf:resource="#ipod_and_mp3_player_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_cases_armbands_and_watchbands">
+	<rdfs:subClassOf rdf:resource="#cases_armbands_and_watchbands"/>
+</owl:Class>
+
+<owl:Class rdf:ID="portable_speakers_docks_and_radios">
+	<rdfs:subClassOf rdf:resource="#audio_and_mp3"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cameras_and_camcorders">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_cameras">
+	<rdfs:subClassOf rdf:resource="#cameras_and_camcorders"/>
+</owl:Class>
+
+<owl:Class rdf:ID="point_and_shoot_cameras">
+	<rdfs:subClassOf rdf:resource="#digital_cameras"/>
+</owl:Class>
+
+<owl:Class rdf:ID="point_and_shoot_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#point_and_shoot_cameras"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#cameras_and_camcorders"/>
+</owl:Class>
+
+<owl:Class rdf:ID="camera_lenses">
+	<rdfs:subClassOf rdf:resource="#digital_camera_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dslr_lenses">
+	<rdfs:subClassOf rdf:resource="#camera_lenses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lens_accessories">
+	<rdfs:subClassOf rdf:resource="#camera_lenses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lens_filters_and_caps">
+	<rdfs:subClassOf rdf:resource="#lens_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_cases_and_straps">
+	<rdfs:subClassOf rdf:resource="#digital_camera_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_and_cases">
+	<rdfs:subClassOf rdf:resource="#bags_cases_and_straps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="binoculars_telescopes_and_optics">
+	<rdfs:subClassOf rdf:resource="#cameras_and_camcorders"/>
+</owl:Class>
+
+<owl:Class rdf:ID="binoculars">
+	<rdfs:subClassOf rdf:resource="#binoculars_telescopes_and_optics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="memory_cards_and_readers">
+	<rdfs:subClassOf rdf:resource="#cameras_and_camcorders"/>
+</owl:Class>
+
+<owl:Class rdf:ID="memory_cards">
+	<rdfs:subClassOf rdf:resource="#memory_cards_and_readers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="camcorders">
+	<rdfs:subClassOf rdf:resource="#cameras_and_camcorders"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_and_home_theater">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="projectors_and_screens">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_stands_mounts_and_furniture">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater"/>
+</owl:Class>
+
+<owl:Class rdf:ID="projector_mounts_and_screens">
+	<rdfs:subClassOf rdf:resource="#tv_stands_mounts_and_furniture"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tvs">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_flat_panel_tvs">
+	<rdfs:subClassOf rdf:resource="#tvs"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_and_home_theater_accessories">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater"/>
+</owl:Class>
+
+<owl:Class rdf:ID="a_v_cables_and_connectors">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hdmi_cables">
+	<rdfs:subClassOf rdf:resource="#a_v_cables_and_connectors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_stands_mounts_and_storage">
+	<rdfs:subClassOf rdf:resource="#tv_and_home_theater"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_stands">
+	<rdfs:subClassOf rdf:resource="#tv_stands_mounts_and_storage"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_and_school_supplies">
+	<rdfs:subClassOf rdf:resource="#office"/>
+</owl:Class>
+
+<owl:Class rdf:ID="printer_ink_and_toner">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toner">
+	<rdfs:subClassOf rdf:resource="#printer_ink_and_toner"/>
+</owl:Class>
+
+<owl:Class rdf:ID="remanufactured_toner">
+	<rdfs:subClassOf rdf:resource="#toner"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_furniture_and_storage">
+	<rdfs:subClassOf rdf:resource="#office"/>
+</owl:Class>
+
+<owl:Class rdf:ID="telephones_and_communication">
+	<rdfs:subClassOf rdf:resource="#office"/>
+</owl:Class>
+
+<owl:Class rdf:ID="telephone_accessories">
+	<rdfs:subClassOf rdf:resource="#telephones_and_communication"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cordless_telephones">
+	<rdfs:subClassOf rdf:resource="#telephones_and_communication"/>
+</owl:Class>
+
+<owl:Class rdf:ID="printers_ink_and_toner">
+	<rdfs:subClassOf rdf:resource="#office"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scanners_faxes_and_copiers">
+	<rdfs:subClassOf rdf:resource="#office"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phones">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phone_accessories">
+	<rdfs:subClassOf rdf:resource="#cell_phones"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phone_cases_and_clips">
+	<rdfs:subClassOf rdf:resource="#cell_phone_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fitted">
+	<rdfs:subClassOf rdf:resource="#cell_phone_cases_and_clips"/>
+</owl:Class>
+
+<owl:Class rdf:ID="iphone_accessories">
+	<rdfs:subClassOf rdf:resource="#cell_phone_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="adapters_cables_and_chargers">
+	<rdfs:subClassOf rdf:resource="#cell_phone_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_electronics_and_gps">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_audio">
+	<rdfs:subClassOf rdf:resource="#car_electronics_and_gps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_subwoofers_and_enclosures">
+	<rdfs:subClassOf rdf:resource="#car_audio"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_subwoofers">
+	<rdfs:subClassOf rdf:resource="#car_subwoofers_and_enclosures"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_speakers">
+	<rdfs:subClassOf rdf:resource="#car_audio"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_amplifiers">
+	<rdfs:subClassOf rdf:resource="#car_audio"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_installation_parts">
+	<rdfs:subClassOf rdf:resource="#car_electronics_and_gps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="deck_installation_parts">
+	<rdfs:subClassOf rdf:resource="#car_installation_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_installation_parts_and_accessories">
+	<rdfs:subClassOf rdf:resource="#car_electronics_and_gps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_audio_installation_parts">
+	<rdfs:subClassOf rdf:resource="#car_installation_parts_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="deck_installation_parts">
+	<rdfs:subClassOf rdf:resource="#car_audio_installation_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="health_fitness_and_beauty">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fitness_and_exercise">
+	<rdfs:subClassOf rdf:resource="#health_fitness_and_beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="luggage_bags_and_travel">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="luggage">
+	<rdfs:subClassOf rdf:resource="#luggage_bags_and_travel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_security_and_surveillance">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_surveillance_cameras">
+	<rdfs:subClassOf rdf:resource="#home_security_and_surveillance"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outdoor_living">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="grills">
+	<rdfs:subClassOf rdf:resource="#outdoor_living"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toys_and_games">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="games_puzzles_and_cards">
+	<rdfs:subClassOf rdf:resource="#toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="board_games">
+	<rdfs:subClassOf rdf:resource="#games_puzzles_and_cards"/>
+</owl:Class>
+
+<owl:Class rdf:ID="household_batteries">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toys_games_and_hobbies">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="games_puzzles_and_cards">
+	<rdfs:subClassOf rdf:resource="#toys_games_and_hobbies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="board_games">
+	<rdfs:subClassOf rdf:resource="#games_puzzles_and_cards"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mobile_phones">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mobile_phone_accessories">
+	<rdfs:subClassOf rdf:resource="#mobile_phones"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mobile_phone_cases_and_clips">
+	<rdfs:subClassOf rdf:resource="#mobile_phone_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fitted">
+	<rdfs:subClassOf rdf:resource="#mobile_phone_cases_and_clips"/>
+</owl:Class>
+
+<owl:Class rdf:ID="appliances">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="small_appliances">
+	<rdfs:subClassOf rdf:resource="#appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pots_and_pans">
+	<rdfs:subClassOf rdf:resource="#small_appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="coffee_makers">
+	<rdfs:subClassOf rdf:resource="#small_appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_gadgets">
+	<rdfs:subClassOf rdf:resource="#small_appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="refrigerators">
+	<rdfs:subClassOf rdf:resource="#appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="vacuum_cleaners_and_floor_care">
+	<rdfs:subClassOf rdf:resource="#appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="heating_cooling_and_air_quality">
+	<rdfs:subClassOf rdf:resource="#appliances"/>
+</owl:Class>
+
+<owl:Class rdf:ID="video_games">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pc_gaming">
+	<rdfs:subClassOf rdf:resource="#video_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pre_owned_and_trade_in_games">
+	<rdfs:subClassOf rdf:resource="#video_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pre_owned_games">
+	<rdfs:subClassOf rdf:resource="#pre_owned_and_trade_in_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="musical_instruments">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="microphones_and_live_sound">
+	<rdfs:subClassOf rdf:resource="#musical_instruments"/>
+</owl:Class>
+
+<owl:Class rdf:ID="microphones_and_accessories">
+	<rdfs:subClassOf rdf:resource="#microphones_and_live_sound"/>
+</owl:Class>
+</rdf:RDF>

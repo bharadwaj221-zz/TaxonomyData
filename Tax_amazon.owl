@@ -1,0 +1,3327 @@
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xml:base="http://www.example.org/amazon"
+	xmlns="http://www.example.org/amazon#">
+
+<owl:Ontology rdf:about="">
+	<rdfs:comment>Taxonomy for amazon</rdfs:comment>
+</owl:Ontology>
+
+<owl:Class rdf:ID="Product">
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry_boxes_and_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="headsets">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_cradles_and_mounts">
+	<rdfs:subClassOf rdf:resource="#car_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cases_holsters_and_clips">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="girls">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding_and_engagement_rings">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="engagement_rings">
+	<rdfs:subClassOf rdf:resource="#wedding_and_engagement_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding_rings">
+	<rdfs:subClassOf rdf:resource="#wedding_and_engagement_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="eternity_rings">
+	<rdfs:subClassOf rdf:resource="#wedding_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ring_enhancers">
+	<rdfs:subClassOf rdf:resource="#wedding_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="diamond_bands">
+	<rdfs:subClassOf rdf:resource="#wedding_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bridal_sets">
+	<rdfs:subClassOf rdf:resource="#wedding_and_engagement_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="promise_rings">
+	<rdfs:subClassOf rdf:resource="#wedding_and_engagement_rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bracelets">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tennis">
+	<rdfs:subClassOf rdf:resource="#bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bangle">
+	<rdfs:subClassOf rdf:resource="#bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="strand">
+	<rdfs:subClassOf rdf:resource="#bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants_and_capris">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pumps">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="intimates">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bras">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="everyday_bras">
+	<rdfs:subClassOf rdf:resource="#bras"/>
+</owl:Class>
+
+<owl:Class rdf:ID="panties">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus_size">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sandals">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fine">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="earrings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shorts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="flats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleep_and_lounge">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skirts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="novelty_and_more">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body_jewelry">
+	<rdfs:subClassOf rdf:resource="#novelty_and_more"/>
+</owl:Class>
+
+<owl:Class rdf:ID="piercing_jewelry">
+	<rdfs:subClassOf rdf:resource="#body_jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#novelty_and_more"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding_and_engagement_rings">
+	<rdfs:subClassOf rdf:resource="#novelty_and_more"/>
+</owl:Class>
+
+<owl:Class rdf:ID="novelty_jewelry">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body_jewelry">
+	<rdfs:subClassOf rdf:resource="#novelty_jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="piercing_jewelry">
+	<rdfs:subClassOf rdf:resource="#body_jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bands">
+	<rdfs:subClassOf rdf:resource="#rings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="italian_style">
+	<rdfs:subClassOf rdf:resource="#charms"/>
+</owl:Class>
+
+<owl:Class rdf:ID="earrings">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hoop">
+	<rdfs:subClassOf rdf:resource="#earrings"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry_sets">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chains">
+	<rdfs:subClassOf rdf:resource="#necklaces"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pendants">
+	<rdfs:subClassOf rdf:resource="#necklaces"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mens_jewelry">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#mens_jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="religious_jewelry">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#shirts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="suits_and_sport_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="work_and_safety">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="loafers_and_slip_ons">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="oxfords">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="underwear">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_hoodies_and_sweatshirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="loose_gemstones">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing_and_accessories">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#shirts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="suits_and_sport_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="work_and_safety">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="loafers_and_slip_ons">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="oxfords">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="underwear">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_hoodies_and_sweatshirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="novelty_and_special_use">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_clothing">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="golf">
+	<rdfs:subClassOf rdf:resource="#sports_clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#golf"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jerseys">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cycling">
+	<rdfs:subClassOf rdf:resource="#sports_clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#cycling"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#cycling"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jerseys">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="novelty">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#shirts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#shirts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outerwear">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hoodies">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweatshirts">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_apparel">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleep_and_lounge">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sets">
+	<rdfs:subClassOf rdf:resource="#sleep_and_lounge"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#novelty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baseball_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="work_wear_and_uniforms">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="medical">
+	<rdfs:subClassOf rdf:resource="#work_wear_and_uniforms"/>
+</owl:Class>
+
+<owl:Class rdf:ID="band_t_shirts_and_music_fan_apparel">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#band_t_shirts_and_music_fan_apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="exotic_apparel">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#exotic_apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="movie_and_tv_fan_apparel">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#movie_and_tv_fan_apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="costumes_and_accessories">
+	<rdfs:subClassOf rdf:resource="#novelty_and_special_use"/>
+</owl:Class>
+
+<owl:Class rdf:ID="costumes">
+	<rdfs:subClassOf rdf:resource="#costumes_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kids_and_baby">
+	<rdfs:subClassOf rdf:resource="#costumes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boys">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#boys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants_and_capris">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pumps">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="intimates">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bras">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="everyday_bras">
+	<rdfs:subClassOf rdf:resource="#bras"/>
+</owl:Class>
+
+<owl:Class rdf:ID="panties">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus_size">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sandals">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fine">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="earrings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shorts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="flats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleep_and_lounge">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skirts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="luggage_and_bags">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="luggage">
+	<rdfs:subClassOf rdf:resource="#luggage_and_bags"/>
+</owl:Class>
+
+<owl:Class rdf:ID="backpacks">
+	<rdfs:subClassOf rdf:resource="#luggage_and_bags"/>
+</owl:Class>
+
+<owl:Class rdf:ID="girls">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_girls">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_boys">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bodysuits">
+	<rdfs:subClassOf rdf:resource="#baby_boys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="unisex">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#unisex"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baseball_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing_and_accessories">
+	<rdfs:subClassOf rdf:resource="#clothing_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="electronics">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computers_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laptop_and_netbook_computer_accessories">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_and_cases">
+	<rdfs:subClassOf rdf:resource="#laptop_and_netbook_computer_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skins_and_decals">
+	<rdfs:subClassOf rdf:resource="#laptop_and_netbook_computer_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="touch_screen_tablet_accessories">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cases_and_sleeves">
+	<rdfs:subClassOf rdf:resource="#touch_screen_tablet_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleeves">
+	<rdfs:subClassOf rdf:resource="#cases_and_sleeves"/>
+</owl:Class>
+
+<owl:Class rdf:ID="data_storage">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="internal_hard_drives">
+	<rdfs:subClassOf rdf:resource="#data_storage"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_components">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="memory">
+	<rdfs:subClassOf rdf:resource="#computer_components"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fans_and_cooling">
+	<rdfs:subClassOf rdf:resource="#computer_components"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cables_and_accessories">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cables_and_interconnects">
+	<rdfs:subClassOf rdf:resource="#cables_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="keyboard_and_mice_accessories">
+	<rdfs:subClassOf rdf:resource="#cables_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mouse_pads">
+	<rdfs:subClassOf rdf:resource="#keyboard_and_mice_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="memory_cards">
+	<rdfs:subClassOf rdf:resource="#cables_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="printer_ink_and_toner">
+	<rdfs:subClassOf rdf:resource="#cables_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="monitors">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="networking_products">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pdas_handhelds_and_accessories">
+	<rdfs:subClassOf rdf:resource="#computers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pda_and_handheld_accessories">
+	<rdfs:subClassOf rdf:resource="#pdas_handhelds_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="camera_and_photo">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#camera_and_photo"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_and_cases">
+	<rdfs:subClassOf rdf:resource="#camera_and_photo"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories_and_supplies">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="audio_and_video_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories_and_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cables_and_interconnects">
+	<rdfs:subClassOf rdf:resource="#audio_and_video_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="projector_accessories">
+	<rdfs:subClassOf rdf:resource="#audio_and_video_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phone_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories_and_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_chargers_and_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories_and_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="computer_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories_and_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_and_vehicle_electronics">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="vehicle_electronics_accessories">
+	<rdfs:subClassOf rdf:resource="#car_and_vehicle_electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="audio_and_video_accessories">
+	<rdfs:subClassOf rdf:resource="#vehicle_electronics_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_media_player_accessories">
+	<rdfs:subClassOf rdf:resource="#audio_and_video_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="vehicle_audio_and_video_installation">
+	<rdfs:subClassOf rdf:resource="#vehicle_electronics_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mp3_player_cables_and_adapters">
+	<rdfs:subClassOf rdf:resource="#vehicle_audio_and_video_installation"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_electronics">
+	<rdfs:subClassOf rdf:resource="#car_and_vehicle_electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_video">
+	<rdfs:subClassOf rdf:resource="#car_electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="installation_accessories_and_harnesses">
+	<rdfs:subClassOf rdf:resource="#car_electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="portable_audio_and_video">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mp3_players_and_accessories">
+	<rdfs:subClassOf rdf:resource="#portable_audio_and_video"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mp3_player_accessories">
+	<rdfs:subClassOf rdf:resource="#mp3_players_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phones_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#cell_phones_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="television_and_video">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ebook_readers_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_and_kitchen">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bedding">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sheets_and_pillowcases">
+	<rdfs:subClassOf rdf:resource="#bedding"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decorative_pillows_inserts_and_covers">
+	<rdfs:subClassOf rdf:resource="#bedding"/>
+</owl:Class>
+
+<owl:Class rdf:ID="duvet_covers_and_sets">
+	<rdfs:subClassOf rdf:resource="#bedding"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_decor">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_decor_accents">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decorative_accessories">
+	<rdfs:subClassOf rdf:resource="#home_decor_accents"/>
+</owl:Class>
+
+<owl:Class rdf:ID="photo_frames">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="area_rugs_and_pads">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="window_treatments">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blinds_and_shades">
+	<rdfs:subClassOf rdf:resource="#window_treatments"/>
+</owl:Class>
+
+<owl:Class rdf:ID="candles_and_holders">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clocks">
+	<rdfs:subClassOf rdf:resource="#home_decor"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_and_dining">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_and_table_linens">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_utensils_and_gadgets">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_accessories">
+	<rdfs:subClassOf rdf:resource="#kitchen_utensils_and_gadgets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="glassware_and_drinkware">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bar_tools_and_glasses">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="storage_and_organization">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tabletop">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="serveware">
+	<rdfs:subClassOf rdf:resource="#tabletop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cups_mugs_and_saucers">
+	<rdfs:subClassOf rdf:resource="#tabletop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bakeware">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_dining"/>
+</owl:Class>
+
+<owl:Class rdf:ID="furniture">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bedroom_furniture">
+	<rdfs:subClassOf rdf:resource="#furniture"/>
+</owl:Class>
+
+<owl:Class rdf:ID="living_room_furniture">
+	<rdfs:subClassOf rdf:resource="#furniture"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dining_room_furniture">
+	<rdfs:subClassOf rdf:resource="#furniture"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_furniture">
+	<rdfs:subClassOf rdf:resource="#furniture"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bath">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bathroom_accessories">
+	<rdfs:subClassOf rdf:resource="#bath"/>
+</owl:Class>
+
+<owl:Class rdf:ID="seasonal_decor">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="storage_and_organization">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="artwork">
+	<rdfs:subClassOf rdf:resource="#home_and_kitchen"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lithographs_etchings_and_woodcuts">
+	<rdfs:subClassOf rdf:resource="#artwork"/>
+</owl:Class>
+
+<owl:Class rdf:ID="grocery_and_gourmet_food">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pantry_staples">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="snack_foods">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="canned_dry_and_packaged_foods">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="candy_and_chocolate">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wine_beer_and_spirits">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="beverages">
+	<rdfs:subClassOf rdf:resource="#grocery_and_gourmet_food"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tools_and_home_improvement">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="electrical">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="light_bulbs">
+	<rdfs:subClassOf rdf:resource="#electrical"/>
+</owl:Class>
+
+<owl:Class rdf:ID="led_bulbs">
+	<rdfs:subClassOf rdf:resource="#light_bulbs"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wall_plates_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electrical"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wall_plates">
+	<rdfs:subClassOf rdf:resource="#wall_plates_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hardware">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="nails_screws_and_fasteners">
+	<rdfs:subClassOf rdf:resource="#hardware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="screws_and_bolts">
+	<rdfs:subClassOf rdf:resource="#nails_screws_and_fasteners"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cabinet_hardware">
+	<rdfs:subClassOf rdf:resource="#hardware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="door_hardware_and_locks">
+	<rdfs:subClassOf rdf:resource="#hardware"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lighting_and_ceiling_fans">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ceiling_lights">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lamps_and_shades">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wall_lights">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="novelty_lighting">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outdoor_lighting">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lighting_accessories">
+	<rdfs:subClassOf rdf:resource="#lighting_and_ceiling_fans"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wall_plates">
+	<rdfs:subClassOf rdf:resource="#lighting_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_and_bath_fixtures">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bathroom_fixtures">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_bath_fixtures"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bathtub_faucets_and_showerheads">
+	<rdfs:subClassOf rdf:resource="#bathroom_fixtures"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kitchen_fixtures">
+	<rdfs:subClassOf rdf:resource="#kitchen_and_bath_fixtures"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rough_plumbing">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pipes_pipe_fittings_and_accessories">
+	<rdfs:subClassOf rdf:resource="#rough_plumbing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="power_and_hand_tools">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hand_tools">
+	<rdfs:subClassOf rdf:resource="#power_and_hand_tools"/>
+</owl:Class>
+
+<owl:Class rdf:ID="flashlights">
+	<rdfs:subClassOf rdf:resource="#hand_tools"/>
+</owl:Class>
+
+<owl:Class rdf:ID="power_tool_accessories">
+	<rdfs:subClassOf rdf:resource="#power_and_hand_tools"/>
+</owl:Class>
+
+<owl:Class rdf:ID="painting_supplies_and_wall_treatments">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallpaper">
+	<rdfs:subClassOf rdf:resource="#painting_supplies_and_wall_treatments"/>
+</owl:Class>
+
+<owl:Class rdf:ID="building_supplies">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="building_materials">
+	<rdfs:subClassOf rdf:resource="#building_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="heating_and_cooling">
+	<rdfs:subClassOf rdf:resource="#building_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="safety_and_security">
+	<rdfs:subClassOf rdf:resource="#tools_and_home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="personal_protective_equipment">
+	<rdfs:subClassOf rdf:resource="#safety_and_security"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shoes">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="handbags">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shoulder_bags">
+	<rdfs:subClassOf rdf:resource="#handbags"/>
+</owl:Class>
+
+<owl:Class rdf:ID="girls">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#girls"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants_and_capris">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pumps">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="intimates">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bras">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="everyday_bras">
+	<rdfs:subClassOf rdf:resource="#bras"/>
+</owl:Class>
+
+<owl:Class rdf:ID="panties">
+	<rdfs:subClassOf rdf:resource="#intimates"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fashion"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus_size">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_out_and_cocktail">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wedding">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="special_occasion">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual">
+	<rdfs:subClassOf rdf:resource="#dresses"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plus">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sandals">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fine">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="necklaces">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms_and_charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charm_bracelets">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="charms">
+	<rdfs:subClassOf rdf:resource="#charms_and_charm_bracelets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="earrings">
+	<rdfs:subClassOf rdf:resource="#fine"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shorts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="flats">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleep_and_lounge">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skirts">
+	<rdfs:subClassOf rdf:resource="#women"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jackets_and_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lightweight_jackets">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_and_performance">
+	<rdfs:subClassOf rdf:resource="#jackets_and_coats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_hoodies">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="active_shirts_and_tees">
+	<rdfs:subClassOf rdf:resource="#active"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_sneakers">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_and_chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#batteries_and_chargers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hats_and_caps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="visors">
+	<rdfs:subClassOf rdf:resource="#hats_and_caps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses_and_eyewear_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_card_cases_and_money_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="digital_camera_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_wraps">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweaters">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pullovers">
+	<rdfs:subClassOf rdf:resource="#sweaters"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#shirts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pants">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="suits_and_sport_coats">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="work_and_safety">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="loafers_and_slip_ons">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="athletic">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="running">
+	<rdfs:subClassOf rdf:resource="#athletic"/>
+</owl:Class>
+
+<owl:Class rdf:ID="oxfords">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="swim">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="underwear">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boots">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_hoodies_and_sweatshirts">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jeans">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rings">
+	<rdfs:subClassOf rdf:resource="#men"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boys">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops_and_tees">
+	<rdfs:subClassOf rdf:resource="#boys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="knits_and_tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tanks_and_camis">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tees">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="casual_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="polos">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blouses_and_button_down_shirts">
+	<rdfs:subClassOf rdf:resource="#tops_and_tees"/>
+</owl:Class>
+
+<owl:Class rdf:ID="related_accessories">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shoes">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women">
+	<rdfs:subClassOf rdf:resource="#shoes"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_products">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_furniture_and_lighting">
+	<rdfs:subClassOf rdf:resource="#office_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chairs_and_sofas">
+	<rdfs:subClassOf rdf:resource="#office_furniture_and_lighting"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cabinets_racks_and_shelves">
+	<rdfs:subClassOf rdf:resource="#office_furniture_and_lighting"/>
+</owl:Class>
+
+<owl:Class rdf:ID="desks_and_workstations">
+	<rdfs:subClassOf rdf:resource="#office_furniture_and_lighting"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_and_school_supplies">
+	<rdfs:subClassOf rdf:resource="#office_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="binders_and_binding_systems">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paper">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cards_and_card_stock">
+	<rdfs:subClassOf rdf:resource="#paper"/>
+</owl:Class>
+
+<owl:Class rdf:ID="forms_recordkeeping_and_money_handling">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="education_and_crafts">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="desk_accessories_and_workspace_organizers">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="filing_products">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="labels_indexes_and_stamps">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="labels_and_stickers">
+	<rdfs:subClassOf rdf:resource="#labels_indexes_and_stamps"/>
+</owl:Class>
+
+<owl:Class rdf:ID="envelopes_mailers_and_shipping_supplies">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="writing_and_correction_supplies">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pens_and_refills">
+	<rdfs:subClassOf rdf:resource="#writing_and_correction_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="presentation_boards">
+	<rdfs:subClassOf rdf:resource="#office_and_school_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="office_electronics">
+	<rdfs:subClassOf rdf:resource="#office_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_and_outdoors">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_and_garden">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="patio_lawn_and_garden">
+	<rdfs:subClassOf rdf:resource="#home_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decor">
+	<rdfs:subClassOf rdf:resource="#home_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_souvenirs">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweatshirts">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing_accessories">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="auto_accessories">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_equipment">
+	<rdfs:subClassOf rdf:resource="#fan_shop"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boating_and_water_sports">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="boating">
+	<rdfs:subClassOf rdf:resource="#boating_and_water_sports"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cycling">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="parts_and_components">
+	<rdfs:subClassOf rdf:resource="#cycling"/>
+</owl:Class>
+
+<owl:Class rdf:ID="equestrian_sports">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tack">
+	<rdfs:subClassOf rdf:resource="#equestrian_sports"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry_boxes_and_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="headsets">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_cradles_and_mounts">
+	<rdfs:subClassOf rdf:resource="#car_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cases_holsters_and_clips">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hunting_and_fishing">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hunting">
+	<rdfs:subClassOf rdf:resource="#hunting_and_fishing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fishing">
+	<rdfs:subClassOf rdf:resource="#hunting_and_fishing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lures_baits_and_attractants">
+	<rdfs:subClassOf rdf:resource="#fishing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="golf">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="men">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="exercise_and_fitness">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clothing">
+	<rdfs:subClassOf rdf:resource="#exercise_and_fitness"/>
+</owl:Class>
+
+<owl:Class rdf:ID="t_shirts">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sweatshirts">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outdoor_recreation">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="camping_and_hiking">
+	<rdfs:subClassOf rdf:resource="#outdoor_recreation"/>
+</owl:Class>
+
+<owl:Class rdf:ID="beauty">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="makeup">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lips">
+	<rdfs:subClassOf rdf:resource="#makeup"/>
+</owl:Class>
+
+<owl:Class rdf:ID="eyes">
+	<rdfs:subClassOf rdf:resource="#makeup"/>
+</owl:Class>
+
+<owl:Class rdf:ID="face">
+	<rdfs:subClassOf rdf:resource="#makeup"/>
+</owl:Class>
+
+<owl:Class rdf:ID="nails">
+	<rdfs:subClassOf rdf:resource="#makeup"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fragrance">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mens">
+	<rdfs:subClassOf rdf:resource="#fragrance"/>
+</owl:Class>
+
+<owl:Class rdf:ID="womens">
+	<rdfs:subClassOf rdf:resource="#fragrance"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hair_care">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="styling_products">
+	<rdfs:subClassOf rdf:resource="#hair_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hair_extensions_and_wigs">
+	<rdfs:subClassOf rdf:resource="#styling_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="styling_tools">
+	<rdfs:subClassOf rdf:resource="#hair_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="styling_accessories">
+	<rdfs:subClassOf rdf:resource="#styling_tools"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bath_and_body">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cleansers">
+	<rdfs:subClassOf rdf:resource="#bath_and_body"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skin_care">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="face">
+	<rdfs:subClassOf rdf:resource="#skin_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body">
+	<rdfs:subClassOf rdf:resource="#skin_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="moisturizers">
+	<rdfs:subClassOf rdf:resource="#body"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tools_and_accessories">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mirrors">
+	<rdfs:subClassOf rdf:resource="#tools_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_and_cases">
+	<rdfs:subClassOf rdf:resource="#tools_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="arts_crafts_and_sewing">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="beading_and_jewelry_making">
+	<rdfs:subClassOf rdf:resource="#arts_crafts_and_sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="craft_supplies">
+	<rdfs:subClassOf rdf:resource="#arts_crafts_and_sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paper_and_paper_crafts">
+	<rdfs:subClassOf rdf:resource="#craft_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paper">
+	<rdfs:subClassOf rdf:resource="#paper_and_paper_crafts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scrapbooking">
+	<rdfs:subClassOf rdf:resource="#arts_crafts_and_sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="art_supplies">
+	<rdfs:subClassOf rdf:resource="#arts_crafts_and_sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sewing">
+	<rdfs:subClassOf rdf:resource="#arts_crafts_and_sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="trim_and_embellishments">
+	<rdfs:subClassOf rdf:resource="#sewing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="patio_lawn_and_garden">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outdoor_decor">
+	<rdfs:subClassOf rdf:resource="#patio_lawn_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="patio_furniture_and_accessories">
+	<rdfs:subClassOf rdf:resource="#patio_lawn_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chairs">
+	<rdfs:subClassOf rdf:resource="#patio_furniture_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mowers_and_outdoor_power_tools">
+	<rdfs:subClassOf rdf:resource="#patio_lawn_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mower_parts_and_accessories">
+	<rdfs:subClassOf rdf:resource="#mowers_and_outdoor_power_tools"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mower_replacement_parts">
+	<rdfs:subClassOf rdf:resource="#mower_parts_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gardening">
+	<rdfs:subClassOf rdf:resource="#patio_lawn_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="plants_seeds_and_bulbs">
+	<rdfs:subClassOf rdf:resource="#gardening"/>
+</owl:Class>
+
+<owl:Class rdf:ID="automotive">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="exterior_accessories">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decals_and_bumper_stickers">
+	<rdfs:subClassOf rdf:resource="#exterior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lights_and_lighting_accessories">
+	<rdfs:subClassOf rdf:resource="#exterior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="license_plate_covers_and_frames">
+	<rdfs:subClassOf rdf:resource="#exterior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="frames">
+	<rdfs:subClassOf rdf:resource="#license_plate_covers_and_frames"/>
+</owl:Class>
+
+<owl:Class rdf:ID="covers">
+	<rdfs:subClassOf rdf:resource="#exterior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="seat_covers">
+	<rdfs:subClassOf rdf:resource="#covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="custom_fit">
+	<rdfs:subClassOf rdf:resource="#seat_covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="full_car_covers">
+	<rdfs:subClassOf rdf:resource="#covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="replacement_parts">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="brake_system">
+	<rdfs:subClassOf rdf:resource="#replacement_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lighting_and_electrical">
+	<rdfs:subClassOf rdf:resource="#replacement_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lighting">
+	<rdfs:subClassOf rdf:resource="#lighting_and_electrical"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lamps">
+	<rdfs:subClassOf rdf:resource="#lighting"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lighting_assemblies">
+	<rdfs:subClassOf rdf:resource="#lighting"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ignition_parts">
+	<rdfs:subClassOf rdf:resource="#replacement_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="engines_and_engine_parts">
+	<rdfs:subClassOf rdf:resource="#replacement_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shocks_struts_and_suspension">
+	<rdfs:subClassOf rdf:resource="#replacement_parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="interior_accessories">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sun_protection">
+	<rdfs:subClassOf rdf:resource="#interior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="window_tinting_kits">
+	<rdfs:subClassOf rdf:resource="#sun_protection"/>
+</owl:Class>
+
+<owl:Class rdf:ID="covers">
+	<rdfs:subClassOf rdf:resource="#interior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="seat_covers">
+	<rdfs:subClassOf rdf:resource="#covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="custom_fit">
+	<rdfs:subClassOf rdf:resource="#seat_covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="full_car_covers">
+	<rdfs:subClassOf rdf:resource="#covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="floor_mats_and_cargo_liners">
+	<rdfs:subClassOf rdf:resource="#interior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cargo_liners">
+	<rdfs:subClassOf rdf:resource="#floor_mats_and_cargo_liners"/>
+</owl:Class>
+
+<owl:Class rdf:ID="floor_mats">
+	<rdfs:subClassOf rdf:resource="#floor_mats_and_cargo_liners"/>
+</owl:Class>
+
+<owl:Class rdf:ID="custom_fit">
+	<rdfs:subClassOf rdf:resource="#floor_mats"/>
+</owl:Class>
+
+<owl:Class rdf:ID="seat_covers_and_accessories">
+	<rdfs:subClassOf rdf:resource="#interior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="seat_covers">
+	<rdfs:subClassOf rdf:resource="#seat_covers_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="custom_fit">
+	<rdfs:subClassOf rdf:resource="#seat_covers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="steering_wheels_and_accessories">
+	<rdfs:subClassOf rdf:resource="#interior_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="motorcycle_and_powersports">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="parts">
+	<rdfs:subClassOf rdf:resource="#motorcycle_and_powersports"/>
+</owl:Class>
+
+<owl:Class rdf:ID="drive_train">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="controls">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="braking">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="protective_gear">
+	<rdfs:subClassOf rdf:resource="#motorcycle_and_powersports"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paint_body_and_trim">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paints_and_primers">
+	<rdfs:subClassOf rdf:resource="#paint_body_and_trim"/>
+</owl:Class>
+
+<owl:Class rdf:ID="touchup_paint">
+	<rdfs:subClassOf rdf:resource="#paints_and_primers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body_paint">
+	<rdfs:subClassOf rdf:resource="#paints_and_primers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="trim">
+	<rdfs:subClassOf rdf:resource="#paint_body_and_trim"/>
+</owl:Class>
+
+<owl:Class rdf:ID="interior">
+	<rdfs:subClassOf rdf:resource="#trim"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body">
+	<rdfs:subClassOf rdf:resource="#paint_body_and_trim"/>
+</owl:Class>
+
+<owl:Class rdf:ID="moisturizers">
+	<rdfs:subClassOf rdf:resource="#body"/>
+</owl:Class>
+
+<owl:Class rdf:ID="motorcycle_and_atv">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="parts">
+	<rdfs:subClassOf rdf:resource="#motorcycle_and_atv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="drive_train">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="controls">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="braking">
+	<rdfs:subClassOf rdf:resource="#parts"/>
+</owl:Class>
+
+<owl:Class rdf:ID="protective_gear">
+	<rdfs:subClassOf rdf:resource="#motorcycle_and_atv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="oils_and_fluids">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body_repair_and_restoration_chemicals">
+	<rdfs:subClassOf rdf:resource="#oils_and_fluids"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paints_and_primers">
+	<rdfs:subClassOf rdf:resource="#body_repair_and_restoration_chemicals"/>
+</owl:Class>
+
+<owl:Class rdf:ID="touchup_paint">
+	<rdfs:subClassOf rdf:resource="#paints_and_primers"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tires_and_wheels">
+	<rdfs:subClassOf rdf:resource="#automotive"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wheels">
+	<rdfs:subClassOf rdf:resource="#tires_and_wheels"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_light_truck_and_suv">
+	<rdfs:subClassOf rdf:resource="#wheels"/>
+</owl:Class>
+
+<owl:Class rdf:ID="musical_instruments">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="instrument_accessories">
+	<rdfs:subClassOf rdf:resource="#musical_instruments"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cell_phones_and_accessories">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#cell_phones_and_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jewelry_boxes_and_organizers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chargers">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="headsets">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_accessories">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_cradles_and_mounts">
+	<rdfs:subClassOf rdf:resource="#car_accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cases_holsters_and_clips">
+	<rdfs:subClassOf rdf:resource="#accessories"/>
+</owl:Class>
+
+<owl:Class rdf:ID="health_and_personal_care">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sexual_wellness">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="adult_toys_and_games">
+	<rdfs:subClassOf rdf:resource="#sexual_wellness"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sex_toys">
+	<rdfs:subClassOf rdf:resource="#adult_toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="stationery_and_party_supplies">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gift_wrapping_supplies">
+	<rdfs:subClassOf rdf:resource="#stationery_and_party_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="party_supplies">
+	<rdfs:subClassOf rdf:resource="#stationery_and_party_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="stationery">
+	<rdfs:subClassOf rdf:resource="#stationery_and_party_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="household_supplies">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="household_batteries">
+	<rdfs:subClassOf rdf:resource="#household_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="personal_care">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="eye_care">
+	<rdfs:subClassOf rdf:resource="#personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="health_care">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="massage_and_relaxation">
+	<rdfs:subClassOf rdf:resource="#health_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="first_aid">
+	<rdfs:subClassOf rdf:resource="#health_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="vitamins_and_dietary_supplements">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="medical_supplies_and_equipment">
+	<rdfs:subClassOf rdf:resource="#health_and_personal_care"/>
+</owl:Class>
+
+<owl:Class rdf:ID="industrial_and_scientific">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fasteners">
+	<rdfs:subClassOf rdf:resource="#industrial_and_scientific"/>
+</owl:Class>
+
+<owl:Class rdf:ID="screws_and_bolts">
+	<rdfs:subClassOf rdf:resource="#fasteners"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hydraulics_pneumatics_and_plumbing">
+	<rdfs:subClassOf rdf:resource="#industrial_and_scientific"/>
+</owl:Class>
+
+<owl:Class rdf:ID="industrial_electrical">
+	<rdfs:subClassOf rdf:resource="#industrial_and_scientific"/>
+</owl:Class>
+
+<owl:Class rdf:ID="passive_components">
+	<rdfs:subClassOf rdf:resource="#industrial_electrical"/>
+</owl:Class>
+
+<owl:Class rdf:ID="power_transmission_products">
+	<rdfs:subClassOf rdf:resource="#industrial_and_scientific"/>
+</owl:Class>
+
+<owl:Class rdf:ID="occupational_health_and_safety_products">
+	<rdfs:subClassOf rdf:resource="#industrial_and_scientific"/>
+</owl:Class>
+
+<owl:Class rdf:ID="safety_signs_and_signals">
+	<rdfs:subClassOf rdf:resource="#occupational_health_and_safety_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="watches">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toys_and_games">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dress_up_and_pretend_play">
+	<rdfs:subClassOf rdf:resource="#toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="games">
+	<rdfs:subClassOf rdf:resource="#toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="party_supplies">
+	<rdfs:subClassOf rdf:resource="#toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hobbies">
+	<rdfs:subClassOf rdf:resource="#toys_and_games"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_products">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="nursery">
+	<rdfs:subClassOf rdf:resource="#baby_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gifts">
+	<rdfs:subClassOf rdf:resource="#baby_products"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pet_supplies">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dogs">
+	<rdfs:subClassOf rdf:resource="#pet_supplies"/>
+</owl:Class>
+
+<owl:Class rdf:ID="collars_harnesses_and_leashes">
+	<rdfs:subClassOf rdf:resource="#dogs"/>
+</owl:Class>
+
+<owl:Class rdf:ID="apparel_and_accessories">
+	<rdfs:subClassOf rdf:resource="#dogs"/>
+</owl:Class>
+</rdf:RDF>
