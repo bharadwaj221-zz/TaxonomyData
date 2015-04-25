@@ -5,24 +5,24 @@ p2
 (I0
 S'baby products'
 p3
-F0.5666887856668879
-F0.8266978922716628
+F0.5371024734982333
+F0.8355263157894737
 tp4
 sS'crafts & sewing'
 p5
 (I0
 S'arts crafts & sewing'
 p6
-F0.6940959283443301
-F0.7809683298034773
+F0.7034088589508063
+F0.7832269297736506
 tp7
 sS'health & beauty'
 p8
 (I0
 S'beauty'
 p9
-F0.8354697811327921
-F0.9420656343230572
+F0.8354288907516066
+F0.9456521739130435
 tp10
 sS'eziba'
 p11
@@ -30,1099 +30,1043 @@ p11
 S'home & kitchen'
 p12
 F1.0
-F0.9885245901639345
+F0.9809523809523809
 tp13
 sS'home & garden'
 p14
 (I0
 S'home & kitchen'
 p15
-F0.7757436962886014
-F0.8882281211132551
+F0.7775562677001043
+F0.8872355210504876
 tp16
 sS'bedding & bath'
 p17
 (I0
 S'home & kitchen'
 p18
-F0.9164783824148891
-F0.9181848570951028
+F0.9182595007870474
+F0.9103710052650912
 tp19
 sS'o.biz'
 p20
 (I2
 S'home decor accents'
 p21
-F0.9113395438483778
-F0.8882622488544237
+F0.917910447761194
+F0.8800813008130082
 tp22
 sS'luggage & bags'
 p23
 (I1
 S'luggage & bags'
 p24
-F0.9322890849608407
-F0.9796894938324118
+F0.9311981020166074
+F0.9796178343949045
 tp25
 sS'pet supplies'
 p26
 (I0
 S'pet supplies'
 p27
-F0.8250470303681806
-F0.9218241042345277
+F0.8453292496171516
+F0.9221014492753623
 tp28
 sS'worldstock fair trade'
 p29
 (I0
 S'jewelry'
 p30
-F0.4618959661562295
-F0.8970265737874097
+F0.4663745304954391
+F0.900287631831256
 tp31
 sS'jewelry & watches'
 p32
 (I0
 S'jewelry'
 p33
-F0.8544511341435499
-F0.9874119600397484
+F0.8547161236738595
+F0.9872025228264457
 tp34
 sS'clothing & shoes'
 p35
 (I1
 S'women'
 p36
-F0.6739629084486312
-F0.8967927696234732
+F0.6730286601683282
+F0.8973207387797567
 tp37
 sS'sales & promotions'
 p38
 (I0
 S'home & kitchen'
 p39
-F0.8349546044098574
-F0.9102912621359224
+F0.8333333333333334
+F0.9
 tp40
 sS'main street revolution'
 p41
 (I0
 S'jewelry'
 p42
-F0.4378701729447998
-F0.810631678614906
+F0.4363572433192686
+F0.7896857373086221
 tp43
 sS'sports & toys'
 p44
 (I1
 S'fan shop'
 p45
-F0.6010117054812932
-F0.8670814019679597
+F0.5953881409338299
+F0.867452489776281
 tp46
 sS'electronics'
 p47
 (I0
 S'electronics'
 p48
-F0.6913152607045484
-F0.9148203241211932
+F0.6921973951487633
+F0.9132861499510904
 tp49
-sS'gifts & flowers'
-p50
-(I0
-S'grocery & gourmet food'
-p51
-F0.3599774838164931
-F0.8146989835809226
-tp52
 sS'office supplies'
-p53
+p50
 (I1
 S'computers & accessories'
-p54
-F0.8390435600819173
-F0.9257866613892737
-tp55
-sa(dp56
+p51
+F0.8282659538924156
+F0.918515530455829
+tp52
+sa(dp53
 S'fitness & nutrition'
-p57
+p54
 (I1
 S'skin care'
-p58
-F0.6643109540636042
-F0.6400709219858156
-tp59
+p55
+F0.6642857142857143
+F0.6129032258064516
+tp56
 sS'janitorial & cleaning'
-p60
+p57
 (I2
 S'touch screen tablet accessories'
-p61
-F0.40186915887850466
-F0.5658914728682171
-tp62
+p58
+F0.45217391304347826
+F0.5769230769230769
+tp59
 sS'garden & patio'
-p63
+p60
 (I2
 S'home decor accents'
-p64
-F0.7558554577285244
-F0.7898808185293457
-tp65
+p61
+F0.7576305220883535
+F0.7853167240922343
+tp62
 sS'accessories'
-p66
+p63
 (I2
 S'accessories'
-p67
-F0.9281366249577274
-F0.9035343414100929
-tp68
+p64
+F0.9286239882266373
+F0.9083465398837823
+tp65
 sS'outdoors'
-p69
+p66
 (I2
 S'home & garden'
-p70
-F0.44734819369715606
-F0.5738831615120275
-tp71
+p67
+F0.41244573082489144
+F0.5824561403508772
+tp68
 sS'kitchen & dining'
-p72
+p69
 (I1
 S'kitchen & dining'
-p73
-F0.8923158033478318
-F0.9470211718365338
-tp74
-sS'gift baskets'
-p75
-(I1
-S'snack foods'
-p76
-F0.5440044004400441
-F0.7431749241658241
-tp77
+p70
+F0.8928712091374557
+F0.948831054256727
+tp71
 sS'housewares'
-p78
+p72
 (I2
 S'storage & organization'
-p79
-F0.6521565495207667
-F0.7048377219840783
-tp80
+p73
+F0.6208530805687204
+F0.7480916030534351
+tp74
 sS'cameras & photo'
-p81
+p75
 (I1
 S'camera & photo'
-p82
-F0.8038599206733095
-F0.953366628557675
-tp83
+p76
+F0.8006823997725334
+F0.9527698863636364
+tp77
 sS'tools'
-p84
+p78
 (I1
 S'kitchen & dining'
-p85
-F0.47879359095193214
-F0.5334645669291339
-tp86
+p79
+F0.48677248677248675
+F0.5217391304347826
+tp80
 sS'blankets & throws'
+p81
+(I1
+S'bedding'
+p82
+F0.9286536248561565
+F0.9182156133828996
+tp83
+sS'collectibles'
+p84
+(I2
+S'home & garden'
+p85
+F0.5171686746987951
+F0.8072218986604542
+tp86
+sS'fashion bedding'
 p87
 (I1
 S'bedding'
 p88
-F0.9192118226600985
-F0.9217577706323687
+F0.9961779013203613
+F0.9937216602720614
 tp89
-sS'collectibles'
+sS'printers & scanners'
 p90
-(I2
-S'home & garden'
+(I1
+S'computers & accessories'
 p91
-F0.5181323432175372
-F0.7964071856287425
+F0.938953488372093
+F0.9705882352941176
 tp92
-sS'fashion bedding'
+sS'art gallery'
 p93
 (I1
-S'bedding'
+S'artwork'
 p94
-F0.9948030473040808
-F0.9942416147224695
+F0.8450175417000062
+F0.9715929783669605
 tp95
-sS'printers & scanners'
+sS'home decor'
 p96
 (I1
-S'computers & accessories'
+S'home decor'
 p97
-F0.9291473247007085
-F0.9763344727846437
+F0.8964484310869854
+F0.9659202097217864
 tp98
-sS'art gallery'
+sS'bath & towels'
 p99
 (I1
-S'artwork'
+S'bath'
 p100
-F0.8469512641610092
-F0.968912877010103
+F0.9313432835820895
+F0.9246794871794872
 tp101
-sS'home decor'
+sS'monitors & displays'
 p102
 (I1
-S'home decor'
-p103
-F0.8950126319084243
-F0.9648532272518634
-tp104
-sS'bath & towels'
-p105
-(I1
-S'bath'
-p106
-F0.9318065506653019
-F0.9309350542358918
-tp107
-sS'monitors & displays'
-p108
-(I1
 S'computers & accessories'
-p109
-F0.7150027886224205
-F0.9399375975039002
-tp110
+p103
+F0.7213541666666666
+F0.9338146811070999
+tp104
 sS'audio & video'
-p111
+p105
 (I3
 S'cables & interconnects'
-p112
-F0.7732326050564451
-F0.7743976906850227
-tp113
+p106
+F0.7737281700835231
+F0.7649656526005888
+tp107
 sS'down bedding'
-p114
+p108
 (I1
 S'bedding'
-p115
-F0.9943422913719944
-F0.9890943575154102
-tp116
+p109
+F0.9925
+F0.9899244332493703
+tp110
 sS'office electronics'
-p117
+p111
 (I2
 S'cables & accessories'
-p118
-F0.9976463942760309
-F0.9909408323110315
-tp119
+p112
+F0.9976825028968713
+F0.9907084785133565
+tp113
 sS'sunglasses'
-p120
+p114
 (I3
 S'sunglasses & eyewear accessories'
-p121
-F0.9972611315439392
-F0.9948210922787194
-tp122
+p115
+F0.997250229147571
+F0.9949448529411765
+tp116
 sS'mattress pads & toppers'
-p123
+p117
 (I1
 S'bedding'
-p124
-F0.9525083612040134
-F0.9669943820224719
-tp125
+p118
+F0.9768339768339769
+F0.9565217391304348
+tp119
 sS'sewing & needlework'
-p126
+p120
 (I1
 S'sewing'
-p127
-F0.46704225352112677
-F0.7997587454764777
-tp128
+p121
+F0.49298245614035086
+F0.7651245551601423
+tp122
 sS'beauty products'
-p129
+p123
 (I1
 S'fragrance'
-p130
-F0.5258639021796917
-F0.9345397563564677
-tp131
+p124
+F0.52394322258618
+F0.9327180708544209
+tp125
 sS'golf equipment'
-p132
+p126
 (I2
 S'sports equipment'
-p133
-F0.6784132486038899
-F0.7604314504683508
-tp134
+p127
+F0.6809470124013529
+F0.7798013245033113
+tp128
 sS'mens sport clothing'
-p135
+p129
 (I2
 S'clothing'
-p136
-F0.8922040423484119
-F0.9309600862998921
-tp137
+p130
+F0.8676470588235294
+F0.9254237288135593
+tp131
 sS'designer store'
-p138
+p132
 (I2
 S'accessories'
-p139
-F0.7368119266055045
-F0.6614785992217899
-tp140
+p133
+F0.7565929069414974
+F0.6558493589743589
+tp134
 sS'furniture'
-p141
+p135
 (I1
 S'furniture'
-p142
-F0.917927290078797
-F0.9693721286370597
-tp143
+p136
+F0.9169993857493858
+F0.9670936950514946
+tp137
 sS'memory foam'
-p144
-(I1
-S'bedding'
-p145
-F0.7614804660726525
-F0.8820882088208821
-tp146
+p138
+(I2
+S'decorative pillows inserts & covers'
+p139
+F0.7488584474885844
+F0.6890243902439024
+tp140
 sS'scrapbooking'
-p147
+p141
 (I1
 S'scrapbooking'
-p148
-F0.7517527227831915
-F0.9251569006979882
-tp149
+p142
+F0.7490918526206539
+F0.9324558365084863
+tp143
 sS'luggage'
-p150
+p144
 (I2
 S'luggage'
-p151
-F0.9660084169634185
+p145
+F0.9679358717434869
 F0.0
-tp152
+tp146
 sS'womens sport clothing'
-p153
+p147
 (I2
 S'clothing'
-p154
-F0.9582697201017811
-F0.9702602230483272
-tp155
+p148
+F0.9544072948328267
+F0.9681528662420382
+tp149
 sS'sale'
-p156
-(I2
-S'living room furniture'
-p157
-F0.4380674448767834
-F0.6210214655810511
-tp158
+p150
+(I1
+S'furniture'
+p151
+F0.4236111111111111
+F0.9631147540983607
+tp152
 sS'nursery decor'
-p159
+p153
 (I1
 S'nursery'
-p160
-F0.9972789115646259
+p154
+F1.0
 F0.0
+tp155
+sS'kids & teen bedding'
+p156
+(I1
+S'bedding'
+p157
+F0.9427792915531336
+F0.9826589595375722
+tp158
+sS'computers hardware & software'
+p159
+(I1
+S'computers & accessories'
+p160
+F0.8489369468017155
+F0.9566829687751921
 tp161
-sS'jewelry & watch boxes'
+sS'crafts'
 p162
 (I1
-S'candy & chocolate'
+S'beading & jewelry-making'
 p163
-F0.5394581861012956
-F0.5807860262008734
+F0.64
+F0.8388157894736842
 tp164
-sS'bedding accessories'
+sS'sheets'
 p165
 (I1
 S'bedding'
 p166
-F0.9966273187183811
-F0.9983079526226735
+F0.9974126778783958
+F0.9883268482490273
 tp167
-sS'kids & teen bedding'
+sS'sheets & pillowcases'
 p168
 (I1
 S'bedding'
 p169
-F0.9437037037037037
-F0.9774986917844061
+F0.9956222639149468
+F0.9930904522613065
 tp170
-sS'computers hardware & software'
+sS'pillows & protectors'
 p171
 (I1
-S'computers & accessories'
+S'bedding'
 p172
-F0.8498497329450786
-F0.9564647787967349
+F0.9716981132075472
+F0.883495145631068
 tp173
-sS'crafts'
-p174
-(I1
-S'beading & jewelry-making'
-p175
-F0.6449371277299801
-F0.8476141611082606
-tp176
-sS'sheets'
-p177
-(I1
-S'bedding'
-p178
-F0.9925942060553257
-F0.9914417379855168
-tp179
-sS'sheets & pillowcases'
-p180
-(I1
-S'bedding'
-p181
-F0.9934509348262385
-F0.9940457203615098
-tp182
-sS'pillows & protectors'
-p183
-(I1
-S'bedding'
-p184
-F0.9493087557603687
-F0.93042071197411
-tp185
-sa(dp186
+sa(dp174
 S'living room furniture'
-p187
+p175
 (I2
 S'living room furniture'
-p188
-F0.7226473245124608
-F0.9207323798669069
-tp189
+p176
+F0.7251123956326269
+F0.9198405668733393
+tp177
 sS'picnic'
-p190
+p178
 (I2
 S'storage & organization'
-p191
-F0.6810751907010534
-F0.6890666666666667
-tp192
+p179
+F0.6804123711340206
+F0.7212121212121212
+tp180
 sS'flatware'
-p193
+p181
 (I2
 S'tabletop'
-p194
-F0.9881170018281535
-F0.9685476410730804
-tp195
+p182
+F0.9794721407624634
+F0.9640718562874252
+tp183
 sS'commercial it hardware'
-p196
+p184
 (I2
 S'networking products'
-p197
-F0.42969004893964113
-F0.9145785876993167
-tp198
+p185
+F0.42730844793713163
+F0.9080459770114943
+tp186
 sS'hats'
-p199
+p187
 (I3
 S'hats & caps'
-p200
-F0.9794573643410853
-F0.965571824297586
-tp201
+p188
+F0.9820627802690582
+F0.9680365296803652
+tp189
 sS'bed-in-a-bag'
-p202
+p190
 (I2
 S'sheets & pillowcases'
-p203
-F0.8506616257088847
-F0.9755555555555555
-tp204
-sS'computer accessories'
-p205
-(I3
-S'cables & interconnects'
-p206
-F0.8847127815540451
-F0.9282665461484383
-tp207
-sS'home office furniture'
-p208
+p191
+F0.83984375
+F0.986046511627907
+tp192
+sS'sale'
+p193
 (I2
 S'living room furniture'
-p209
-F0.4112699747687132
-F0.5940695296523517
-tp210
+p194
+F0.4110032362459547
+F0.6771653543307087
+tp195
+sS'home office furniture'
+p196
+(I2
+S'living room furniture'
+p197
+F0.39603960396039606
+F0.6125
+tp198
 sS'lcd monitors'
-p211
+p199
 (I2
 S'monitors'
-p212
-F0.9148020654044751
-F0.8510504860457824
-tp213
+p200
+F0.9122486288848263
+F0.8356713426853707
+tp201
 sS'eyeglasses'
-p214
+p202
 (I3
 S'sunglasses & eyewear accessories'
-p215
-F0.9987974199190992
-F0.9938704028021016
-tp216
+p203
+F0.998755444928438
+F0.9956386292834891
+tp204
 sS'keyboards & mice'
-p217
+p205
 (I2
 S'cables & accessories'
-p218
-F0.8075062552126773
-F0.9624044618880396
-tp219
-sS'bedskirts'
-p220
-(I2
-S'sheets & pillowcases'
-p221
-F0.6593591905564924
-F0.7544757033248082
-tp222
+p206
+F0.7991967871485943
+F0.9560301507537688
+tp207
 sS'pillows'
-p223
+p208
 (I2
 S'decorative pillows inserts & covers'
-p224
-F0.706605222734255
-F0.8695652173913043
-tp225
+p209
+F0.6981132075471698
+F0.8918918918918919
+tp210
 sS'kids furniture'
-p226
+p211
 (I2
 S'other furniture'
-p227
-F0.44564898915909756
-F0.8961209730440499
-tp228
+p212
+F0.42542372881355933
+F0.9203187250996016
+tp213
 sS'kitchen storage'
-p229
+p214
 (I2
 S'storage & organization'
-p230
-F0.801330008312552
-F0.8506224066390041
-tp231
+p215
+F0.8279569892473119
+F0.8636363636363636
+tp216
 sS'area rugs'
-p232
+p217
 (I2
 S'area rugs & pads'
-p233
-F0.9961037884440023
-F0.998335552596538
-tp234
+p218
+F0.9960946532720125
+F0.9985039593489644
+tp219
 sS'computer components'
-p235
+p220
 (I3
 S'cables & interconnects'
-p236
-F0.9355582688916022
-F0.8758700696055685
-tp237
+p221
+F0.9329819277108434
+F0.870863599677159
+tp222
 sS'printers & supplies'
-p238
+p223
 (I3
 S'printer ink & toner'
-p239
-F0.9962342308416494
-F0.9991494991494991
-tp240
+p224
+F0.9976825028968713
+F1.0
+tp225
 sS'bakeware'
-p241
+p226
 (I2
 S'bakeware'
-p242
-F0.6629303442754203
-F0.857487922705314
-tp243
+p227
+F0.6916299559471366
+F0.8471337579617835
+tp228
 sS'optical drives'
-p244
+p229
 (I2
 S'computer components'
-p245
-F0.9221238938053097
-F0.9558541266794626
-tp246
+p230
+F0.9351851851851852
+F0.9504950495049505
+tp231
 sS'appliances'
-p247
+p232
 (I2
 S'tabletop'
-p248
-F0.37374675083549946
-F0.6443119721808246
-tp249
+p233
+F0.3776536312849162
+F0.621301775147929
+tp234
 sS'designer sunglasses'
-p250
+p235
 (I3
 S'sunglasses & eyewear accessories'
-p251
-F0.9968354430379747
-F0.9978174603174603
-tp252
+p236
+F1.0
+F1.0
+tp237
 sS'down alternatives'
-p253
+p238
 (I2
 S'sheets & pillowcases'
-p254
-F0.7521793275217933
-F0.8509933774834437
-tp255
+p239
+F0.7784810126582279
+F0.9024390243902439
+tp240
 sS'glasses & barware'
-p256
+p241
 (I2
 S'glassware & drinkware'
-p257
-F0.6344632768361582
-F0.788364499851588
-tp258
+p242
+F0.6310160427807486
+F0.8220338983050848
+tp243
 sS'down'
+p244
+(I2
+S'sheets & pillowcases'
+p245
+F0.5537190082644629
+F0.835820895522388
+tp246
+sS'linens & decor'
+p247
+(I2
+S'kitchen & table linens'
+p248
+F0.7719442165709598
+F0.8788522848034006
+tp249
+sS'photo accessories'
+p250
+(I2
+S'accessories'
+p251
+F0.8105950653120464
+F0.0
+tp252
+sS'dining room & bar furniture'
+p253
+(I2
+S'dining room furniture'
+p254
+F0.6935779816513762
+F0.926984126984127
+tp255
+sS'pillowcases'
+p256
+(I2
+S'sheets & pillowcases'
+p257
+F0.8636363636363636
+F0.9578947368421052
+tp258
+sS'comforter sets'
 p259
 (I2
 S'sheets & pillowcases'
 p260
-F0.5682852807283764
-F0.8277703604806409
+F0.9619932432432432
+F0.9657594381035997
 tp261
-sS'linens & decor'
+sS'printers'
 p262
 (I2
-S'kitchen & table linens'
+S'cables & accessories'
 p263
-F0.7737167428110723
-F0.8865925668634943
+F0.8845315904139434
+F0.8300492610837439
 tp264
-sS'photo accessories'
+sS'computer hardware'
 p265
 (I2
-S'accessories'
+S'computer components'
 p266
-F0.8176169590643275
-F0.0
+F0.8313762329732268
+F0.9338983050847458
 tp267
-sS'dining room & bar furniture'
+sS'serveware'
 p268
 (I2
-S'dining room furniture'
+S'tabletop'
 p269
-F0.6781102557735287
-F0.9315206445115811
+F0.9187592319054653
+F0.9405144694533762
 tp270
-sS'pillowcases'
+sS'slipcovers'
 p271
 (I2
-S'sheets & pillowcases'
+S'home decor accents'
 p272
-F0.8262781748213304
-F0.9600798403193613
+F0.7474747474747475
+F0.6790540540540541
 tp273
-sS'comforter sets'
+sS'mattress pads'
 p274
 (I2
 S'sheets & pillowcases'
 p275
-F0.963625782045686
-F0.9713120942171222
+F0.5714285714285714
+F0.8108108108108109
 tp276
-sS'printers'
+sS'monitor accessories'
 p277
-(I2
-S'cables & accessories'
+(I3
+S'cables & interconnects'
 p278
-F0.8869908015768725
-F0.8203703703703704
+F0.8991735537190083
+F0.8933823529411765
 tp279
-sS'computer hardware'
+sS'pdas'
 p280
 (I2
-S'computer components'
+S'pdas handhelds & accessories'
 p281
-F0.8361884368308351
-F0.9283955481138579
+F0.4144144144144144
+F0.6956521739130435
 tp282
-sS'serveware'
+sS'lighting & ceiling fans'
 p283
 (I2
-S'tabletop'
+S'candles & holders'
 p284
-F0.9313228585909782
-F0.9453061224489796
+F0.5847953216374269
+F0.7703225806451612
 tp285
-sS'slipcovers'
+sS'cooking essentials'
 p286
 (I2
-S'home decor accents'
+S'kitchen utensils & gadgets'
 p287
-F0.7783759533423059
-F0.6755043227665706
+F0.6920529801324503
+F0.8899521531100478
 tp288
-sS'memory foam mattress toppers'
+sS'collectibles'
 p289
 (I2
-S'decorative pillows inserts & covers'
+S'home decor accents'
 p290
-F0.7278958190541467
-F0.6826741996233522
+F0.964
+F0.991701244813278
 tp291
-sS'mattress pads'
+sS'window treatments'
 p292
 (I2
-S'sheets & pillowcases'
-p293
-F0.5933110367892976
-F0.7711386696730552
-tp294
-sS'monitor accessories'
-p295
-(I3
-S'cables & interconnects'
-p296
-F0.8917525773195877
-F0.8959537572254336
-tp297
-sS'pdas'
-p298
-(I2
-S'pdas handhelds & accessories'
-p299
-F0.3870056497175141
-F0.6751824817518248
-tp300
-sS'lighting & ceiling fans'
-p301
-(I2
-S'candles & holders'
-p302
-F0.5878477994918285
-F0.7611526147278549
-tp303
-sS'cooking essentials'
-p304
-(I2
-S'kitchen utensils & gadgets'
-p305
-F0.6781017724413951
-F0.8819561551433389
-tp306
-sS'collectibles'
-p307
-(I2
-S'home decor accents'
-p308
-F0.9754204398447607
-F0.9774535809018567
-tp309
-sS'window treatments'
-p310
-(I2
 S'window treatments'
-p311
-F0.9744756345322918
-F0.9940390544707092
-tp312
+p293
+F0.9772610702684219
+F0.9945766270118964
+tp294
 sS'e-book readers'
-p313
+p295
 (I2
 S'touch screen tablet accessories'
-p314
-F0.9522395446671615
-F0.9589397089397089
-tp315
+p296
+F0.9461538461538461
+F0.9560975609756097
+tp297
 sS'floppy drives'
-p316
+p298
 (I3
 S'cables & interconnects'
-p317
-F0.684660961158657
-F0.6913461538461538
-tp318
+p299
+F0.6707317073170732
+F0.703030303030303
+tp300
 sS'duvet covers'
-p319
+p301
 (I2
 S'duvet covers & sets'
-p320
-F0.9918938835666913
-F0.9980188211986132
-tp321
+p302
+F0.9927641099855282
+F0.9956268221574344
+tp303
 sS'wallets'
-p322
+p304
 (I3
 S'wallets card cases & money organizers'
-p323
-F0.9802727008993327
-F0.9641905889316366
-tp324
+p305
+F0.984182776801406
+F0.9696428571428571
+tp306
 sS'kids bedding'
-p325
+p307
 (I2
 S'sheets & pillowcases'
-p326
-F0.7520987654320987
-F0.8837820091923835
-tp327
+p308
+F0.7384196185286104
+F0.8450184501845018
+tp309
 sS'sheets'
-p328
+p310
 (I2
 S'sheets & pillowcases'
-p329
-F0.9973037012827846
-F0.9995903653940685
-tp330
+p311
+F1.0
+F0.9990205680705191
+tp312
 sS'dinnerware'
-p331
+p313
 (I2
 S'tabletop'
-p332
-F0.9641755982968727
-F0.9643672910004568
-tp333
+p314
+F0.9660238751147842
+F0.967680608365019
+tp315
 sS'bathroom furniture'
-p334
+p316
 (I2
 S'bedroom furniture'
-p335
-F0.9736070381231672
-F0.9939759036144579
-tp336
+p317
+F0.9719222462203023
+F0.9933333333333333
+tp318
 sS'networking'
-p337
+p319
 (I2
 S'networking products'
-p338
-F0.7032352941176471
-F0.8548724383103304
-tp339
+p320
+F0.7209106239460371
+F0.839766081871345
+tp321
 sS'quilts & bedspreads'
-p340
+p322
 (I2
 S'sheets & pillowcases'
-p341
-F0.8134938664243526
-F0.891371125383971
-tp342
+p323
+F0.8179384203480589
+F0.8952536824877251
+tp324
 sS'scarves & wraps'
-p343
+p325
 (I3
 S'scarves & wraps'
-p344
-F0.9689722042663219
-F0.9693128752501667
-tp345
-sS'printer accessories'
-p346
+p326
+F0.9659949622166247
+F0.9778357235984355
+tp327
+sS'hard drives'
+p328
 (I2
-S'cables & accessories'
-p347
-F0.9715681919147046
-F0.964106081390032
-tp348
+S'data storage'
+p329
+F0.735897435897436
+F0.9698025551684089
+tp330
+sS'printer accessories'
+p331
+(I3
+S'printer ink & toner'
+p332
+F0.9735849056603774
+F0.9819121447028424
+tp333
 sS'decorative accessories'
-p349
+p334
 (I2
 S'home decor accents'
-p350
-F0.7484088944763102
-F0.8720209973753281
-tp351
-sS'hard drives'
-p352
-(I2
-S'data storage'
-p353
-F0.7284001090215317
-F0.9678203928905519
-tp354
-sS'storage & blank media'
-p355
-(I2
-S'data storage'
-p356
-F0.5685079614704148
-F0.9640387275242047
-tp357
-sS'computers'
-p358
-(I2
-S'laptop & netbook computer accessories'
-p359
-F0.4378326076439284
-F0.8117127071823205
-tp360
-sS'cutlery'
-p361
-(I2
-S'tabletop'
-p362
-F0.6429192006950478
-F0.7608108108108108
-tp363
-sS'designer accessories'
-p364
-(I3
-S'wallets card cases & money organizers'
-p365
-F0.5830815709969789
-F0.9398963730569948
-tp366
-sS'blankets'
-p367
-(I2
-S'sheets & pillowcases'
-p368
-F0.5076173065204144
-F0.7130852340936374
-tp369
-sS'bedroom furniture'
-p370
-(I2
-S'bedroom furniture'
-p371
-F0.973469960696238
-F0.9929343907714492
-tp372
-sS'throws'
-p373
-(I2
-S'decorative pillows inserts & covers'
-p374
-F0.9813628421665695
-F0.9866468842729971
-tp375
-sS'software'
-p376
-(I2
-S'cables & accessories'
-p377
-F0.49209586945436
-F0.5041450777202072
-tp378
-sa(dp379
-S'photo filters'
-p380
-(I3
-S'digital camera accessories'
-p381
-F0.7989778534923339
-F0.5671641791044776
-tp382
-sS'camera bags & cases'
-p383
-(I3
-S'digital camera accessories'
-p384
-F0.7386203660253402
-F0.7268106734434562
-tp385
-sS'keyboard mice sets'
-p386
-(I3
-S'keyboard & mice accessories'
-p387
-F0.765625
-F0.9863945578231292
-tp388
-sS'other accessories'
-p389
-(I3
-S'printer ink & toner'
-p390
-F0.5846841811067636
-F0.8919694072657743
-tp391
-sS'printer paper'
-p392
-(I3
-S'printer ink & toner'
-p393
-F0.7040905134899913
-F0.6996291718170581
-tp394
-sS'all-in-one printers'
-p395
-(I3
-S'printer ink & toner'
-p396
-F0.8636788048552755
-F0.7827027027027027
-tp397
-sS'keyboards & keypads'
-p398
-(I3
-S'keyboard & mice accessories'
-p399
-F0.8486967577876668
-F0.9865168539325843
-tp400
-sS'toner'
-p401
-(I3
-S'printer ink & toner'
-p402
-F0.9981378026070763
-F1.0
-tp403
-sS'pc memory'
-p404
-(I3
-S'memory'
-p405
-F0.9751861042183623
-F0.0
-tp406
-sS'camera batteries & chargers'
-p407
-(I3
-S'batteries & chargers'
-p408
-F0.9058784676354029
-F0.974845060153117
-tp409
-sS'mice & trackballs'
-p410
-(I3
-S'keyboard & mice accessories'
-p411
-F0.7198660714285714
-F0.8170542635658915
-tp412
-sS'lenses & flashes'
-p413
-(I3
-S'digital camera accessories'
-p414
-F0.8907392363931763
-F0.7756497948016415
-tp415
-sS'ink cartridges'
-p416
-(I3
-S'printer ink & toner'
-p417
-F0.9971223021582734
-F1.0
-tp418
-sS'inkjet printers'
-p419
-(I3
-S'printer ink & toner'
-p420
-F0.912621359223301
-F0.9601063829787234
-tp421
-sS'kvm switches'
-p422
+p335
+F0.7454931071049841
+F0.8664453927611823
+tp336
+sS'computer accessories'
+p337
 (I3
 S'cables & interconnects'
-p423
-F0.957685664939551
-F0.9585211902614968
-tp424
-sa(dp425
-a(dp426
+p338
+F0.8812548612911589
+F0.9267431597528685
+tp339
+sS'storage & blank media'
+p340
+(I2
+S'data storage'
+p341
+F0.5717463848720801
+F0.9455252918287937
+tp342
+sS'computers'
+p343
+(I2
+S'laptop & netbook computer accessories'
+p344
+F0.44345066358915175
+F0.8126219908913468
+tp345
+sS'cutlery'
+p346
+(I2
+S'tabletop'
+p347
+F0.599009900990099
+F0.768595041322314
+tp348
+sS'designer accessories'
+p349
+(I3
+S'wallets card cases & money organizers'
+p350
+F0.5796610169491525
+F0.9473684210526315
+tp351
+sS'blankets'
+p352
+(I2
+S'sheets & pillowcases'
+p353
+F0.516245487364621
+F0.7272727272727273
+tp354
+sS'bedroom furniture'
+p355
+(I2
+S'bedroom furniture'
+p356
+F0.9745275267050123
+F0.9932546374367622
+tp357
+sS'throws'
+p358
+(I2
+S'decorative pillows inserts & covers'
+p359
+F0.981418918918919
+F0.9845094664371773
+tp360
+sS'software'
+p361
+(I2
+S'cables & accessories'
+p362
+F0.49558823529411766
+F0.5103857566765578
+tp363
+sa(dp364
+S'photo filters'
+p365
+(I3
+S'digital camera accessories'
+p366
+F0.7524752475247525
+F0.5789473684210527
+tp367
+sS'camera bags & cases'
+p368
+(I3
+S'digital camera accessories'
+p369
+F0.7307692307692307
+F0.7406015037593985
+tp370
+sS'educational'
+p371
+(I3
+S'cables & interconnects'
+p372
+F0.585635359116022
+F0.5094339622641509
+tp373
+sS'keyboard mice sets'
+p374
+(I3
+S'keyboard & mice accessories'
+p375
+F0.696078431372549
+F1.0
+tp376
+sS'printer paper'
+p377
+(I3
+S'printer ink & toner'
+p378
+F0.7251461988304093
+F0.6774193548387096
+tp379
+sS'all-in-one printers'
+p380
+(I3
+S'printer ink & toner'
+p381
+F0.8633540372670807
+F0.7985611510791367
+tp382
+sS'keyboards & keypads'
+p383
+(I3
+S'keyboard & mice accessories'
+p384
+F0.8
+F0.9791666666666666
+tp385
+sS'pc memory'
+p386
+(I3
+S'memory'
+p387
+F0.9740634005763689
+F0.0
+tp388
+sS'camera batteries & chargers'
+p389
+(I3
+S'batteries & chargers'
+p390
+F0.8970588235294118
+F0.9733606557377049
+tp391
+sS'mice & trackballs'
+p392
+(I3
+S'keyboard & mice accessories'
+p393
+F0.7035398230088495
+F0.7955974842767296
+tp394
+sS'lenses & flashes'
+p395
+(I3
+S'digital camera accessories'
+p396
+F0.8997289972899729
+F0.7560240963855421
+tp397
+sS'inkjet printers'
+p398
+(I3
+S'printer ink & toner'
+p399
+F0.9133858267716536
+F0.9741379310344828
+tp400
+sS'kvm switches'
+p401
+(I3
+S'cables & interconnects'
+p402
+F0.9603960396039604
+F0.9587628865979382
+tp403
+sa(dp404
+a(dp405
 a.

@@ -1,3732 +1,3780 @@
 (lp0
 (dp1
-S'grocery'
+S'everything else'
 p2
-(I0
-S'grocery & gourmet food'
-p3
-F0.610731265564863
-F0.8409697508896797
-tp4
-sS'jewelry'
-p5
-(I0
-S'jewelry'
-p6
-F0.7902967190220859
-F0.9470417557485056
-tp7
-sS'beauty'
-p8
-(I0
-S'beauty'
-p9
-F0.88974682479603
-F0.9360382673800836
-tp10
-sS'cell phones'
-p11
-(I2
-S'audio & video accessories'
-p12
-F0.9128623502864086
-F0.969892882043481
-tp13
-sS'patio & garden'
-p14
-(I0
-S'patio lawn & garden'
-p15
-F0.4591020873676832
-F0.7916364765552221
-tp16
-sS'toys'
-p17
-(I1
-S'hobbies'
-p18
-F0.39023407598404575
-F0.5298110675201322
-tp19
-sS'home improvement'
-p20
-(I0
-S'tools & home improvement'
-p21
-F0.6638562416830044
-F0.8130024074754152
-tp22
-sS'apparel'
-p23
-(I0
-S'clothing & accessories'
-p24
-F0.5354387482875478
-F0.8274082054044348
-tp25
-sS'auto & tires'
-p26
-(I0
-S'automotive'
-p27
-F0.6925645663644828
-F0.8930254841052745
-tp28
-sS'health'
-p29
-(I0
-S'health & personal care'
-p30
-F0.6601578173064063
-F0.8250173651308174
-tp31
-sS'pets'
-p32
-(I0
-S'pet supplies'
-p33
-F0.6887879175732753
-F0.8463253739663662
-tp34
-sS'party & occasions'
-p35
-(I0
-S'home & kitchen'
-p36
-F0.43464960839791694
-F0.8459593577237307
-tp37
-sS'baby'
-p38
-(I0
-S'baby products'
-p39
-F0.40090497737556563
-F0.7128668171557562
-tp40
-sS'home'
-p41
-(I0
-S'home & kitchen'
-p42
-F0.6576926595458615
-F0.869813169791041
-tp43
-sS'electronics'
-p44
-(I3
-S'cables & interconnects'
-p45
-F0.6571423767570113
-F0.6493467948685147
-tp46
-sS'clothing'
-p47
-(I1
-S'luggage & bags'
-p48
-F0.6006898381533563
-F0.9394876325088339
-tp49
-sS'sports & outdoors'
-p50
 (I1
 S'fan shop'
-p51
-F0.7472478945210232
-F0.9346077308086594
-tp52
-sa(dp53
-S'kids storage'
-p54
+p3
+F0.7325102880658436
+F0.7471910112359551
+tp4
+sS'grocery'
+p5
+(I0
+S'grocery & gourmet food'
+p6
+F0.6132221560452651
+F0.8374125874125874
+tp7
+sS'jewelry'
+p8
+(I0
+S'jewelry'
+p9
+F0.789303826648225
+F0.9480724299065421
+tp10
+sS'beauty'
+p11
+(I0
+S'beauty'
+p12
+F0.8891477730979478
+F0.9362023785527112
+tp13
+sS'cell phones'
+p14
 (I2
-S'other furniture'
-p55
-F0.7721602101116218
-F0.7704081632653061
-tp56
-sS'giftwrap & supplies'
+S'audio & video accessories'
+p15
+F0.9116491117748782
+F0.9715468184169684
+tp16
+sS'patio & garden'
+p17
+(I0
+S'patio lawn & garden'
+p18
+F0.4576048951048951
+F0.789534725064811
+tp19
+sS'toys'
+p20
+(I1
+S'hobbies'
+p21
+F0.38982683396113926
+F0.5335418839068474
+tp22
+sS'home improvement'
+p23
+(I0
+S'tools & home improvement'
+p24
+F0.6638346665703606
+F0.8121591295477729
+tp25
+sS'apparel'
+p26
+(I0
+S'clothing & accessories'
+p27
+F0.5383449147188882
+F0.826331846984276
+tp28
+sS'auto & tires'
+p29
+(I0
+S'automotive'
+p30
+F0.6935809446911586
+F0.8929818726093464
+tp31
+sS'health'
+p32
+(I0
+S'health & personal care'
+p33
+F0.6625541343539127
+F0.8238200197613438
+tp34
+sS'pets'
+p35
+(I0
+S'pet supplies'
+p36
+F0.6866620831900997
+F0.848811013767209
+tp37
+sS'party & occasions'
+p38
+(I0
+S'home & kitchen'
+p39
+F0.4338486842105263
+F0.8459827634139561
+tp40
+sS'baby'
+p41
+(I0
+S'baby products'
+p42
+F0.39188864890808733
+F0.7330067360685855
+tp43
+sS'home'
+p44
+(I0
+S'home & kitchen'
+p45
+F0.6594324552191341
+F0.8704136736032838
+tp46
+sS'electronics'
+p47
+(I3
+S'cables & interconnects'
+p48
+F0.6569634805726706
+F0.6527992343974298
+tp49
+sS'clothing'
+p50
+(I1
+S'luggage & bags'
+p51
+F0.6027596223674655
+F0.944578313253012
+tp52
+sS'sports & outdoors'
+p53
+(I1
+S'fan shop'
+p54
+F0.7457527756508423
+F0.9339675613238574
+tp55
+sa(dp56
+S'kids storage'
 p57
 (I2
-S'home decor accents'
+S'other furniture'
 p58
-F0.9870292887029288
-F0.8859686307757524
+F0.7534722222222222
+F0.7741935483870968
 tp59
-sS'car battery chargers & accessories'
+sS'giftwrap & supplies'
 p60
+(I2
+S'home decor accents'
+p61
+F0.9827387802071347
+F0.8875878220140515
+tp62
+sS'car battery chargers & accessories'
+p63
 (I1
 S'replacement parts'
-p61
-F0.8481012658227848
-F0.8933901918976546
-tp62
+p64
+F0.8636363636363636
+F0.868421052631579
+tp65
 sS'hooks'
-p63
+p66
 (I2
 S'cabinet hardware'
-p64
-F0.6385333794534763
-F0.8104008667388949
-tp65
-sS'ladders'
-p66
-(I1
-S'building supplies'
 p67
-F0.9110459433040078
-F0.9066523605150214
+F0.6352723915050785
+F0.813953488372093
 tp68
-sS'indoor fireplaces & stoves'
+sS'ladders'
 p69
 (I1
 S'building supplies'
 p70
-F0.6090248802348941
-F0.7706165947729002
+F0.9198966408268734
+F0.8932584269662921
 tp71
-sS'ceiling fixtures'
+sS'indoor fireplaces & stoves'
 p72
 (I1
-S'home decor'
+S'building supplies'
 p73
-F0.8664609960334949
-F0.7782031375488568
+F0.6068580542264753
+F0.7680683311432326
 tp74
-sS'briefcases'
+sS'ceiling fixtures'
 p75
 (I1
-S'luggage & bags'
+S'home decor'
 p76
-F0.9312169312169312
-F0.9640151515151515
+F0.8688916876574307
+F0.7843165676184954
 tp77
-sS'blood pressure monitors'
+sS'briefcases'
 p78
 (I1
-S'medical supplies & equipment'
+S'luggage & bags'
 p79
-F0.8993788819875776
-F0.9765193370165746
+F0.9086294416243654
+F0.9720670391061452
 tp80
-sS'home security'
+sS'blood pressure monitors'
 p81
 (I1
-S'safety & security'
+S'medical supplies & equipment'
 p82
-F0.3916083916083916
-F0.7551020408163265
+F0.8832335329341318
+F0.9830508474576272
 tp83
-sS'massage equipment'
+sS'home security'
 p84
 (I1
-S'skin care'
+S'safety & security'
 p85
-F0.7891050583657587
-F0.8037475345167653
+F0.36538461538461536
+F0.7744360902255639
 tp86
-sS'shower curtains'
+sS'massage equipment'
 p87
 (I1
-S'bath'
+S'skin care'
 p88
-F0.976159514521023
-F0.9955595026642984
+F0.8
+F0.8010204081632653
 tp89
-sS'chisels & punches'
+sS'shower curtains'
 p90
 (I1
-S'power & hand tools'
+S'bath'
 p91
-F0.9305184393372528
-F0.9167145318782309
+F0.9803921568627451
+F0.9964705882352941
 tp92
-sS'interior lamps'
+sS'chisels & punches'
 p93
 (I1
-S'home decor'
+S'power & hand tools'
 p94
-F0.8756594467081278
-F0.7702782131661442
+F0.9275956284153005
+F0.9248895434462445
 tp95
-sS'toilet lids & seats'
+sS'interior lamps'
 p96
 (I1
-S'kitchen & bath fixtures'
+S'home decor'
 p97
-F0.9123184507799892
-F0.9245283018867925
+F0.8760387811634349
+F0.7720685111989459
 tp98
-sS'bed pillows'
+sS'toilet lids & seats'
 p99
-(I2
-S'decorative pillows inserts & covers'
+(I1
+S'kitchen & bath fixtures'
 p100
-F0.8517679057116954
-F0.951037786056413
+F0.9140518417462483
+F0.9343283582089552
 tp101
-sS'halloween wigs'
+sS'bed pillows'
 p102
 (I2
-S'home decor accents'
+S'decorative pillows inserts & covers'
 p103
-F0.9942052980132451
-F0.9675270607826811
+F0.8623629719853837
+F0.9491525423728814
 tp104
-sS'automotive electrical'
+sS'halloween wigs'
 p105
 (I2
-S'lighting & electrical'
+S'home decor accents'
 p106
-F0.6379769299023957
-F0.602688919796013
+F0.9955357142857143
+F0.9708520179372198
 tp107
-sS'life vests'
+sS'automotive electrical'
 p108
 (I2
-S'clothing'
+S'lighting & electrical'
 p109
-F0.7958015267175572
-F0.7434052757793765
+F0.6262057877813505
+F0.5866495507060334
 tp110
-sS'minerals'
+sS'life vests'
 p111
-(I1
-S'vitamins & dietary supplements'
+(I2
+S'clothing'
 p112
-F0.7707900207900208
-F0.9186334007642166
+F0.7948717948717948
+F0.7032258064516129
 tp113
-sS'foot care'
+sS'minerals'
 p114
 (I1
-S'health care'
+S'vitamins & dietary supplements'
 p115
-F0.6494464944649446
-F0.7869318181818182
+F0.7837338262476895
+F0.9127358490566038
 tp116
-sS'braces & supports'
+sS'foot care'
 p117
 (I1
 S'health care'
 p118
-F0.5081673306772908
-F0.7781262250098001
+F0.6784140969162996
+F0.7792207792207793
 tp119
-sS'hats & headwear'
+sS'braces & supports'
 p120
+(I1
+S'health care'
+p121
+F0.5223260643821391
+F0.7773359840954275
+tp122
+sS'hats & headwear'
+p123
 (I3
 S'hats & caps'
-p121
-F0.9403487304986234
-F0.907612231620039
-tp122
+p124
+F0.9458823529411765
+F0.8913764510779436
+tp125
 sS'patio furniture sets'
-p123
+p126
 (I1
 S'patio furniture & accessories'
-p124
-F0.9807130333138515
-F0.9900178784266984
-tp125
+p127
+F0.9793340987370838
+F0.9890582258694802
+tp128
 sS'bedroom sets'
-p126
+p129
 (I2
 S'bedroom furniture'
-p127
-F0.7132352941176471
-F0.9398625429553265
-tp128
+p130
+F0.7075055187637969
+F0.9360374414976599
+tp131
 sS'trash cans & recycle bins'
-p129
+p132
 (I1
 S'storage & organization'
-p130
-F0.7667412985955628
-F0.8723121847624105
-tp131
+p133
+F0.7679372197309418
+F0.8656934306569343
+tp134
 sS'chains ropes & tiedowns'
-p132
+p135
 (I2
 S'door hardware & locks'
-p133
-F0.45733113673805603
-F0.6044668587896254
-tp134
-sS'digestion & nausea'
-p135
-(I1
-S'vitamins & dietary supplements'
 p136
-F0.566813509544787
-F0.8290155440414507
+F0.46320346320346323
+F0.5906542056074766
 tp137
-sS'fluids & lubricants'
+sS'digestion & nausea'
 p138
 (I1
-S'replacement parts'
+S'vitamins & dietary supplements'
 p139
-F0.48588957055214727
-F0.5227272727272727
+F0.5793650793650794
+F0.8424657534246576
 tp140
 sS'cookies'
 p141
 (I1
 S'snack foods'
 p142
-F0.8647764449291166
-F0.9155107187894073
+F0.877906976744186
+F0.9271523178807947
 tp143
 sS'flashlights'
 p144
 (I1
 S'power & hand tools'
 p145
-F0.8679767506227511
-F0.9269770408163265
+F0.881638846737481
+F0.9294320137693631
 tp146
 sS'tea'
 p147
 (I1
 S'beverages'
 p148
-F0.985781990521327
-F0.9895833333333334
+F0.9877551020408163
+F0.9834710743801653
 tp149
 sS'hot & cold therapy'
 p150
 (I1
 S'health care'
 p151
-F0.7700228832951945
-F0.8202080237741456
+F0.7612903225806451
+F0.8347457627118644
 tp152
 sS'oral accessories'
 p153
 (I1
 S'personal care'
 p154
-F0.7872996300863132
-F0.9028974158183242
+F0.7886855241264559
+F0.8945147679324894
 tp155
 sS'paints & primers'
 p156
 (I1
 S'painting supplies & wall treatments'
 p157
-F0.8712811171827566
-F0.8097560975609757
+F0.8964968152866242
+F0.8028419182948491
 tp158
 sS'griddles & skillets'
 p159
 (I1
 S'kitchen & dining'
 p160
-F0.8552097428958051
-F0.865506329113924
+F0.875
+F0.9033613445378151
 tp161
 sS'wall fixtures'
 p162
 (I1
 S'home decor'
 p163
-F0.8652079612145955
-F0.9415321094153211
+F0.8630755864465682
+F0.9438292732031407
 tp164
 sS'atv accessories'
 p165
 (I1
 S'motorcycle & powersports'
 p166
-F0.7969625410936704
-F0.8802870090634441
+F0.7971570539027611
+F0.8784913997159539
 tp167
-sS'auto paint & body'
+sS'paintings'
 p168
 (I2
-S'paints & primers'
+S'home decor accents'
 p169
-F0.7670753064798599
-F0.8812785388127854
+F0.8899082568807339
+F0.8247422680412371
 tp170
-sS'paintings'
+sS'gun cases & bags'
 p171
 (I2
-S'home decor accents'
-p172
-F0.8957871396895787
-F0.8415841584158416
-tp173
-sS'gun cases & bags'
-p174
-(I2
 S'sports souvenirs'
-p175
-F0.3593265396544085
-F0.5684340320591862
-tp176
+p172
+F0.36013986013986016
+F0.5954692556634305
+tp173
 sS'water pumps'
+p174
+(I1
+S'rough plumbing'
+p175
+F0.8178807947019867
+F0.8259109311740891
+tp176
+sS'plumbing parts & repair'
 p177
 (I1
 S'rough plumbing'
 p178
-F0.82063305978898
-F0.8428571428571429
+F0.5320796460176991
+F0.8332640332640333
 tp179
-sS'plumbing parts & repair'
+sS'moisturizers'
 p180
 (I1
-S'rough plumbing'
-p181
-F0.5330422872795754
-F0.8360366147422514
-tp182
-sS'moisturizers'
-p183
-(I1
 S'skin care'
-p184
-F0.9520153550863724
-F0.9586693548387096
-tp185
+p181
+F0.9487179487179487
+F0.9540540540540541
+tp182
 sS'decorative magnets stickers & window clings'
-p186
+p183
 (I2
 S'kitchen utensils & gadgets'
-p187
-F0.7880032867707477
-F0.9280500521376434
-tp188
+p184
+F0.7782608695652173
+F0.9162011173184358
+tp185
 sS'trading cards'
-p189
+p186
 (I2
 S'sports souvenirs'
-p190
-F0.9622047244094488
-F0.9214402618657938
-tp191
+p187
+F0.9517543859649122
+F0.9170506912442397
+tp188
 sS'tv stands'
+p189
+(I1
+S'furniture'
+p190
+F0.9776813391196528
+F0.9809765377298668
+tp191
+sS'curtain rods & holdbacks'
 p192
 (I1
-S'furniture'
+S'home decor'
 p193
-F0.9753405354626585
-F0.9850710329882013
+F0.9202279202279202
+F0.9298245614035088
 tp194
-sS'curtain rods & holdbacks'
+sS'bar & wine accessories'
 p195
 (I1
-S'home decor'
+S'kitchen & dining'
 p196
-F0.922316384180791
-F0.9241960183767228
+F0.8873744619799139
+F0.9361358124494745
 tp197
-sS'bar & wine accessories'
+sS'indoor tubs & whirlpools'
 p198
 (I1
-S'kitchen & dining'
+S'kitchen & bath fixtures'
 p199
-F0.8944297082228116
-F0.9306049822064056
+F0.9468629961587708
+F0.9945909398242055
 tp200
-sS'indoor tubs & whirlpools'
+sS'gardening tools'
 p201
 (I1
-S'kitchen & bath fixtures'
-p202
-F0.9494674263066634
-F0.9947821549699974
-tp203
-sS'gardening tools'
-p204
-(I1
 S'gardening'
-p205
-F0.8156028368794326
-F0.7736413043478261
-tp206
+p202
+F0.82
+F0.7770034843205574
+tp203
 sS'window coverings'
-p207
-(I1
-S'home decor'
-p208
-F0.9844306049822064
-F0.9636240397650249
-tp209
+p204
+(I2
+S'window treatments'
+p205
+F0.9854227405247813
+F0.9911242603550295
+tp206
 sS'ceramics & pottery'
-p210
+p207
 (I2
 S'home decor accents'
-p211
-F0.9614197530864198
-F0.9446227929373997
-tp212
+p208
+F0.973305954825462
+F0.9409282700421941
+tp209
 sS'pressure washers'
-p213
+p210
 (I1
 S'power & hand tools'
-p214
-F0.4010152284263959
-F0.5210970464135021
-tp215
+p211
+F0.4110854503464203
+F0.550561797752809
+tp212
 sS'all bracelets'
-p216
+p213
 (I2
 S'bangle'
-p217
-F0.4892882818116463
-F0.8307375844842786
-tp218
+p214
+F0.4846909300982091
+F0.822010329757648
+tp215
 sS'body repair'
-p219
+p216
 (I1
 S'replacement parts'
-p220
-F0.4295942720763723
-F0.6898148148148148
-tp221
+p217
+F0.41163793103448276
+F0.675392670157068
+tp218
 sS'supplements'
-p222
+p219
 (I1
 S'vitamins & dietary supplements'
-p223
-F0.6044568245125348
-F0.8540706605222734
-tp224
+p220
+F0.5994962216624685
+F0.8445378151260504
+tp221
 sS'headboards'
-p225
+p222
 (I2
 S'bedroom furniture'
-p226
-F0.9880273660205245
-F0.9878822850548182
-tp227
+p223
+F0.9926900584795322
+F0.9867452135493373
+tp224
 sS'framed wall art'
+p225
+(I1
+S'artwork'
+p226
+F0.687199230028874
+F0.896358543417367
+tp227
+sS'cutting tools'
 p228
 (I1
-S'artwork'
+S'power & hand tools'
 p229
-F0.6957301758162899
-F0.9092315626611656
+F0.8998664886515354
+F0.884272997032641
 tp230
-sS'cutting tools'
+sS'prints'
 p231
 (I1
-S'power & hand tools'
+S'artwork'
 p232
-F0.8892114175133043
-F0.8601741022850925
+F0.5762293056585125
+F0.9309605488850772
 tp233
-sS'prints'
+sS'office chairs'
 p234
 (I1
-S'artwork'
+S'furniture'
 p235
-F0.5765698914757443
-F0.9305019305019305
+F0.99800796812749
+F0.9984031936127744
 tp236
-sS'office chairs'
+sS'scales'
 p237
 (I1
-S'furniture'
-p238
-F0.9984681372549019
-F0.9978521018717398
-tp239
-sS'scales'
-p240
-(I1
 S'health care'
-p241
-F0.6832229580573952
-F0.7027463651050081
-tp242
+p238
+F0.6829971181556196
+F0.7215189873417721
+tp239
 sS'kids rugs'
-p243
+p240
 (I2
 S'area rugs & pads'
-p244
-F0.9975379565038982
-F0.9979432332373509
-tp245
+p241
+F0.9988558352402745
+F0.997709049255441
+tp242
 sS'baking & pastry tools'
+p243
+(I1
+S'kitchen & dining'
+p244
+F0.8214783821478382
+F0.9032258064516129
+tp245
+sS'vinyl flooring'
 p246
 (I1
-S'kitchen & dining'
+S'building supplies'
 p247
-F0.8111171073934161
-F0.9108449767132402
+F0.9842105263157894
+F0.9625668449197861
 tp248
-sS'vinyl flooring'
+sS'portable saws'
 p249
 (I1
-S'building supplies'
+S'power & hand tools'
 p250
-F0.9857868020304569
-F0.9629248197734295
+F0.951278928136419
+F0.93854033290653
 tp251
-sS'portable saws'
+sS'bath sinks'
 p252
 (I1
-S'power & hand tools'
+S'kitchen & bath fixtures'
 p253
-F0.9574759945130316
-F0.940305635148042
+F0.9975339087546239
+F0.9950556242274413
 tp254
-sS'bath sinks'
+sS'all activewear'
 p255
 (I1
-S'kitchen & bath fixtures'
+S'women'
 p256
-F0.9972041006523765
-F0.9950934579439252
+F0.5210355987055016
+F0.9503105590062112
 tp257
-sS'all activewear'
-p258
-(I2
-S'active'
-p259
-F0.5455650060753341
-F0.7483296213808464
-tp260
 sS'outdoor power equipment'
-p261
+p258
 (I1
 S'mowers & outdoor power tools'
-p262
-F0.5911401597676107
-F0.8267813267813268
-tp263
+p259
+F0.5818505338078291
+F0.8134556574923547
+tp260
 sS'handbags'
-p264
+p261
 (I1
 S'luggage & bags'
-p265
-F0.5971621771422237
-F0.9010581028401707
-tp266
+p262
+F0.5991097922848665
+F0.8999504705299654
+tp263
 sS'lockers'
-p267
+p264
 (I2
 S'home decor accents'
-p268
-F0.6653084982537835
-F0.6062992125984252
-tp269
+p265
+F0.6771004942339374
+F0.5790754257907542
+tp266
 sS'watering'
-p270
+p267
 (I1
 S'gardening'
-p271
-F0.8320436959490214
-F0.824398249452954
-tp272
+p268
+F0.8305288461538461
+F0.8285094066570188
+tp269
 sS'removal tools'
-p273
+p270
 (I1
 S'power & hand tools'
-p274
-F0.9366993217784476
-F0.9678197908286403
-tp275
+p271
+F0.9436619718309859
+F0.9658848614072495
+tp272
 sS'refrigerators and freezers'
-p276
+p273
 (I1
 S'kitchen & dining'
+p274
+F0.8033333333333333
+F0.8381742738589212
+tp275
+sS'kids crafts'
+p276
+(I2
+S'home decor accents'
 p277
-F0.8050586057988895
-F0.8544061302681992
+F0.9739130434782609
+F0.9241071428571429
 tp278
 sS'conditioners'
 p279
 (I1
 S'hair care'
 p280
-F0.9599465954606141
-F0.9916550764951322
+F0.9629629629629629
+F0.993006993006993
 tp281
 sS'gardening accessories'
 p282
 (I1
 S'gardening'
 p283
-F0.8637873754152824
-F0.8884615384615384
+F0.8548387096774194
+F0.8915094339622641
 tp284
-sS'hand saws'
+sS'cookware'
 p285
-(I1
-S'power & hand tools'
+(I2
+S'home & garden'
 p286
-F0.9601542416452442
-F0.9665327978580991
+F0.6570048309178744
+F0.5
 tp287
-sS'laundry organization'
+sS'hand saws'
 p288
 (I1
-S'storage & organization'
+S'power & hand tools'
 p289
-F0.5623287671232877
-F0.756394640682095
+F0.95
+F0.9736842105263158
 tp290
-sS'kids desks & chairs'
+sS'laundry organization'
 p291
 (I1
-S'furniture'
+S'storage & organization'
 p292
-F0.9048507462686567
-F0.9639175257731959
+F0.5918744228993537
+F0.7566302652106084
 tp293
-sS'shower & tub modules'
+sS'kids desks & chairs'
 p294
 (I1
-S'kitchen & bath fixtures'
+S'furniture'
 p295
-F0.9461538461538461
-F0.9742547425474255
+F0.9088541666666666
+F0.9484240687679083
 tp296
-sS'plant stands & telephone tables'
+sS'shower & tub modules'
 p297
+(I1
+S'kitchen & bath fixtures'
+p298
+F0.9517241379310345
+F0.9746376811594203
+tp299
+sS'plant stands & telephone tables'
+p300
 (I2
 S'home decor accents'
-p298
-F0.9966722129783694
-F0.9849749582637729
-tp299
-sS'crackers'
-p300
-(I1
-S'snack foods'
 p301
-F0.9125475285171103
-F0.9027777777777778
+F0.9953488372093023
+F0.985981308411215
 tp302
-sS'outdoor lighting'
+sS'crackers'
 p303
 (I1
-S'outdoor decor'
+S'snack foods'
 p304
-F0.8691746209994385
-F0.8983942414174972
+F0.9238410596026491
+F0.899641577060932
 tp305
-sS'furniture fan shop'
+sS'outdoor lighting'
 p306
+(I1
+S'outdoor decor'
+p307
+F0.8634927322519486
+F0.9009514515735545
+tp308
+sS'furniture fan shop'
+p309
 (I2
 S'sports souvenirs'
-p307
-F0.5253947930004268
-F0.9524776604386678
-tp308
+p310
+F0.5273348519362187
+F0.9481641468682506
+tp311
 sS'barstools & counter stools'
-p309
+p312
 (I1
 S'furniture'
-p310
-F0.9978773321416602
-F0.9955217196596506
-tp311
+p313
+F0.9982358129961776
+F0.9944035346097202
+tp314
 sS'mirrors'
-p312
+p315
 (I2
 S'home decor accents'
-p313
-F0.9645558189411898
-F0.9426565242832066
-tp314
-sS'wreaths & garland'
-p315
-(I1
-S'seasonal decor'
 p316
-F0.7149643705463183
-F0.9546511627906977
+F0.9615610328638498
+F0.9447665547757095
 tp317
-sS'trailer hitches & towing equipment'
+sS'wreaths & garland'
 p318
 (I1
-S'exterior accessories'
+S'seasonal decor'
 p319
-F0.6279540850776503
-F0.9010752688172043
+F0.7258527255339496
+F0.95344751866491
 tp320
-sS'scrapbooking & paper crafts'
+sS'trailer hitches & towing equipment'
 p321
-(I2
-S'home decor accents'
+(I1
+S'exterior accessories'
 p322
-F0.9649912069036031
-F0.9255774528501801
+F0.6162162162162163
+F0.9035087719298246
 tp323
-sS'lighting fan shop'
+sS'scrapbooking & paper crafts'
 p324
 (I2
-S'home & garden'
+S'home decor accents'
 p325
-F0.9209948792977323
-F0.8872120730738682
+F0.9641849359670067
+F0.929648806843764
 tp326
-sS'food storage'
+sS'lighting fan shop'
 p327
+(I2
+S'home & garden'
+p328
+F0.9227941176470589
+F0.8904382470119522
+tp329
+sS'food storage'
+p330
 (I1
 S'kitchen & dining'
-p328
-F0.870149504451537
-F0.9123552123552123
-tp329
+p331
+F0.8711433756805808
+F0.9119791666666667
+tp332
 sS'shelving'
-p330
+p333
 (I2
 S'other furniture'
-p331
-F0.8539049699617696
-F0.935081547809402
-tp332
-sS'room dividers'
-p333
-(I1
-S'furniture'
 p334
-F0.9311939080772369
-F0.9582359813084113
+F0.8496634255796559
+F0.9313380281690141
 tp335
-sS'wind chimes & flags'
+sS'room dividers'
 p336
 (I1
-S'outdoor decor'
+S'furniture'
 p337
-F0.9551189245087901
-F0.9664356864443482
+F0.9203869047619048
+F0.9595796281325788
 tp338
-sS'brooches & pins'
+sS'wind chimes & flags'
 p339
 (I1
-S'novelty & more'
+S'outdoor decor'
 p340
-F0.7297721916732128
-F0.7179763186221744
+F0.9584905660377359
+F0.9673790776152981
 tp341
-sS'indoor holiday decor'
+sS'brooches & pins'
 p342
+(I1
+S'novelty & more'
+p343
+F0.7282608695652174
+F0.7134328358208956
+tp344
+sS'indoor holiday decor'
+p345
 (I2
 S'home decor accents'
-p343
-F0.9396491837443557
-F0.9663617040938915
-tp344
-sS'fertilizer & soil'
-p345
-(I1
-S'gardening'
 p346
-F0.9551066217732884
-F0.9412455934195064
+F0.93790546802595
+F0.9671442687747036
 tp347
-sS'bath accessories'
+sS'fertilizer & soil'
 p348
 (I1
-S'skin care'
+S'gardening'
 p349
-F0.4179936305732484
-F0.7695238095238095
+F0.9571865443425076
+F0.939297124600639
 tp350
-sS'decorative accents'
+sS'bath accessories'
 p351
-(I2
-S'home decor accents'
+(I1
+S'skin care'
 p352
-F0.9854499223054104
-F0.9779720948012233
+F0.40625
+F0.7538461538461538
 tp353
-sS'vacuums and floor care'
+sS'decorative accents'
 p354
 (I2
-S'storage & organization'
+S'home decor accents'
 p355
-F0.6694864048338368
-F0.8402527075812274
+F0.9860953103273923
+F0.9773106012049737
 tp356
-sS'herbals'
+sS'vacuums and floor care'
 p357
-(I1
-S'vitamins & dietary supplements'
+(I2
+S'storage & organization'
 p358
-F0.5383631713554987
-F0.9061757719714965
+F0.6522435897435898
+F0.8452088452088452
 tp359
-sS'spark plugs'
+sS'herbals'
 p360
 (I1
-S'replacement parts'
+S'vitamins & dietary supplements'
 p361
-F0.9550930996714129
-F0.9701834862385321
+F0.5333333333333333
+F0.9078947368421053
 tp362
-sS'car seat covers'
+sS'spark plugs'
 p363
-(I2
-S'seat covers & accessories'
+(I1
+S'replacement parts'
 p364
-F0.665031534688157
-F0.5047418335089568
+F0.9674556213017751
+F0.9571865443425076
 tp365
-sS'vases'
+sS'car seat covers'
 p366
+(I1
+S'interior accessories'
+p367
+F0.6772983114446529
+F0.5955678670360111
+tp368
+sS'vases'
+p369
 (I2
 S'home decor accents'
-p367
-F0.9865853658536585
-F0.9890811701689328
-tp368
+p370
+F0.9839486356340289
+F0.9891245241979336
+tp371
 sS'toasters & ovens'
-p369
+p372
 (I1
 S'kitchen & dining'
-p370
-F0.9779310344827586
-F0.9802538787023978
-tp371
-sS'cargo management system'
-p372
-(I2
-S'decals & bumper stickers'
 p373
-F0.6202651515151515
-F0.7587786259541984
+F0.9806201550387597
+F0.9841897233201581
 tp374
-sS'womens halloween costumes'
+sS'cargo management system'
 p375
 (I2
-S'home decor accents'
+S'decals & bumper stickers'
 p376
-F0.9960886571056062
-F0.9685863874345549
+F0.5978835978835979
+F0.7699115044247787
 tp377
-sS'oil filters'
+sS'womens halloween costumes'
 p378
-(I1
-S'replacement parts'
-p379
-F0.5479041916167665
-F0.8688524590163934
-tp380
-sS'indoor halloween decor'
-p381
 (I2
 S'home decor accents'
-p382
-F0.8655737704918033
-F0.9223484848484849
-tp383
-sS'garden statues & accents'
-p384
+p379
+F1.0
+F0.975
+tp380
+sS'oil filters'
+p381
 (I1
-S'outdoor decor'
+S'replacement parts'
+p382
+F0.5422535211267606
+F0.8961038961038961
+tp383
+sS'indoor halloween decor'
+p384
+(I2
+S'home decor accents'
 p385
-F0.6891776995020041
-F0.8831512160733169
+F0.8434782608695652
+F0.9329896907216495
 tp386
-sS'jointers & planers'
+sS'garden statues & accents'
 p387
 (I1
-S'power & hand tools'
+S'outdoor decor'
 p388
-F0.6014492753623188
-F0.8141135972461274
+F0.6851145038167938
+F0.8918291550603529
 tp389
-sS'deodorants & antiperspirant'
+sS'jointers & planers'
 p390
 (I1
-S'personal care'
+S'power & hand tools'
 p391
-F0.9584109248913718
-F0.9766839378238342
+F0.579088471849866
+F0.8055555555555556
 tp392
-sS'fire safety'
+sS'deodorants & antiperspirant'
 p393
 (I1
-S'safety & security'
+S'personal care'
 p394
-F0.6412478336221837
-F0.7837837837837838
+F0.9656862745098039
+F0.9695431472081218
 tp395
-sS'bird baths & feeders'
+sS'fire safety'
 p396
 (I1
-S'gardening'
+S'safety & security'
 p397
-F0.6826202029113365
-F0.7033925686591276
+F0.6454545454545455
+F0.7605633802816901
 tp398
-sS'pans'
+sS'bird baths & feeders'
 p399
 (I1
-S'kitchen & dining'
+S'gardening'
 p400
-F0.9907945736434108
-F0.9755501222493888
+F0.6883933676386507
+F0.696843853820598
 tp401
-sS'hardwood & laminate flooring'
+sS'pans'
 p402
 (I1
-S'building supplies'
+S'kitchen & dining'
 p403
-F0.9777000437254044
-F0.9445438282647585
+F0.991869918699187
+F0.9740437158469946
 tp404
-sS'safety equipment & gear'
+sS'hardwood & laminate flooring'
 p405
 (I1
-S'safety & security'
+S'building supplies'
 p406
-F0.7094150766343447
-F0.8514109347442681
+F0.9801864801864801
+F0.9548156956004756
 tp407
-sS'braces & straps'
+sS'safety equipment & gear'
 p408
+(I1
+S'safety & security'
+p409
+F0.7032814238042269
+F0.8517200474495848
+tp410
+sS'braces & straps'
+p411
 (I2
 S'door hardware & locks'
-p409
-F0.6979742173112339
-F0.7783641160949868
-tp410
-sS'baby clothing'
-p411
-(I1
-S'baby'
 p412
-F0.81232822928936
-F0.8018366360560657
+F0.6865671641791045
+F0.8115942028985508
 tp413
-sS'hammocks & swings'
+sS'baby clothing'
 p414
 (I1
-S'patio furniture & accessories'
+S'baby'
 p415
-F0.9728476821192052
-F0.9823008849557522
+F0.8162859980139027
+F0.8114355231143552
 tp416
-sS'shower bases doors & walls'
+sS'hammocks & swings'
 p417
 (I1
-S'kitchen & bath fixtures'
+S'patio furniture & accessories'
 p418
-F0.9460869565217391
-F0.9797794117647058
+F0.9664310954063604
+F0.9780621572212066
 tp419
-sS'massagers'
+sS'shower bases doors & walls'
 p420
 (I1
-S'skin care'
+S'kitchen & bath fixtures'
 p421
-F0.4806800618238022
-F0.6109324758842444
+F0.9617224880382775
+F0.9751243781094527
 tp422
-sS'giftwrap'
+sS'massagers'
 p423
+(I1
+S'skin care'
+p424
+F0.4388185654008439
+F0.7307692307692307
+tp425
+sS'giftwrap'
+p426
 (I2
 S'home decor accents'
-p424
-F0.9894046417759839
-F0.8758286588475268
-tp425
+p427
+F0.9888888888888889
+F0.8820224719101124
+tp428
 sS'kitchen & dining chairs'
-p426
+p429
 (I1
 S'furniture'
-p427
-F0.995155580398733
-F0.9971915371653248
-tp428
+p430
+F0.9941520467836257
+F0.9970588235294118
+tp431
 sS'accessories fan shop'
-p429
+p432
 (I2
 S'clothing accessories'
-p430
-F0.36400462962962965
-F0.8513513513513513
-tp431
+p433
+F0.3629160063391442
+F0.8558951965065502
+tp434
 sS'decorative door hardware'
-p432
+p435
 (I1
 S'hardware'
-p433
-F0.9086745689655172
-F0.9453503310603815
-tp434
+p436
+F0.9104693140794223
+F0.9466032249537404
+tp437
 sS'toys & games fan shop'
-p435
+p438
 (I2
 S'home & garden'
-p436
-F0.41330756488128106
-F0.5163660654642619
-tp437
-sS'coffee'
-p438
-(I1
-S'beverages'
 p439
-F0.9829912023460411
-F0.9904534606205251
+F0.42083040112596765
+F0.5016722408026756
 tp440
-sS'dimmers switches & wall plates'
+sS'coffee'
 p441
 (I1
-S'electrical'
+S'beverages'
 p442
-F0.5627987000573504
-F0.6844429347826086
+F0.9853181076672104
+F0.9900662251655629
 tp443
-sS'coffee tea and espresso'
+sS'dimmers switches & wall plates'
 p444
 (I1
-S'kitchen & dining'
+S'electrical'
 p445
-F0.9269680682895984
-F0.919849931787176
+F0.5582349923037455
+F0.6957720588235294
 tp446
-sS'sandpaper'
+sS'coffee tea and espresso'
 p447
 (I1
-S'power & hand tools'
+S'kitchen & dining'
 p448
-F0.8698677800974252
-F0.8792
+F0.9158798283261803
+F0.922211808809747
 tp449
-sS'dinnerware'
+sS'sandpaper'
 p450
+(I1
+S'power & hand tools'
+p451
+F0.8952042628774423
+F0.8849206349206349
+tp452
+sS'dinnerware'
+p453
 (I2
 S'tabletop'
-p451
-F0.9649200710479574
-F0.9726184997699033
-tp452
+p454
+F0.9681603773584906
+F0.9707673568818515
+tp455
 sS'bathroom furniture'
-p453
+p456
 (I1
 S'bath'
-p454
-F0.6491163475699558
-F0.871242200794101
-tp455
-sS'fitness balls'
-p456
-(I2
-S'sports equipment'
 p457
-F0.6218009478672986
-F0.7042682926829268
+F0.6498572787821123
+F0.8872620790629575
 tp458
-sS'runners'
+sS'fitness balls'
 p459
 (I2
-S'area rugs & pads'
+S'sports equipment'
 p460
-F0.9996666666666667
-F0.9996665555185061
+F0.612987012987013
+F0.7033898305084746
 tp461
-sS'greenhouses'
+sS'runners'
 p462
-(I1
-S'gardening'
+(I2
+S'area rugs & pads'
 p463
-F0.7365356622998545
-F0.6146245059288538
+F1.0
+F1.0
 tp464
-sS'indoor fireplaces'
+sS'greenhouses'
 p465
 (I1
-S'building supplies'
+S'gardening'
 p466
-F0.7323420074349443
-F0.8216098622189992
+F0.7185185185185186
+F0.5979381443298969
 tp467
-sS'fences & trellises'
+sS'indoor fireplaces'
 p468
 (I1
-S'gardening'
+S'building supplies'
 p469
-F0.5443037974683544
-F0.6992248062015504
+F0.7510791366906475
+F0.8103448275862069
 tp470
-sS'ventilation'
+sS'fences & trellises'
 p471
 (I1
-S'building supplies'
+S'gardening'
 p472
-F0.49166666666666664
-F0.7941888619854721
+F0.5393258426966292
+F0.7083333333333334
 tp473
-sS'gazebos & garden structures'
+sS'ventilation'
 p474
 (I1
-S'patio furniture & accessories'
+S'building supplies'
 p475
-F0.5130984643179766
-F0.8380281690140845
+F0.4879725085910653
+F0.7887323943661971
 tp476
-sS'snow removal'
+sS'gazebos & garden structures'
 p477
 (I1
-S'gardening'
+S'patio furniture & accessories'
 p478
-F0.5616438356164384
-F0.5390243902439025
+F0.4855072463768116
+F0.8407960199004975
 tp479
-sS'bathroom accessories'
+sS'snow removal'
 p480
 (I1
-S'bath'
+S'gardening'
 p481
-F0.583184028666496
-F0.9038841342988808
+F0.6006825938566553
+F0.5568181818181818
 tp482
-sS'mobility aids'
+sS'bathroom accessories'
 p483
 (I1
-S'medical supplies & equipment'
+S'bath'
 p484
-F0.5919011306863002
-F0.8565082185695246
+F0.5603180089872105
+F0.9019123997532388
 tp485
-sS'entertainment centers'
+sS'mobility aids'
 p486
 (I1
-S'furniture'
+S'medical supplies & equipment'
 p487
-F0.9872881355932204
-F0.9856938483547926
+F0.6041666666666666
+F0.8517241379310345
 tp488
-sS'backpacks'
+sS'entertainment centers'
 p489
 (I1
-S'luggage & bags'
+S'furniture'
 p490
-F0.876114726440106
-F0.9559834938101788
+F0.9927797833935018
+F0.9818181818181818
 tp491
-sS'grills & accessories fan shop'
+sS'backpacks'
 p492
+(I1
+S'luggage & bags'
+p493
+F0.8708860759493671
+F0.9578488372093024
+tp494
+sS'grills & accessories fan shop'
+p495
 (I2
 S'home & garden'
-p493
-F0.9762470308788599
-F0.8917274939172749
-tp494
-sS'kitchen sinks'
-p495
-(I1
-S'kitchen & bath fixtures'
 p496
-F0.9834373499759962
-F0.9843788137661704
+F0.9686520376175548
+F0.8932038834951457
 tp497
-sS'other arts & crafts'
+sS'kitchen sinks'
 p498
 (I1
-S'artwork'
+S'kitchen & bath fixtures'
 p499
-F0.745620731631832
-F0.9358846643422436
+F0.9816455696202532
+F0.9825918762088974
 tp500
-sS'dutch ovens & roasters'
+sS'other arts & crafts'
 p501
 (I1
-S'kitchen & dining'
+S'artwork'
 p502
-F0.9847715736040609
-F0.9707903780068728
+F0.747082360786929
+F0.932827493862977
 tp503
-sS'greeting cards & invitations'
+sS'dutch ovens & roasters'
 p504
+(I1
+S'kitchen & dining'
+p505
+F0.9850746268656716
+F0.9747474747474747
+tp506
+sS'greeting cards & invitations'
+p507
 (I2
 S'home decor accents'
-p505
-F0.945054945054945
-F0.8471760797342193
-tp506
-sS'holiday lighting'
-p507
-(I1
-S'seasonal decor'
 p508
-F0.8181137724550899
-F0.9249771271729186
+F0.9493670886075949
+F0.8533333333333334
 tp509
-sS'sports nutrition'
+sS'holiday lighting'
 p510
 (I1
-S'vitamins & dietary supplements'
+S'seasonal decor'
 p511
-F0.851004851004851
-F0.9193811074918566
+F0.8113948919449901
+F0.9346246973365617
 tp512
-sS'serveware'
+sS'sports nutrition'
 p513
 (I1
-S'kitchen & dining'
+S'vitamins & dietary supplements'
 p514
-F0.8981566217806249
-F0.9101892285298399
+F0.8388888888888889
+F0.9249448123620309
 tp515
-sS'prybars & crowbars'
+sS'serveware'
 p516
 (I1
-S'power & hand tools'
+S'kitchen & dining'
 p517
-F0.8853658536585366
-F0.8608815426997245
+F0.8995417694747974
+F0.908307210031348
 tp518
-sS'coolers'
+sS'prybars & crowbars'
 p519
-(I2
-S'home & garden'
+(I1
+S'power & hand tools'
 p520
-F0.971883786316776
-F0.9768563162970106
+F0.8657718120805369
+F0.8604651162790697
 tp521
-sS'baseball mitts & gloves'
+sS'coolers'
 p522
 (I2
-S'sports equipment'
+S'home & garden'
 p523
-F0.6631762652705061
-F0.8368421052631579
+F0.975669099756691
+F0.9750623441396509
 tp524
-sS'measuring & layout tools'
+sS'baseball mitts & gloves'
 p525
-(I1
-S'power & hand tools'
+(I2
+S'sports equipment'
 p526
-F0.7121071475931574
-F0.6970204841713221
+F0.6696428571428571
+F0.82
 tp527
-sS'mens shoes'
+sS'measuring & layout tools'
 p528
 (I1
-S'men'
+S'power & hand tools'
 p529
-F0.5346901017576319
-F0.893598615916955
+F0.7108391608391609
+F0.6935563207083129
 tp530
-sS'table tennis'
+sS'mens shoes'
 p531
+(I1
+S'men'
+p532
+F0.5261904761904762
+F0.9004524886877828
+tp533
+sS'table tennis'
+p534
 (I2
 S'home & garden'
-p532
-F0.8442367601246106
-F0.8819188191881919
-tp533
-sS'party tableware'
-p534
-(I1
-S'kitchen & dining'
 p535
-F0.7733990147783252
-F0.8747346072186837
+F0.8407407407407408
+F0.8942731277533039
 tp536
-sS'body treatments'
+sS'party tableware'
 p537
 (I1
-S'skin care'
+S'kitchen & dining'
 p538
-F0.9402985074626866
-F0.9633699633699634
+F0.810126582278481
+F0.9114583333333334
 tp539
-sS'decorative - exterior'
+sS'body treatments'
 p540
 (I1
-S'exterior accessories'
+S'skin care'
 p541
-F0.7049214659685864
-F0.9744503862150921
+F0.9154518950437318
+F0.9585987261146497
 tp542
-sS'all fragrances'
+sS'decorative - exterior'
 p543
 (I1
-S'fragrance'
+S'exterior accessories'
 p544
-F0.9149705595994251
-F0.9388902964276666
+F0.7110621904237755
+F0.9736842105263158
 tp545
-sS'baskets & bins'
+sS'all fragrances'
 p546
-(I2
-S'home decor accents'
+(I1
+S'fragrance'
 p547
-F0.9414376321353065
-F0.9270154951717943
+F0.9149567367119901
+F0.9415022966765739
 tp548
-sS'water storage & treatments'
+sS'surface protectors'
 p549
 (I1
-S'building supplies'
+S'hardware'
 p550
-F0.4364820846905538
-F0.6492537313432836
+F0.38839285714285715
+F0.6781609195402298
 tp551
-sS'facial cleansers'
+sS'baskets & bins'
 p552
-(I1
-S'skin care'
+(I2
+S'home decor accents'
 p553
-F0.9080459770114943
-F0.9367088607594937
+F0.9418604651162791
+F0.9253380364491476
 tp554
-sS'auto repair tools'
+sS'water storage & treatments'
 p555
 (I1
-S'replacement parts'
+S'building supplies'
 p556
-F0.577216871471272
-F0.6611047180667434
+F0.41841004184100417
+F0.64
 tp557
-sS'accent chests'
+sS'facial cleansers'
 p558
 (I1
-S'furniture'
+S'skin care'
 p559
-F0.7915986949429038
-F0.8191653786707882
+F0.9485981308411215
+F0.9458128078817734
 tp560
-sS'kids halloween costumes'
+sS'auto repair tools'
 p561
-(I2
-S'home decor accents'
+(I1
+S'replacement parts'
 p562
-F0.984321223709369
-F0.9141414141414141
+F0.5797101449275363
+F0.65625
 tp563
-sS'bath hardware'
+sS'accent chests'
 p564
 (I1
-S'bath'
+S'furniture'
 p565
-F0.8395357406042742
-F0.9431643625192012
+F0.7997835497835498
+F0.8362652232746955
 tp566
-sS'wrenches & ratchets'
+sS'kids halloween costumes'
 p567
-(I1
-S'power & hand tools'
-p568
-F0.928698752228164
-F0.927063339731286
-tp569
-sS'indoor seasonal decor fan shop'
-p570
-(I2
-S'home & garden'
-p571
-F0.875534188034188
-F0.9219035997559487
-tp572
-sS'umbrellas'
-p573
-(I1
-S'luggage & bags'
-p574
-F0.8347978910369068
-F0.9578947368421052
-tp575
-sS'eye care'
-p576
-(I1
-S'personal care'
-p577
-F0.5089605734767025
-F0.7746478873239436
-tp578
-sS'pots'
-p579
-(I1
-S'kitchen & dining'
-p580
-F0.9334016393442623
-F0.9495060373216246
-tp581
-sS'garage storage'
-p582
-(I1
-S'storage & organization'
-p583
-F0.4852282900626679
-F0.7583025830258303
-tp584
-sS'clothing fan shop'
-p585
-(I2
-S'clothing'
-p586
-F0.7418569824035942
-F0.8798889730002524
-tp587
-sS'decorations'
-p588
 (I2
 S'home decor accents'
-p589
-F0.9237132352941176
-F0.9651741293532339
-tp590
-sS'bars & wine racks'
-p591
+p568
+F0.981169474727453
+F0.9212121212121213
+tp569
+sS'bath hardware'
+p570
 (I1
-S'furniture'
-p592
-F0.5260461144321094
-F0.7857142857142857
-tp593
-sS'folding tables & chairs'
-p594
-(I1
-S'furniture'
-p595
-F0.9797347089167281
-F0.9872132380594209
-tp596
-sS'eyes'
-p597
-(I2
-S'eyes'
-p598
-F0.9303246239113222
-F0.9744680851063829
-tp599
-sS'nutritional bars & drinks'
-p600
-(I1
-S'vitamins & dietary supplements'
-p601
-F0.958664546899841
-F0.9734660033167496
-tp602
-sS'abrasives'
-p603
+S'bath'
+p571
+F0.8428640076886112
+F0.9475484606613455
+tp572
+sS'wrenches & ratchets'
+p573
 (I1
 S'power & hand tools'
-p604
-F0.8462862438766053
-F0.7964643304130162
-tp605
-sS'shoes fan shop'
-p606
+p574
+F0.9418604651162791
+F0.9259259259259259
+tp575
+sS'indoor seasonal decor fan shop'
+p576
+(I2
+S'home & garden'
+p577
+F0.8654646324549237
+F0.9326923076923077
+tp578
+sS'umbrellas'
+p579
+(I1
+S'luggage & bags'
+p580
+F0.8617511520737328
+F0.9518716577540107
+tp581
+sS'eye care'
+p582
+(I1
+S'personal care'
+p583
+F0.48325358851674644
+F0.7524752475247525
+tp584
+sS'pots'
+p585
+(I1
+S'kitchen & dining'
+p586
+F0.93646408839779
+F0.943952802359882
+tp587
+sS'garage storage'
+p588
+(I1
+S'storage & organization'
+p589
+F0.49403341288782815
+F0.7536231884057971
+tp590
+sS'clothing fan shop'
+p591
 (I2
 S'clothing'
+p592
+F0.7337038908539667
+F0.8732782369146006
+tp593
+sS'decorations'
+p594
+(I2
+S'home decor accents'
+p595
+F0.9379652605459057
+F0.9629629629629629
+tp596
+sS'bars & wine racks'
+p597
+(I1
+S'furniture'
+p598
+F0.5458823529411765
+F0.7758620689655172
+tp599
+sS'folding tables & chairs'
+p600
+(I1
+S'furniture'
+p601
+F0.9800796812749004
+F0.9898373983739838
+tp602
+sS'eyes'
+p603
+(I1
+S'makeup'
+p604
+F0.9321663019693655
+F0.9882629107981221
+tp605
+sS'bath rugs & mats'
+p606
+(I1
+S'bath'
 p607
-F0.4064516129032258
-F0.5952380952380952
+F0.8292011019283747
+F0.9634551495016611
 tp608
-sS'tool storage'
+sS'abrasives'
 p609
 (I1
 S'power & hand tools'
 p610
-F0.5213079603323506
-F0.7609254498714653
+F0.8478027867095391
+F0.7930889169827223
 tp611
-sS'cereal'
+sS'shoes fan shop'
 p612
-(I1
-S'snack foods'
+(I2
+S'clothing'
 p613
-F0.4715960324616772
-F0.5258126195028681
+F0.3967611336032389
+F0.6020408163265306
 tp614
-sS'albums'
+sS'tool storage'
 p615
 (I1
-S'home decor'
+S'power & hand tools'
 p616
-F0.8640727640222334
-F0.9391812865497076
+F0.5312275664034458
+F0.745945945945946
 tp617
-sS'pots & planters'
+sS'albums'
 p618
 (I1
-S'gardening'
+S'home decor'
 p619
-F0.9270660667771726
-F0.9486590038314177
+F0.865359477124183
+F0.9410876132930514
 tp620
-sS'auto safety accessories'
+sS'pots & planters'
 p621
 (I1
-S'replacement parts'
+S'gardening'
 p622
-F0.3702770780856423
-F0.7244897959183674
+F0.9234234234234234
+F0.9491289198606272
 tp623
-sS'shampoos'
+sS'auto safety accessories'
 p624
 (I1
-S'hair care'
+S'replacement parts'
 p625
-F0.9574088242795206
-F0.9816196057538625
+F0.3868378812199037
+F0.6846473029045643
 tp626
-sS'kids table & chair sets'
+sS'grill tools & accessories'
 p627
 (I1
-S'furniture'
+S'gardening'
 p628
-F0.983957219251337
-F0.9850543478260869
+F0.48079306071871125
+F0.5077319587628866
 tp629
-sS'kitchen gadgets'
+sS'shampoos'
 p630
 (I1
-S'kitchen & dining'
+S'hair care'
 p631
-F0.8939096267190569
-F0.8949450549450549
+F0.9579661016949153
+F0.9801840056617127
 tp632
-sS'paint tools & supplies'
+sS'kids table & chair sets'
 p633
 (I1
-S'painting supplies & wall treatments'
+S'furniture'
 p634
-F0.551094890510949
-F0.6961920529801324
+F0.9965635738831615
+F0.9896551724137931
 tp635
-sS'halloween masks'
+sS'kitchen gadgets'
 p636
-(I2
-S'home decor accents'
-p637
-F0.9981796116504854
-F0.993920972644377
-tp638
-sS'juice'
-p639
-(I1
-S'beverages'
-p640
-F0.9304245283018868
-F0.9062103929024081
-tp641
-sS'screws'
-p642
-(I2
-S'nails screws & fasteners'
-p643
-F0.8242159008023341
-F0.9548672566371681
-tp644
-sS'ornaments & tree trim'
-p645
-(I1
-S'seasonal decor'
-p646
-F0.7006951180084061
-F0.8962971507671011
-tp647
-sS'rugs'
-p648
-(I2
-S'area rugs & pads'
-p649
-F0.9748170673762235
-F0.9922429880511378
-tp650
-sS'bakeware'
-p651
 (I1
 S'kitchen & dining'
-p652
-F0.9565816678152997
-F0.9373198847262247
-tp653
-sS'futons & loungers'
-p654
+p637
+F0.8965873836608066
+F0.8921568627450981
+tp638
+sS'paint tools & supplies'
+p639
 (I1
-S'home decor'
-p655
-F0.6330049261083743
-F0.9260700389105059
-tp656
-sS'billiards'
-p657
-(I2
-S'home & garden'
-p658
-F0.6047058823529412
-F0.5700389105058365
-tp659
-sS'home decor'
-p660
-(I2
-S'kitchen utensils & gadgets'
-p661
-F0.49684400360685305
-F0.5172413793103449
-tp662
-sS'doors'
-p663
-(I2
-S'door hardware & locks'
-p664
-F0.8640132669983416
-F0.8349328214971209
-tp665
-sS'tool belts'
-p666
-(I1
-S'power & hand tools'
-p667
-F0.6968641114982579
-F0.7883333333333333
-tp668
-sS'sports equipment fan shop'
-p669
-(I2
-S'sports equipment'
-p670
-F0.7902796271637816
-F0.8386689132266217
-tp671
-sS'canopies & shelters'
-p672
-(I2
-S'home & garden'
-p673
-F0.6450351837372947
-F0.6
-tp674
-sS'travel accessories'
-p675
+S'painting supplies & wall treatments'
+p640
+F0.5300041963911036
+F0.7197149643705463
+tp641
+sS'halloween masks'
+p642
 (I2
 S'home decor accents'
+p643
+F1.0
+F0.9914821124361158
+tp644
+sS'juice'
+p645
+(I1
+S'beverages'
+p646
+F0.911042944785276
+F0.9023569023569024
+tp647
+sS'screws'
+p648
+(I2
+S'nails screws & fasteners'
+p649
+F0.8449304174950298
+F0.96
+tp650
+sS'ornaments & tree trim'
+p651
+(I1
+S'seasonal decor'
+p652
+F0.6999352611135089
+F0.8964082010174195
+tp653
+sS'rugs'
+p654
+(I2
+S'area rugs & pads'
+p655
+F0.9746391087867607
+F0.9919879451652027
+tp656
+sS'bakeware'
+p657
+(I1
+S'kitchen & dining'
+p658
+F0.954136690647482
+F0.9274269557021678
+tp659
+sS'futons & loungers'
+p660
+(I1
+S'home decor'
+p661
+F0.6395759717314488
+F0.9392265193370166
+tp662
+sS'billiards'
+p663
+(I2
+S'home & garden'
+p664
+F0.6230847803881512
+F0.5508196721311476
+tp665
+sS'home decor'
+p666
+(I2
+S'kitchen utensils & gadgets'
+p667
+F0.5
+F0.5093457943925234
+tp668
+sS'doors'
+p669
+(I2
+S'door hardware & locks'
+p670
+F0.8764940239043825
+F0.85
+tp671
+sS'tool belts'
+p672
+(I1
+S'power & hand tools'
+p673
+F0.7218543046357616
+F0.7660550458715596
+tp674
+sS'sports equipment fan shop'
+p675
+(I2
+S'sports equipment'
 p676
-F0.9529810043257476
-F0.8567199526346951
+F0.7921862011637573
+F0.8457502623294858
 tp677
-sS'clocks fan shop'
+sS'canopies & shelters'
 p678
 (I2
 S'home & garden'
 p679
-F0.9979395604395604
-F0.9710942876806608
+F0.632016632016632
+F0.618421052631579
 tp680
-sS'microwaves'
+sS'travel accessories'
 p681
-(I1
-S'kitchen & dining'
+(I2
+S'home decor accents'
 p682
-F0.9613259668508287
-F0.842911877394636
+F0.9481993093241243
+F0.8652445369406868
 tp683
-sS'jewelry storage'
+sS'clocks fan shop'
 p684
 (I2
-S'jewelry boxes & organizers'
+S'home & garden'
 p685
-F0.9282051282051282
-F0.9548802946593001
+F0.9982638888888888
+F0.9617391304347827
 tp686
-sS'ceiling fans'
+sS'microwaves'
 p687
-(I2
-S'home decor accents'
-p688
-F0.9704678882761074
-F0.9367552703941339
-tp689
-sS'sheets'
-p690
-(I1
-S'bedding'
-p691
-F0.9647058823529412
-F0.974706413730804
-tp692
-sS'daily living aids'
-p693
-(I1
-S'health care'
-p694
-F0.5447402880838061
-F0.7219551282051282
-tp695
-sS'jewelry fan shop'
-p696
-(I2
-S'sports souvenirs'
-p697
-F0.5353077816492451
-F0.5419830765892818
-tp698
-sS'bath fan shop'
-p699
-(I2
-S'home & garden'
-p700
-F0.7443408788282291
-F0.7549194991055456
-tp701
-sS'rugs fan shop'
-p702
-(I2
-S'home & garden'
-p703
-F0.8593322386425835
-F0.8394904458598726
-tp704
-sS'art supplies'
-p705
-(I2
-S'home decor accents'
-p706
-F0.9502367551148039
-F0.9038172245204964
-tp707
-sS'kids bedding'
-p708
-(I1
-S'bedding'
-p709
-F0.9252243270189432
-F0.9385775862068966
-tp710
-sS'face'
-p711
-(I2
-S'face'
-p712
-F0.9760087241003271
-F0.9605214152700187
-tp713
-sS'air compressors'
-p714
-(I1
-S'power & hand tools'
-p715
-F0.71168
-F0.7027877697841727
-tp716
-sS'pantries carts & islands'
-p717
-(I1
-S'furniture'
-p718
-F0.8038610038610039
-F0.9217098943323727
-tp719
-sS'party supplies'
-p720
-(I2
-S'home decor accents'
-p721
-F0.9544729667163949
-F0.9020696345801444
-tp722
-sS'welding & torches'
-p723
-(I1
-S'power & hand tools'
-p724
-F0.8197138593873431
-F0.848270692793661
-tp725
-sS'cushions & pillows'
-p726
-(I1
-S'patio furniture & accessories'
-p727
-F0.9950074887668497
-F0.9964877069744105
-tp728
-sS'tent accessories'
-p729
-(I2
-S'home & garden'
-p730
-F0.4613899613899614
-F0.5146443514644351
-tp731
-sS'beading & jewelry making'
-p732
-(I2
-S'home decor accents'
-p733
-F0.9706147467099333
-F0.9152117384843982
-tp734
-sS'golf balls'
-p735
-(I2
-S'sports equipment'
-p736
-F0.9478609625668449
-F0.9873060648801129
-tp737
-sS'curtain panels'
-p738
-(I2
-S'window treatments'
-p739
-F0.988391376451078
-F0.9916107382550335
-tp740
-sS'hair color'
-p741
-(I1
-S'hair care'
-p742
-F0.9253472222222222
-F0.949343339587242
-tp743
-sS'car covers & car protection'
-p744
-(I1
-S'exterior accessories'
-p745
-F0.6324786324786325
-F0.8183183183183184
-tp746
-sS'patio furniture covers'
-p747
-(I1
-S'patio furniture & accessories'
-p748
-F0.9588313413014609
-F0.9515235457063712
-tp749
-sS'irons & ironing boards'
-p750
 (I1
 S'kitchen & dining'
-p751
-F0.7220026350461133
-F0.7098540145985401
-tp752
-sS'sofas loveseats & sectionals'
-p753
+p688
+F0.9432314410480349
+F0.8518518518518519
+tp689
+sS'jewelry storage'
+p690
 (I2
-S'living room furniture'
+S'jewelry boxes & organizers'
+p691
+F0.9205816554809844
+F0.9562575941676792
+tp692
+sS'ceiling fans'
+p693
+(I2
+S'home decor accents'
+p694
+F0.9707656612529002
+F0.9369024856596558
+tp695
+sS'sheets'
+p696
+(I1
+S'bedding'
+p697
+F0.9732441471571907
+F0.9725085910652921
+tp698
+sS'daily living aids'
+p699
+(I1
+S'health care'
+p700
+F0.554147465437788
+F0.7546777546777547
+tp701
+sS'jewelry fan shop'
+p702
+(I2
+S'sports souvenirs'
+p703
+F0.5267080745341615
+F0.5371462264150944
+tp704
+sS'bath fan shop'
+p705
+(I2
+S'home & garden'
+p706
+F0.7509025270758123
+F0.7644230769230769
+tp707
+sS'rugs fan shop'
+p708
+(I2
+S'home & garden'
+p709
+F0.8502633559066968
+F0.8389380530973451
+tp710
+sS'art supplies'
+p711
+(I2
+S'home decor accents'
+p712
+F0.9483579247977154
+F0.9041405269761607
+tp713
+sS'kids bedding'
+p714
+(I1
+S'bedding'
+p715
+F0.9345549738219895
+F0.9481792717086834
+tp716
+sS'face'
+p717
+(I2
+S'face'
+p718
+F0.9760076775431862
+F0.9636184857423795
+tp719
+sS'air compressors'
+p720
+(I1
+S'power & hand tools'
+p721
+F0.7011589403973509
+F0.6953955135773318
+tp722
+sS'pantries carts & islands'
+p723
+(I1
+S'furniture'
+p724
+F0.7936344969199178
+F0.92496765847348
+tp725
+sS'party supplies'
+p726
+(I2
+S'home decor accents'
+p727
+F0.9556048834628191
+F0.9018583042973287
+tp728
+sS'welding & torches'
+p729
+(I1
+S'power & hand tools'
+p730
+F0.8176129779837775
+F0.8577097505668935
+tp731
+sS'cushions & pillows'
+p732
+(I1
+S'patio furniture & accessories'
+p733
+F0.9945578231292517
+F0.9945280437756497
+tp734
+sS'tent accessories'
+p735
+(I2
+S'home & garden'
+p736
+F0.4801980198019802
+F0.5154639175257731
+tp737
+sS'beading & jewelry making'
+p738
+(I2
+S'home decor accents'
+p739
+F0.9734242709313264
+F0.9144720947088669
+tp740
+sS'golf balls'
+p741
+(I2
+S'sports equipment'
+p742
+F0.9496402877697842
+F0.9962121212121212
+tp743
+sS'curtain panels'
+p744
+(I1
+S'home decor'
+p745
+F0.9956140350877193
+F0.9647577092511013
+tp746
+sS'hair color'
+p747
+(I1
+S'hair care'
+p748
+F0.9528301886792453
+F0.9405940594059405
+tp749
+sS'car covers & car protection'
+p750
+(I1
+S'exterior accessories'
+p751
+F0.6432160804020101
+F0.8125
+tp752
+sS'patio furniture covers'
+p753
+(I1
+S'patio furniture & accessories'
 p754
-F0.99361249112846
-F0.9928571428571429
+F0.9652777777777778
+F0.9532374100719424
 tp755
-sS'vacuum bags & accessories'
+sS'irons & ironing boards'
 p756
 (I1
 S'kitchen & dining'
 p757
-F0.5890557939914163
-F0.7231329690346083
+F0.6949152542372882
+F0.7121951219512195
 tp758
-sS'scarves & valances'
+sS'generators'
 p759
 (I1
-S'home decor'
+S'electrical'
 p760
-F0.9940239043824701
-F0.9939879759519038
+F0.5739130434782609
+F0.5227272727272727
 tp761
-sS'sunglasses'
+sS'sofas loveseats & sectionals'
 p762
-(I1
-S'personal care'
+(I2
+S'living room furniture'
 p763
-F0.872932634126664
-F0.878003696857671
+F0.9943555973659455
+F0.9938505203405865
 tp764
-sS'skin care sets'
+sS'vacuum bags & accessories'
 p765
 (I1
-S'skin care'
+S'kitchen & dining'
 p766
-F0.7680722891566265
-F0.9084967320261438
+F0.5878186968838527
+F0.744578313253012
 tp767
-sS'automotive fan shop'
+sS'scarves & valances'
 p768
-(I2
-S'auto accessories'
-p769
-F0.7865880297072958
-F0.9191891141349625
-tp770
-sS'quilts & bedspreads'
-p771
-(I1
-S'bedding'
-p772
-F0.9601196410767697
-F0.9719626168224299
-tp773
-sS'mens workwear shop'
-p774
-(I1
-S'novelty & special use'
-p775
-F0.7694610778443114
-F0.8482490272373541
-tp776
-sS'drills & drivers'
-p777
-(I1
-S'power & hand tools'
-p778
-F0.9756162915326902
-F0.9734962922274101
-tp779
-sS'motorcycle accessories'
-p780
-(I1
-S'motorcycle & powersports'
-p781
-F0.7559055118110236
-F0.8671875
-tp782
-sS'gloves'
-p783
-(I2
-S'accessories'
-p784
-F0.8633962264150944
-F0.9545454545454546
-tp785
-sS'party packs'
-p786
-(I1
-S'kitchen & dining'
-p787
-F0.5101169482086505
-F0.8053129548762736
-tp788
-sS'door accessories'
-p789
-(I1
-S'hardware'
-p790
-F0.8896959913909066
-F0.934986392500756
-tp791
-sS'mattress pads & toppers'
-p792
-(I1
-S'bedding'
-p793
-F0.7955056179775281
-F0.846045197740113
-tp794
-sS'cufflinks'
-p795
-(I1
-S'mens jewelry'
-p796
-F0.6836996090063368
-F0.89587852494577
-tp797
-sS'outdoor tableware & picnic'
-p798
-(I2
-S'storage & organization'
-p799
-F0.8076923076923077
-F0.6800595238095238
-tp800
-sS'baking mixes'
-p801
-(I1
-S'canned dry & packaged foods'
-p802
-F0.7388724035608308
-F0.8514056224899599
-tp803
-sS'water bottles & hydration'
-p804
-(I2
-S'home & garden'
-p805
-F0.8013937282229965
-F0.8782608695652174
-tp806
-sS'lifting equipment'
-p807
-(I1
-S'building supplies'
-p808
-F0.6390386343216532
-F0.8080843585237258
-tp809
-sS'hair styling tools'
-p810
-(I1
-S'hair care'
-p811
-F0.9497536945812808
-F0.9605809128630706
-tp812
-sS'bath rugs & mats'
-p813
-(I1
-S'bath'
-p814
-F0.8097345132743363
-F0.9631147540983607
-tp815
-sS'exterior car decoration'
-p816
-(I1
-S'exterior accessories'
-p817
-F0.7459396751740139
-F0.8748055987558321
-tp818
-sS'interior car accessories'
-p819
-(I1
-S'replacement parts'
-p820
-F0.5466237942122186
-F0.7647058823529411
-tp821
-sS'automotive repair'
-p822
-(I1
-S'replacement parts'
-p823
-F0.5929061784897025
-F0.6209957545349286
-tp824
-sS'heaters'
-p825
-(I1
-S'building supplies'
-p826
-F0.7899938233477455
-F0.9218139171227522
-tp827
-sS'vitamins'
-p828
-(I1
-S'vitamins & dietary supplements'
-p829
-F0.6410771229479154
-F0.8583271923360354
-tp830
-sS'coverings & protection'
-p831
-(I1
-S'exterior accessories'
-p832
-F0.6135902636916836
-F0.8396694214876033
-tp833
-sS'wall decals'
-p834
-(I2
-S'home decor accents'
-p835
-F0.9456908344733242
-F0.9158107912628382
-tp836
-sS'swimwear'
-p837
-(I2
-S'swim'
-p838
-F0.9544025157232704
-F0.9159802306425041
-tp839
-sS'fans'
-p840
-(I1
-S'lighting & ceiling fans'
-p841
-F0.5996451803666469
-F0.8205128205128205
-tp842
-sS'outdoor tables'
-p843
-(I1
-S'patio furniture & accessories'
-p844
-F0.9858038956751403
-F0.9926322839919625
-tp845
-sS'tires accessories'
-p846
-(I1
-S'motorcycle & powersports'
-p847
-F0.3993584603047314
-F0.678714859437751
-tp848
-sS'pillow cases'
-p849
-(I1
-S'bedding'
-p850
-F0.9827868852459016
-F0.9541284403669725
-tp851
-sS'other fan shop'
-p852
-(I2
-S'home & garden'
-p853
-F0.6269187570198428
-F0.8539862645565841
-tp854
-sS'sanders & polishers'
-p855
-(I1
-S'power & hand tools'
-p856
-F0.7325443786982249
-F0.8303715670436187
-tp857
-sS'all rings'
-p858
-(I3
-S'diamond bands'
-p859
-F0.784999377050542
-F0.8980002116178182
-tp860
-sS'facial treatments'
-p861
-(I1
-S'skin care'
-p862
-F0.9448183041722745
-F0.9629629629629629
-tp863
-sS'pot racks & hanging baskets'
-p864
-(I2
-S'storage & organization'
-p865
-F0.8526466380543634
-F0.9312080536912751
-tp866
-sS'all shirts'
-p867
-(I1
-S'men'
-p868
-F0.780264496439471
-F0.9250325945241199
-tp869
-sS'first aid'
-p870
-(I1
-S'health care'
-p871
-F0.9052412356820548
-F0.9206288343558282
-tp872
-sS'car lighting'
-p873
-(I2
-S'lights & lighting accessories'
-p874
-F0.9287925696594427
-F0.9566666666666667
-tp875
-sS'baseball field equipment & maintenance'
-p876
-(I2
-S'home & garden'
-p877
-F0.7535596933187295
-F0.5450581395348837
-tp878
-sS'table top & multi-game tables'
-p879
-(I2
-S'home & garden'
-p880
-F0.7350923482849604
-F0.6238334529791816
-tp881
-sS'mens halloween costumes'
-p882
-(I2
-S'home decor accents'
-p883
-F0.9724683544303797
-F0.9502115196876016
-tp884
-sS'christmas trees'
-p885
-(I1
-S'seasonal decor'
-p886
-F0.9684797768479777
-F0.9766705069124424
-tp887
-sS'file cabinets'
-p888
-(I1
-S'furniture'
-p889
-F0.809348299547663
-F0.9306561788449597
-tp890
-sS'blenders & juicers'
-p891
-(I1
-S'kitchen & dining'
-p892
-F0.8394160583941606
-F0.8289855072463768
-tp893
-sS'lanterns'
-p894
-(I2
-S'home & garden'
-p895
-F0.7623762376237624
-F0.599025974025974
-tp896
-sS'ratchets sockets & accessories'
-p897
-(I1
-S'power & hand tools'
-p898
-F0.9759890235536245
-F0.9802405498281787
-tp899
-sS'cards stationary & invitations'
-p900
-(I2
-S'home decor accents'
-p901
-F0.9642248722316865
-F0.8939929328621908
-tp902
-sS'stamping & embossing'
-p903
-(I2
-S'home decor accents'
-p904
-F0.8997470682915613
-F0.759008433427038
-tp905
-sS'womens shoes'
-p906
-(I1
-S'women'
-p907
-F0.8946520618556701
-F0.9121353979114152
-tp908
-sS'ceramic tile'
-p909
-(I1
-S'building supplies'
-p910
-F0.9531600598354525
-F0.9434036292300148
-tp911
-sS'hammers mallets & sledges'
-p912
-(I1
-S'power & hand tools'
-p913
-F0.9054140127388535
-F0.7963418923672178
-tp914
-sS'canvas wall art'
-p915
-(I1
-S'artwork'
-p916
-F0.8654726735598227
-F0.9655672654349959
-tp917
-sS'all tops'
-p918
-(I2
-S'tops & tees'
-p919
-F0.7765614938828075
-F0.818407960199005
-tp920
-sS'cake baking & pastry supplies'
-p921
-(I1
-S'kitchen & dining'
-p922
-F0.8605442176870748
-F0.9604743083003953
-tp923
-sS'closet storage & organizers'
-p924
-(I1
-S'storage & organization'
-p925
-F0.4707740916271722
-F0.7239932885906041
-tp926
-sS'novelty lighting'
-p927
 (I1
 S'home decor'
-p928
-F0.6546875
-F0.8158881691101262
-tp929
-sS'dressers'
-p930
+p769
+F0.9948717948717949
+F0.9948453608247423
+tp770
+sS'sunglasses'
+p771
 (I1
-S'furniture'
-p931
-F0.8461192688043152
-F0.9780414379316451
-tp932
-sS'styling products'
-p933
-(I1
-S'hair care'
-p934
-F0.8802946593001841
-F0.9274755927475593
-tp935
-sS'all earrings'
-p936
-(I1
-S'earrings'
-p937
-F0.49299459333759665
-F0.49056603773584906
-tp938
-sS'sleeping bags'
-p939
-(I2
-S'clothing accessories'
-p940
-F0.60075329566855
-F0.7366771159874608
-tp941
-sS'molding trim'
-p942
-(I1
-S'building supplies'
-p943
-F0.9303609341825902
-F0.8575992697398448
-tp944
-sS'hand creams & lotions'
-p945
+S'personal care'
+p772
+F0.8703108252947481
+F0.8830049261083743
+tp773
+sS'skin care sets'
+p774
 (I1
 S'skin care'
-p946
-F0.9548949256791389
-F0.9243156199677939
-tp947
-sS'cabinet hardware'
-p948
+p775
+F0.7984293193717278
+F0.9147540983606557
+tp776
+sS'automotive fan shop'
+p777
 (I2
-S'cabinet hardware'
-p949
-F0.9057823129251701
-F0.972962823882839
-tp950
-sS'sports & duffel bags'
-p951
+S'auto accessories'
+p778
+F0.7820437093916125
+F0.9131419939577039
+tp779
+sS'quilts & bedspreads'
+p780
 (I1
-S'luggage & bags'
-p952
-F0.9321428571428572
-F0.9329501915708812
-tp953
-sS'electronics fan shop'
-p954
-(I2
-S'sports souvenirs'
-p955
-F0.44385194479297363
-F0.6070671378091873
-tp956
-sS'additional auto replacement parts'
-p957
+S'bedding'
+p781
+F0.9605263157894737
+F0.9561643835616438
+tp782
+sS'mens workwear shop'
+p783
 (I1
-S'replacement parts'
-p958
-F0.9726166328600405
-F0.9947862356621481
-tp959
-sS'hair brushes & styling accessories'
-p960
-(I1
-S'hair care'
-p961
-F0.8139963167587477
-F0.9398190045248869
-tp962
-sS'food prep and processors'
-p963
-(I1
-S'kitchen & dining'
-p964
-F0.9220246238030095
-F0.9362017804154302
-tp965
-sS'other flooring'
-p966
-(I1
-S'building supplies'
-p967
-F0.7072599531615925
-F0.8785871964679912
-tp968
-sS'heating'
-p969
-(I1
-S'building supplies'
-p970
-F0.7660338635197537
-F0.9002009377093101
-tp971
-sS'kitchen faucets'
-p972
-(I1
-S'kitchen & bath fixtures'
-p973
-F0.8690095846645367
-F0.9552696078431373
-tp974
-sS'decorative accessories fan shop'
-p975
-(I2
-S'home & garden'
-p976
-F0.5054445682928921
-F0.916030534351145
-tp977
-sS'bathroom aids & safety'
-p978
-(I1
-S'health care'
-p979
-F0.4966442953020134
-F0.7848232848232848
-tp980
-sS'area rugs'
-p981
-(I2
-S'area rugs & pads'
-p982
-F0.9865794329810434
-F0.9750609306807232
-tp983
-sS'umbrellas & bases'
-p984
-(I1
-S'patio furniture & accessories'
-p985
-F0.9854636591478697
-F0.9888097660223805
-tp986
-sS'decor'
-p987
-(I2
-S'home decor accents'
-p988
-F0.8680688336520076
-F0.8458149779735683
-tp989
-sS'window hardware'
-p990
-(I1
-S'hardware'
-p991
-F0.7201907790143084
-F0.6070640176600441
-tp992
-sS'food prep'
-p993
-(I1
-S'kitchen & dining'
-p994
-F0.9320226591136288
-F0.9406506971755453
-tp995
-sS'kitchen & dining sets'
-p996
-(I1
-S'furniture'
-p997
-F0.9866119628589938
-F0.9884000875465091
-tp998
-sS'golf accessories'
-p999
-(I2
-S'sports equipment'
-p1000
-F0.8696969696969697
-F0.9729965156794426
-tp1001
-sS'recliners'
-p1002
-(I1
-S'furniture'
-p1003
-F0.9943859649122807
-F0.9985885673959068
-tp1004
-sS'slipcovers'
-p1005
-(I2
-S'home decor accents'
-p1006
-F0.9307897071872228
-F0.6935176358436607
-tp1007
-sS'toddler halloween costumes'
-p1008
-(I2
-S'home decor accents'
-p1009
-F0.9934747145187602
-F0.9704433497536946
-tp1010
-sS'wine beer & beverage chillers'
-p1011
-(I1
-S'kitchen & dining'
-p1012
-F0.9313131313131313
-F0.9783080260303688
-tp1013
-sS'tool sets'
-p1014
+S'novelty & special use'
+p784
+F0.7744565217391305
+F0.856140350877193
+tp785
+sS'drills & drivers'
+p786
 (I1
 S'power & hand tools'
+p787
+F0.9728063814358231
+F0.9727916511367872
+tp788
+sS'motorcycle accessories'
+p789
+(I1
+S'motorcycle & powersports'
+p790
+F0.7357512953367875
+F0.9014084507042254
+tp791
+sS'gloves'
+p792
+(I2
+S'accessories'
+p793
+F0.8651452282157677
+F0.9424460431654677
+tp794
+sS'party packs'
+p795
+(I1
+S'kitchen & dining'
+p796
+F0.5009794319294809
+F0.8093841642228738
+tp797
+sS'door accessories'
+p798
+(I1
+S'hardware'
+p799
+F0.8946220930232558
+F0.9293257514216084
+tp800
+sS'mattress pads & toppers'
+p801
+(I1
+S'bedding'
+p802
+F0.7931034482758621
+F0.8537549407114624
+tp803
+sS'cufflinks'
+p804
+(I1
+S'mens jewelry'
+p805
+F0.6797385620915033
+F0.9011752136752137
+tp806
+sS'outdoor tableware & picnic'
+p807
+(I2
+S'storage & organization'
+p808
+F0.8084033613445378
+F0.6735966735966736
+tp809
+sS'baking mixes'
+p810
+(I1
+S'canned dry & packaged foods'
+p811
+F0.775
+F0.8870967741935484
+tp812
+sS'water bottles & hydration'
+p813
+(I2
+S'home & garden'
+p814
+F0.7824675324675324
+F0.8838174273858921
+tp815
+sS'lifting equipment'
+p816
+(I1
+S'building supplies'
+p817
+F0.6480243161094225
+F0.800187617260788
+tp818
+sS'hair styling tools'
+p819
+(I1
+S'hair care'
+p820
+F0.9366754617414248
+F0.9577464788732394
+tp821
+sS'nutritional bars & drinks'
+p822
+(I1
+S'vitamins & dietary supplements'
+p823
+F0.9534883720930233
+F0.967479674796748
+tp824
+sS'exterior car decoration'
+p825
+(I1
+S'exterior accessories'
+p826
+F0.7492063492063492
+F0.8580508474576272
+tp827
+sS'interior car accessories'
+p828
+(I1
+S'replacement parts'
+p829
+F0.5717255717255717
+F0.7636363636363637
+tp830
+sS'automotive repair'
+p831
+(I1
+S'replacement parts'
+p832
+F0.5910780669144982
+F0.6174004192872118
+tp833
+sS'heaters'
+p834
+(I1
+S'building supplies'
+p835
+F0.8029801324503312
+F0.9134020618556701
+tp836
+sS'vitamins'
+p837
+(I1
+S'vitamins & dietary supplements'
+p838
+F0.6327227569077926
+F0.8537782139352306
+tp839
+sS'coverings & protection'
+p840
+(I1
+S'exterior accessories'
+p841
+F0.6222222222222222
+F0.8348214285714286
+tp842
+sS'wall decals'
+p843
+(I2
+S'home decor accents'
+p844
+F0.943252091669698
+F0.9205553413035095
+tp845
+sS'swimwear'
+p846
+(I2
+S'swim'
+p847
+F0.9536679536679536
+F0.9149797570850202
+tp848
+sS'baseball training & coaching equipment'
+p849
+(I2
+S'home & garden'
+p850
+F0.421875
+F0.5092592592592593
+tp851
+sS'fans'
+p852
+(I1
+S'lighting & ceiling fans'
+p853
+F0.6072555205047319
+F0.812987012987013
+tp854
+sS'outdoor tables'
+p855
+(I1
+S'patio furniture & accessories'
+p856
+F0.9790940766550522
+F0.9911032028469751
+tp857
+sS'tires accessories'
+p858
+(I1
+S'motorcycle & powersports'
+p859
+F0.4064516129032258
+F0.708994708994709
+tp860
+sS'pillow cases'
+p861
+(I1
+S'bedding'
+p862
+F0.9794520547945206
+F0.9533799533799534
+tp863
+sS'other fan shop'
+p864
+(I2
+S'home & garden'
+p865
+F0.6223154530016981
+F0.8505617977528089
+tp866
+sS'sanders & polishers'
+p867
+(I1
+S'power & hand tools'
+p868
+F0.7652439024390244
+F0.8087649402390438
+tp869
+sS'all rings'
+p870
+(I3
+S'diamond bands'
+p871
+F0.7860713095634788
+F0.8938815882436061
+tp872
+sS'facial treatments'
+p873
+(I1
+S'skin care'
+p874
+F0.9484536082474226
+F0.9710144927536232
+tp875
+sS'pot racks & hanging baskets'
+p876
+(I2
+S'storage & organization'
+p877
+F0.86328125
+F0.9321266968325792
+tp878
+sS'all shirts'
+p879
+(I1
+S'men'
+p880
+F0.7653478854024557
+F0.9019607843137255
+tp881
+sS'first aid'
+p882
+(I1
+S'health care'
+p883
+F0.9170383586083853
+F0.9309338521400778
+tp884
+sS'car lighting'
+p885
+(I2
+S'lights & lighting accessories'
+p886
+F0.940677966101695
+F0.954954954954955
+tp887
+sS'baseball field equipment & maintenance'
+p888
+(I2
+S'home & garden'
+p889
+F0.75
+F0.5375
+tp890
+sS'table top & multi-game tables'
+p891
+(I2
+S'home & garden'
+p892
+F0.7328859060402685
+F0.6208791208791209
+tp893
+sS'mens halloween costumes'
+p894
+(I2
+S'home decor accents'
+p895
+F0.9795373665480427
+F0.9445958219800181
+tp896
+sS'christmas trees'
+p897
+(I1
+S'seasonal decor'
+p898
+F0.9656192236598891
+F0.9789433384379785
+tp899
+sS'file cabinets'
+p900
+(I1
+S'furniture'
+p901
+F0.8136120996441281
+F0.9256424275560415
+tp902
+sS'blenders & juicers'
+p903
+(I1
+S'kitchen & dining'
+p904
+F0.8375796178343949
+F0.8288973384030418
+tp905
+sS'lanterns'
+p906
+(I2
+S'home & garden'
+p907
+F0.7588424437299035
+F0.5423728813559322
+tp908
+sS'ratchets sockets & accessories'
+p909
+(I1
+S'power & hand tools'
+p910
+F0.9785522788203753
+F0.9833508956796628
+tp911
+sS'cards stationary & invitations'
+p912
+(I2
+S'home decor accents'
+p913
+F0.9560185185185185
+F0.9007263922518159
+tp914
+sS'stamping & embossing'
+p915
+(I2
+S'home decor accents'
+p916
+F0.895320197044335
+F0.7579092159559835
+tp917
+sS'womens shoes'
+p918
+(I1
+S'women'
+p919
+F0.8910976663785652
+F0.9117361784675073
+tp920
+sS'ceramic tile'
+p921
+(I1
+S'building supplies'
+p922
+F0.9538112064613832
+F0.9457528446679015
+tp923
+sS'hammers mallets & sledges'
+p924
+(I1
+S'power & hand tools'
+p925
+F0.9118387909319899
+F0.7965009208103131
+tp926
+sS'canvas wall art'
+p927
+(I1
+S'artwork'
+p928
+F0.8680089485458613
+F0.9633572389063201
+tp929
+sS'all tops'
+p930
+(I1
+S'women'
+p931
+F0.7708333333333334
+F0.9752252252252253
+tp932
+sS'cake baking & pastry supplies'
+p933
+(I1
+S'kitchen & dining'
+p934
+F0.8787878787878788
+F0.9704433497536946
+tp935
+sS'closet storage & organizers'
+p936
+(I1
+S'storage & organization'
+p937
+F0.46331236897274636
+F0.7239819004524887
+tp938
+sS'novelty lighting'
+p939
+(I1
+S'home decor'
+p940
+F0.6645274212368728
+F0.8244073748902546
+tp941
+sS'dressers'
+p942
+(I1
+S'furniture'
+p943
+F0.8536295120983737
+F0.979089219330855
+tp944
+sS'styling products'
+p945
+(I1
+S'hair care'
+p946
+F0.888135593220339
+F0.916030534351145
+tp947
+sS'all earrings'
+p948
+(I1
+S'earrings'
+p949
+F0.4929862842892768
+F0.48055643376541257
+tp950
+sS'sleeping bags'
+p951
+(I2
+S'clothing accessories'
+p952
+F0.5545023696682464
+F0.7264957264957265
+tp953
+sS'molding trim'
+p954
+(I1
+S'building supplies'
+p955
+F0.9275862068965517
+F0.862453531598513
+tp956
+sS'fountains & ponds'
+p957
+(I1
+S'outdoor decor'
+p958
+F0.6071055381400209
+F0.7039586919104991
+tp959
+sS'hand creams & lotions'
+p960
+(I1
+S'skin care'
+p961
+F0.945054945054945
+F0.9229651162790697
+tp962
+sS'cabinet hardware'
+p963
+(I2
+S'cabinet hardware'
+p964
+F0.9094202898550725
+F0.9591633466135459
+tp965
+sS'sports & duffel bags'
+p966
+(I1
+S'luggage & bags'
+p967
+F0.93125
+F0.9261744966442953
+tp968
+sS'electronics fan shop'
+p969
+(I2
+S'sports souvenirs'
+p970
+F0.4413996627318718
+F0.5940783190066857
+tp971
+sS'additional auto replacement parts'
+p972
+(I1
+S'replacement parts'
+p973
+F0.9742268041237113
+F0.9973544973544973
+tp974
+sS'hair brushes & styling accessories'
+p975
+(I1
+S'hair care'
+p976
+F0.8153846153846154
+F0.9551886792452831
+tp977
+sS'food prep and processors'
+p978
+(I1
+S'kitchen & dining'
+p979
+F0.910394265232975
+F0.9330708661417323
+tp980
+sS'other flooring'
+p981
+(I1
+S'building supplies'
+p982
+F0.7253218884120172
+F0.8905325443786982
+tp983
+sS'heating'
+p984
+(I1
+S'building supplies'
+p985
+F0.7747252747252747
+F0.8971631205673759
+tp986
+sS'kitchen faucets'
+p987
+(I1
+S'kitchen & bath fixtures'
+p988
+F0.8787456445993032
+F0.9516256938937351
+tp989
+sS'decorative accessories fan shop'
+p990
+(I2
+S'home & garden'
+p991
+F0.5057392102846648
+F0.9123921924648207
+tp992
+sS'bathroom aids & safety'
+p993
+(I1
+S'health care'
+p994
+F0.47434119278779474
+F0.7953216374269005
+tp995
+sS'area rugs'
+p996
+(I2
+S'area rugs & pads'
+p997
+F0.9878400972792217
+F0.9741498692106478
+tp998
+sS'umbrellas & bases'
+p999
+(I1
+S'patio furniture & accessories'
+p1000
+F0.9868938401048493
+F0.9867197875166003
+tp1001
+sS'decor'
+p1002
+(I2
+S'home decor accents'
+p1003
+F0.8478260869565217
+F0.8717948717948718
+tp1004
+sS'window hardware'
+p1005
+(I1
+S'hardware'
+p1006
+F0.7086956521739131
+F0.5828220858895705
+tp1007
+sS'food prep'
+p1008
+(I1
+S'kitchen & dining'
+p1009
+F0.9297929792979298
+F0.9370764762826719
+tp1010
+sS'kitchen & dining sets'
+p1011
+(I1
+S'furniture'
+p1012
+F0.9863636363636363
+F0.9855990783410138
+tp1013
+sS'golf accessories'
+p1014
+(I2
+S'sports equipment'
 p1015
-F0.7180774748923959
-F0.8311688311688312
+F0.8725099601593626
+F0.9680365296803652
 tp1016
-sS'desks'
+sS'recliners'
 p1017
 (I1
 S'furniture'
 p1018
-F0.882205310880829
-F0.9617325869505369
+F0.9961685823754789
+F0.9961538461538462
 tp1019
-sS'wallpaper & accessories'
+sS'slipcovers'
 p1020
-(I1
-S'painting supplies & wall treatments'
+(I2
+S'home decor accents'
 p1021
-F0.7599206349206349
-F0.8224543080939948
+F0.94
+F0.7133917396745932
 tp1022
-sS'wheelchairs'
+sS'toddler halloween costumes'
 p1023
-(I1
-S'medical supplies & equipment'
+(I2
+S'home decor accents'
 p1024
-F0.8632958801498127
-F0.9718004338394793
+F0.9915254237288136
+F0.9743589743589743
 tp1025
-sS'audio & media towers'
+sS'wine beer & beverage chillers'
 p1026
 (I1
-S'furniture'
+S'kitchen & dining'
 p1027
-F0.8777589134125636
-F0.8820116054158608
+F0.9329501915708812
+F0.973305954825462
 tp1028
-sS'kitchen & dining tables'
+sS'tool sets'
 p1029
 (I1
-S'furniture'
+S'power & hand tools'
 p1030
-F0.9936811698862611
-F0.9972747093023255
+F0.7195945945945946
+F0.8283031522468142
 tp1031
-sS'specialty appliances'
+sS'desks'
 p1032
 (I1
-S'kitchen & dining'
+S'furniture'
 p1033
-F0.8398418190805734
-F0.8752207180694527
+F0.8799225306649451
+F0.9623379799461971
 tp1034
-sS'all halloween costumes'
+sS'wallpaper & accessories'
 p1035
-(I2
-S'home decor accents'
-p1036
-F0.9732300105671011
-F0.9303896730606829
-tp1037
-sS'candles & candle holders'
-p1038
-(I1
-S'home decor'
-p1039
-F0.9414755394870636
-F0.9517580703228129
-tp1040
-sS'christmas lights'
-p1041
-(I1
-S'seasonal decor'
-p1042
-F0.8754076973255055
-F0.9634873323397913
-tp1043
-sS'all pendants & necklaces'
-p1044
-(I1
-S'necklaces'
-p1045
-F0.4542979262308058
-F0.36748205449857135
-tp1046
-sS'paint sprayers'
-p1047
 (I1
 S'painting supplies & wall treatments'
-p1048
-F0.5394126738794436
-F0.5759312320916905
-tp1049
-sS'counter organizers'
-p1050
+p1036
+F0.7386934673366834
+F0.8231292517006803
+tp1037
+sS'wheelchairs'
+p1038
 (I1
-S'kitchen & dining'
-p1051
-F0.6325622775800712
-F0.939521800281294
-tp1052
-sS'water coolers & filtration'
-p1053
-(I1
-S'kitchen & dining'
-p1054
-F0.8485061511423551
-F0.903893951946976
-tp1055
-sS'clocks & weather'
-p1056
-(I1
-S'outdoor decor'
-p1057
-F0.8342898134863702
-F0.9234737747205503
-tp1058
-sS'needlecrafts'
-p1059
-(I2
-S'home decor accents'
-p1060
-F0.919558195269355
-F0.8627762039660056
-tp1061
-sS'kitchen & dining fan shop'
-p1062
-(I2
-S'home & garden'
-p1063
-F0.9193892628468232
-F0.9324107142857143
-tp1064
-sS'clocks'
-p1065
-(I1
-S'home decor'
-p1066
-F0.9794837855724685
-F0.9878378378378379
-tp1067
-sS'wine racks'
-p1068
-(I2
-S'storage & organization'
-p1069
-F0.9230240549828179
-F0.9236783320923306
-tp1070
-sS'living room sets'
-p1071
+S'medical supplies & equipment'
+p1039
+F0.8564593301435407
+F0.9888268156424581
+tp1040
+sS'audio & media towers'
+p1041
 (I1
 S'furniture'
-p1072
-F0.9979612640163099
-F0.9887640449438202
-tp1073
-sS'blankets & throws'
-p1074
+p1042
+F0.8551401869158879
+F0.8743169398907104
+tp1043
+sS'kitchen & dining tables'
+p1044
 (I1
-S'bedding'
+S'furniture'
+p1045
+F0.9946445959104186
+F0.9955947136563876
+tp1046
+sS'specialty appliances'
+p1047
+(I1
+S'kitchen & dining'
+p1048
+F0.8538163001293662
+F0.8787878787878788
+tp1049
+sS'all halloween costumes'
+p1050
+(I2
+S'home decor accents'
+p1051
+F0.9673469387755103
+F0.9383317104836092
+tp1052
+sS'candles & candle holders'
+p1053
+(I1
+S'home decor'
+p1054
+F0.9390057944495273
+F0.9542059110100682
+tp1055
+sS'christmas lights'
+p1056
+(I1
+S'seasonal decor'
+p1057
+F0.8742655699177438
+F0.9556451612903226
+tp1058
+sS'all pendants & necklaces'
+p1059
+(I1
+S'necklaces'
+p1060
+F0.45710184090525247
+F0.3792721226676519
+tp1061
+sS'paint sprayers'
+p1062
+(I1
+S'painting supplies & wall treatments'
+p1063
+F0.5041322314049587
+F0.6147540983606558
+tp1064
+sS'counter organizers'
+p1065
+(I1
+S'kitchen & dining'
+p1066
+F0.6281179138321995
+F0.9458483754512635
+tp1067
+sS'water coolers & filtration'
+p1068
+(I1
+S'kitchen & dining'
+p1069
+F0.8487940630797773
+F0.9081967213114754
+tp1070
+sS'clocks & weather'
+p1071
+(I1
+S'outdoor decor'
+p1072
+F0.8505303760848602
+F0.9285714285714286
+tp1073
+sS'needlecrafts'
+p1074
+(I2
+S'home decor accents'
 p1075
-F0.928664353859497
-F0.9469997665187952
+F0.9228820714888827
+F0.8648978347057029
 tp1076
-sS'tables'
+sS'kitchen & dining fan shop'
 p1077
 (I2
 S'home & garden'
 p1078
-F0.8775260257195346
-F0.8729937194696441
+F0.9162337662337663
+F0.9329081030002362
 tp1079
-sS'drawers & carts'
+sS'clocks'
 p1080
 (I1
-S'furniture'
+S'home decor'
 p1081
-F0.638648860958366
-F0.8277982779827798
+F0.9800923254472014
+F0.9870473947600824
 tp1082
-sS'screwdrivers'
+sS'wine racks'
 p1083
-(I1
-S'power & hand tools'
-p1084
-F0.9591608391608392
-F0.9547973170020414
-tp1085
-sS'tops'
-p1086
-(I2
-S'tops & tees'
-p1087
-F0.7635658914728682
-F0.9390862944162437
-tp1088
-sS'protective gear fan shop'
-p1089
-(I2
-S'sports souvenirs'
-p1090
-F0.9028871391076115
-F0.938953488372093
-tp1091
-sS'fountains & ponds'
-p1092
-(I1
-S'outdoor decor'
-p1093
-F0.6302454473475851
-F0.6991206030150754
-tp1094
-sS'drawers & cabinet organizers'
-p1095
 (I2
 S'storage & organization'
-p1096
-F0.7853159851301115
-F0.8875739644970414
-tp1097
-sS'guest & reception chairs'
-p1098
+p1084
+F0.9118198874296435
+F0.9207818930041153
+tp1085
+sS'living room sets'
+p1086
 (I1
 S'furniture'
-p1099
-F0.99625
-F0.9949811794228356
-tp1100
-sS'sports accessories fan shop'
-p1101
-(I2
-S'home & garden'
-p1102
-F0.5858585858585859
-F0.7931034482758621
-tp1103
-sS'coat racks & umbrella stands'
-p1104
-(I2
-S'other furniture'
-p1105
-F0.8630978499341817
-F0.9084900864260295
-tp1106
-sS'christmas stockings'
-p1107
-(I1
-S'seasonal decor'
-p1108
-F0.9295958279009127
-F0.9775596072931276
-tp1109
-sS'bedding sets'
-p1110
+p1087
+F0.9973544973544973
+F0.9893899204244032
+tp1088
+sS'blankets & throws'
+p1089
 (I1
 S'bedding'
-p1111
-F0.9535630216135245
-F0.9607271095152603
-tp1112
-sS'cookware sets'
-p1113
+p1090
+F0.9320776255707762
+F0.941824862216779
+tp1091
+sS'tables'
+p1092
+(I2
+S'home & garden'
+p1093
+F0.864
+F0.8944444444444445
+tp1094
+sS'drawers & carts'
+p1095
+(I2
+S'other furniture'
+p1096
+F0.6450892857142857
+F0.7301038062283737
+tp1097
+sS'other home'
+p1098
+(I2
+S'home & garden'
+p1099
+F0.5759493670886076
+F0.6826923076923077
+tp1100
+sS'screwdrivers'
+p1101
 (I1
-S'kitchen & dining'
+S'power & hand tools'
+p1102
+F0.9555884529977794
+F0.9566227730441518
+tp1103
+sS'tops'
+p1104
+(I2
+S'tops & tees'
+p1105
+F0.7685774946921444
+F0.9475138121546961
+tp1106
+sS'protective gear fan shop'
+p1107
+(I2
+S'sports souvenirs'
+p1108
+F0.8856088560885609
+F0.9333333333333333
+tp1109
+sS'craft storage'
+p1110
+(I2
+S'storage & organization'
+p1111
+F0.5307820299500832
+F0.6959247648902821
+tp1112
+sS'drawers & cabinet organizers'
+p1113
+(I2
+S'storage & organization'
 p1114
-F0.979539641943734
-F0.9543080939947781
+F0.8
+F0.8928571428571429
 tp1115
-sS'socks & hosiery'
+sS'guest & reception chairs'
 p1116
 (I1
-S'women'
+S'furniture'
 p1117
-F0.8213081591368847
-F0.909688013136289
+F0.9966777408637874
+F0.9966666666666667
 tp1118
-sS'outdoor seating'
+sS'sports accessories fan shop'
 p1119
-(I1
-S'patio furniture & accessories'
+(I2
+S'home & garden'
 p1120
-F0.9838888888888889
-F0.9867306606437041
+F0.5826330532212886
+F0.8028846153846154
 tp1121
-sS'wall art fan shop'
+sS'coat racks & umbrella stands'
 p1122
 (I2
-S'home & garden'
+S'other furniture'
 p1123
-F0.7959834000296429
-F0.9418582999720696
+F0.8383458646616542
+F0.9043348281016442
 tp1124
-sS'kids lounge seating'
+sS'christmas stockings'
 p1125
 (I1
-S'furniture'
+S'seasonal decor'
 p1126
-F0.9375965400061785
-F0.9555189456342669
+F0.9225352112676056
+F0.9885496183206107
 tp1127
-sS'bathroom vanities'
+sS'bedding sets'
 p1128
 (I1
-S'kitchen & bath fixtures'
+S'bedding'
 p1129
-F0.8356731195507611
-F0.9893899204244032
+F0.9558991981672395
+F0.9622528460155781
 tp1130
-sS'party favors & goody bags'
+sS'cookware sets'
 p1131
-(I2
-S'home decor accents'
+(I1
+S'kitchen & dining'
 p1132
-F0.972693032015066
-F0.9152952565343659
+F0.9665551839464883
+F0.9584775086505191
 tp1133
-sS'window blinds'
+sS'socks & hosiery'
 p1134
 (I1
-S'home decor'
+S'women'
 p1135
-F1.0
-F0.9947916666666666
+F0.8254545454545454
+F0.9251101321585903
 tp1136
-sS'candy'
+sS'outdoor seating'
 p1137
 (I1
-S'candy & chocolate'
+S'patio furniture & accessories'
 p1138
-F0.8772881355932204
-F0.8601236476043277
+F0.9860396767083027
+F0.986214605067064
 tp1139
-sS'diet foods & drinks'
+sS'wall art fan shop'
 p1140
-(I1
-S'vitamins & dietary supplements'
-p1141
-F0.8113975576662144
-F0.8795986622073578
-tp1142
-sS'wallets money & key organizers'
-p1143
-(I3
-S'accessories'
-p1144
-F0.9407327586206896
-F0.9369988545246277
-tp1145
-sS'air conditioners'
-p1146
-(I1
-S'building supplies'
-p1147
-F0.6991929567131328
-F0.8929695697796433
-tp1148
-sS'towels'
-p1149
-(I1
-S'bath'
-p1150
-F0.8481132075471698
-F0.8203559510567296
-tp1151
-sS'mattresses'
-p1152
-(I2
-S'bedroom furniture'
-p1153
-F0.9506048387096774
-F0.9734888653234358
-tp1154
-sS'sports mats & accessories'
-p1155
 (I2
 S'home & garden'
-p1156
-F0.5386454183266932
-F0.5547337278106509
-tp1157
-sS'lips'
-p1158
-(I2
-S'lips'
-p1159
-F0.9495347172512527
-F0.9864304560874482
-tp1160
-sS'living room chairs'
-p1161
+p1141
+F0.7938713173711696
+F0.9447685242646147
+tp1142
+sS'kids lounge seating'
+p1143
 (I1
 S'furniture'
-p1162
-F0.8241344343039259
-F0.9820706626823695
-tp1163
-sS'bedding fan shop'
-p1164
-(I2
-S'home & garden'
-p1165
-F0.9926634768740031
-F0.997107969151671
-tp1166
-sS'decorative pillows'
-p1167
-(I2
-S'decorative pillows inserts & covers'
-p1168
-F0.979011780853254
-F0.9968456101407792
-tp1169
-sS'sauces'
-p1170
-(I1
-S'pantry staples'
-p1171
-F0.7628596338273758
-F0.728
-tp1172
-sS'shower heads'
-p1173
+p1144
+F0.9348184818481848
+F0.9611650485436893
+tp1145
+sS'bathroom vanities'
+p1146
 (I1
 S'kitchen & bath fixtures'
-p1174
-F0.9515124555160143
-F0.9551192145862553
-tp1175
-sS'weight plates & racks'
-p1176
+p1147
+F0.8467868338557993
+F0.987968533086534
+tp1148
+sS'party favors & goody bags'
+p1149
+(I2
+S'home decor accents'
+p1150
+F0.9705521472392638
+F0.9190897597977244
+tp1151
+sS'window blinds'
+p1152
+(I1
+S'home decor'
+p1153
+F1.0
+F0.9924812030075187
+tp1154
+sS'candy'
+p1155
+(I1
+S'candy & chocolate'
+p1156
+F0.8736842105263158
+F0.8714859437751004
+tp1157
+sS'diet foods & drinks'
+p1158
+(I1
+S'vitamins & dietary supplements'
+p1159
+F0.7931034482758621
+F0.8826086956521739
+tp1160
+sS'wallets money & key organizers'
+p1161
+(I2
+S'novelty'
+p1162
+F0.9287833827893175
+F0.9105431309904153
+tp1163
+sS'air conditioners'
+p1164
+(I1
+S'building supplies'
+p1165
+F0.6942307692307692
+F0.9030470914127424
+tp1166
+sS'towels'
+p1167
+(I1
+S'bath'
+p1168
+F0.8381201044386423
+F0.8099688473520249
+tp1169
+sS'mattresses'
+p1170
+(I2
+S'bedroom furniture'
+p1171
+F0.9548022598870056
+F0.9733727810650887
+tp1172
+sS'sports mats & accessories'
+p1173
 (I2
 S'home & garden'
+p1174
+F0.5378323108384458
+F0.5437262357414449
+tp1175
+sS'lips'
+p1176
+(I2
+S'lips'
 p1177
-F0.41788321167883213
-F0.6899563318777293
+F0.9515972894482091
+F0.987792472024415
 tp1178
-sS'incontinence'
+sS'living room chairs'
 p1179
 (I1
-S'health care'
+S'furniture'
 p1180
-F0.8216216216216217
-F0.8401315789473685
+F0.8205904617713853
+F0.9787822878228782
 tp1181
-sS'lawn games'
+sS'bedding fan shop'
 p1182
 (I2
 S'home & garden'
 p1183
-F0.46009036144578314
-F0.5368248772504092
+F0.9961256995264743
+F0.9978392394122731
 tp1184
-sS'salt & pepper shakers mills'
+sS'decorative pillows'
 p1185
-(I1
-S'kitchen & dining'
+(I2
+S'decorative pillows inserts & covers'
 p1186
-F0.9044334975369458
-F0.9161220043572985
+F0.9819341126461212
+F0.996134817563389
 tp1187
-sS'patient care'
+sS'sauces'
 p1188
 (I1
-S'health care'
+S'pantry staples'
 p1189
-F0.4602017937219731
-F0.7600487210718636
+F0.7532467532467533
+F0.7442528735632183
 tp1190
-sS'hair treatments'
+sS'shower heads'
 p1191
 (I1
-S'hair care'
+S'kitchen & bath fixtures'
 p1192
-F0.8899159663865546
-F0.9480642115203022
+F0.9585870889159561
+F0.9606099110546379
 tp1193
-sS'accent rugs'
+sS'weight plates & racks'
 p1194
 (I2
-S'area rugs & pads'
+S'auto accessories'
 p1195
-F0.9949706621961442
-F0.9991575400168492
+F0.4325581395348837
+F0.7849462365591398
 tp1196
-sS'bags fan shop'
+sS'incontinence'
 p1197
-(I2
-S'clothing accessories'
+(I1
+S'health care'
 p1198
-F0.679773156899811
-F0.7441601779755284
+F0.8335745296671491
+F0.84375
 tp1199
-sS'bath faucets'
+sS'lawn games'
 p1200
-(I1
-S'kitchen & bath fixtures'
-p1201
-F0.8459951565162794
-F0.9649067005937235
-tp1202
-sS'nails'
-p1203
-(I2
-S'nails screws & fasteners'
-p1204
-F0.8406546080964685
-F0.8837090163934426
-tp1205
-sS'mixers & attachments'
-p1206
-(I1
-S'kitchen & dining'
-p1207
-F0.6923076923076923
-F0.8455284552845529
-tp1208
-sS'pliers'
-p1209
-(I1
-S'power & hand tools'
-p1210
-F0.9693415089309517
-F0.9804730473047305
-tp1211
-sS'drinkware'
-p1212
-(I1
-S'kitchen & dining'
-p1213
-F0.9507249315624049
-F0.9702463474458782
-tp1214
-sS'lighting accessories'
-p1215
-(I1
-S'home decor'
-p1216
-F0.9408866995073891
-F0.9226741844542892
-tp1217
-sS'wall decor'
-p1218
-(I2
-S'home decor accents'
-p1219
-F0.8228867950293596
-F0.9459010952538998
-tp1220
-sS'lawn mowers'
-p1221
-(I1
-S'mowers & outdoor power tools'
-p1222
-F0.522140221402214
-F0.7102473498233216
-tp1223
-sS'benches'
-p1224
-(I1
-S'furniture'
-p1225
-F0.9850803366488141
-F0.9840776699029126
-tp1226
-sS'air filters'
-p1227
-(I1
-S'building supplies'
-p1228
-F0.7764550264550265
-F0.8824531516183987
-tp1229
-sS'night stands'
-p1230
-(I1
-S'furniture'
-p1231
-F0.9771559109080525
-F0.9924021040327294
-tp1232
-sS'safety & protection products'
-p1233
-(I1
-S'safety & security'
-p1234
-F0.7959183673469388
-F0.9358974358974359
-tp1235
-sS'air compressor accessories'
-p1236
-(I1
-S'power & hand tools'
-p1237
-F0.6528991262907069
-F0.7433090024330901
-tp1238
-sS'body cleansers'
-p1239
-(I1
-S'bath & body'
-p1240
-F0.6750118091639112
-F0.9282715185444367
-tp1241
-sS'golf bags & carts'
-p1242
-(I2
-S'sports equipment'
-p1243
-F0.7903726708074534
-F0.9214145383104125
-tp1244
-sS'lights & flashlights'
-p1245
 (I2
 S'home & garden'
-p1246
-F0.6635967038293747
-F0.533235938641344
-tp1247
-sS'ovens & ranges'
-p1248
+p1201
+F0.486
+F0.5637860082304527
+tp1202
+sS'salt & pepper shakers mills'
+p1203
 (I1
 S'kitchen & dining'
+p1204
+F0.9299191374663073
+F0.9072463768115943
+tp1205
+sS'patient care'
+p1206
+(I1
+S'health care'
+p1207
+F0.4782608695652174
+F0.7515151515151515
+tp1208
+sS'hair treatments'
+p1209
+(I1
+S'hair care'
+p1210
+F0.896551724137931
+F0.941025641025641
+tp1211
+sS'accent rugs'
+p1212
+(I2
+S'area rugs & pads'
+p1213
+F0.9955056179775281
+F1.0
+tp1214
+sS'bags fan shop'
+p1215
+(I2
+S'clothing accessories'
+p1216
+F0.6756085444610035
+F0.7323529411764705
+tp1217
+sS'bath faucets'
+p1218
+(I1
+S'kitchen & bath fixtures'
+p1219
+F0.8537983755375059
+F0.9683827644096251
+tp1220
+sS'nails'
+p1221
+(I2
+S'nails screws & fasteners'
+p1222
+F0.8504566210045662
+F0.8832214765100671
+tp1223
+sS'mixers & attachments'
+p1224
+(I1
+S'kitchen & dining'
+p1225
+F0.6732673267326733
+F0.8308823529411765
+tp1226
+sS'pliers'
+p1227
+(I1
+S'power & hand tools'
+p1228
+F0.9717595944967415
+F0.9798807749627422
+tp1229
+sS'drinkware'
+p1230
+(I1
+S'kitchen & dining'
+p1231
+F0.9489823609226594
+F0.9728338575922219
+tp1232
+sS'lighting accessories'
+p1233
+(I1
+S'home decor'
+p1234
+F0.9475277497477296
+F0.9243876464323749
+tp1235
+sS'wall decor'
+p1236
+(I2
+S'home decor accents'
+p1237
+F0.816400580551524
+F0.9457777777777778
+tp1238
+sS'lawn mowers'
+p1239
+(I1
+S'mowers & outdoor power tools'
+p1240
+F0.5435897435897435
+F0.7075471698113207
+tp1241
+sS'benches'
+p1242
+(I1
+S'furniture'
+p1243
+F0.984167517875383
+F0.9891022314478464
+tp1244
+sS'air filters'
+p1245
+(I1
+S'building supplies'
+p1246
+F0.7837837837837838
+F0.875
+tp1247
+sS'night stands'
+p1248
+(I1
+S'furniture'
 p1249
-F0.7581667479278401
-F0.8128617363344052
+F0.9756838905775076
+F0.9875389408099688
 tp1250
-sS'comforters'
+sS'safety & protection products'
 p1251
 (I1
-S'bedding'
+S'safety & security'
 p1252
-F0.9615384615384616
-F0.9823529411764705
+F0.8038194444444444
+F0.9136069114470843
 tp1253
-sS'bench saws'
+sS'air compressor accessories'
 p1254
 (I1
 S'power & hand tools'
 p1255
-F0.8190661478599222
-F0.7814726840855107
+F0.6336842105263157
+F0.7209302325581395
 tp1256
-sS'grease guns'
+sS'body cleansers'
 p1257
 (I1
-S'power & hand tools'
+S'bath & body'
 p1258
-F0.7250996015936255
-F0.7857142857142857
+F0.6863468634686347
+F0.9229390681003584
 tp1259
-sS'files & planes'
+sS'golf bags & carts'
 p1260
-(I1
-S'power & hand tools'
+(I2
+S'sports equipment'
 p1261
-F0.8941580756013746
-F0.7747886241352806
+F0.8120300751879699
+F0.9120370370370371
 tp1262
-sS'frames'
+sS'lights & flashlights'
 p1263
-(I1
-S'home decor'
+(I2
+S'home & garden'
 p1264
-F0.8928702908332311
-F0.9442001099505223
+F0.6706349206349206
+F0.52465483234714
 tp1265
-sS'cough cold & flu'
+sS'ovens & ranges'
 p1266
 (I1
-S'health care'
+S'kitchen & dining'
 p1267
-F0.6911519198664441
-F0.7657004830917874
+F0.7590847913862718
+F0.8049645390070922
 tp1268
-sS'saw blades'
+sS'comforters'
 p1269
 (I1
-S'power & hand tools'
+S'bedding'
 p1270
-F0.9329268292682927
-F0.5608660130718954
+F0.9452449567723343
+F0.9878048780487805
 tp1271
-sS'hooks racks & hangers'
+sS'bench saws'
 p1272
 (I1
-S'storage & organization'
+S'power & hand tools'
 p1273
-F0.7112848070346849
-F0.8475274725274725
+F0.8380952380952381
+F0.7897727272727273
 tp1274
-sS'bookcases'
+sS'grease guns'
 p1275
-(I2
-S'other furniture'
+(I1
+S'power & hand tools'
 p1276
-F0.9050191312176458
-F0.9263864710271077
+F0.7
+F0.75
 tp1277
-sS'hitching & towing'
+sS'files & planes'
 p1278
 (I1
-S'exterior accessories'
+S'power & hand tools'
 p1279
-F0.8749741254398675
-F0.9652235628105039
+F0.8944444444444445
+F0.7619047619047619
 tp1280
-sS'salt spices & seasoning'
+sS'frames'
 p1281
 (I1
-S'canned dry & packaged foods'
+S'home decor'
 p1282
-F0.3912681912681913
-F0.5887353878852285
+F0.8932360742705571
+F0.947290274684484
 tp1283
-sS'car floor mats & cargo mats'
+sS'cough cold & flu'
 p1284
-(I2
-S'floor mats & cargo liners'
-p1285
-F0.9897192566231712
-F0.9952057530962845
-tp1286
-sS'accent tables'
-p1287
-(I1
-S'furniture'
-p1288
-F0.9886859424683871
-F0.9910994764397906
-tp1289
-sS'outdoor decor fan shop'
-p1290
-(I2
-S'home & garden'
-p1291
-F0.8068264342774146
-F0.9495949594959496
-tp1292
-sS'bedroom aids & safety'
-p1293
 (I1
 S'health care'
-p1294
-F0.6455906821963394
-F0.75
-tp1295
-sS'kids beds & headboards'
-p1296
+p1285
+F0.6965811965811965
+F0.7361963190184049
+tp1286
+sS'saw blades'
+p1287
+(I1
+S'power & hand tools'
+p1288
+F0.9356136820925554
+F0.5451612903225806
+tp1289
+sS'hooks racks & hangers'
+p1290
+(I1
+S'storage & organization'
+p1291
+F0.6934210526315789
+F0.855787476280835
+tp1292
+sS'bookcases'
+p1293
 (I2
-S'bedroom furniture'
+S'other furniture'
+p1294
+F0.9077844311377246
+F0.9346965699208444
+tp1295
+sS'hitching & towing'
+p1296
+(I1
+S'exterior accessories'
 p1297
-F0.9928251121076234
-F0.9941282746160794
+F0.8648357565966612
+F0.9632627646326276
 tp1298
-sS'specialty cookware'
+sS'salt spices & seasoning'
 p1299
 (I1
-S'kitchen & dining'
+S'canned dry & packaged foods'
 p1300
-F0.9626068376068376
-F0.9400665926748057
+F0.40641711229946526
+F0.5947368421052631
 tp1301
-sS'beauty tools & accessories'
+sS'car floor mats & cargo mats'
 p1302
-(I1
-S'tools & accessories'
-p1303
-F0.48445675592489995
-F0.8564167725540025
-tp1304
-sS'metal wall art'
-p1305
-(I2
-S'home decor accents'
-p1306
-F0.9039780521262003
-F0.9822964087000505
-tp1307
-sS'beds'
-p1308
-(I2
-S'bedroom furniture'
-p1309
-F0.9793090707555884
-F0.9903791737408036
-tp1310
-sS'vanities & vanity stools'
-p1311
-(I1
-S'furniture'
-p1312
-F0.9186164801627671
-F0.973421926910299
-tp1313
-sS'floor & cargo mats'
-p1314
 (I2
 S'floor mats & cargo liners'
+p1303
+F0.9903225806451613
+F0.995656894679696
+tp1304
+sS'accent tables'
+p1305
+(I1
+S'furniture'
+p1306
+F0.9896907216494846
+F0.9905849358974359
+tp1307
+sS'outdoor decor fan shop'
+p1308
+(I2
+S'home & garden'
+p1309
+F0.8033349681216283
+F0.9529914529914529
+tp1310
+sS'bedroom aids & safety'
+p1311
+(I1
+S'health care'
+p1312
+F0.6465863453815262
+F0.7267080745341615
+tp1313
+sS'kids beds & headboards'
+p1314
+(I2
+S'bedroom furniture'
 p1315
-F0.9923422233958278
-F0.9968068121341139
+F0.9890470974808324
+F0.9944629014396457
 tp1316
-sS'taps & dies'
+sS'specialty cookware'
 p1317
 (I1
-S'power & hand tools'
+S'kitchen & dining'
 p1318
-F0.8870967741935484
-F0.7285714285714285
+F0.9576271186440678
+F0.9469026548672567
 tp1319
-sS'drill & router bits'
+sS'beauty tools & accessories'
 p1320
 (I1
-S'power & hand tools'
+S'tools & accessories'
 p1321
-F0.9420592705167173
-F0.9556362169792297
+F0.4898949070331447
+F0.8564356435643564
 tp1322
-sS'exercise mats'
+sS'metal wall art'
 p1323
 (I2
-S'home & garden'
-p1324
-F0.7842401500938087
-F0.7727272727272727
-tp1325
-sS'hand wrenches'
-p1326
-(I1
-S'power & hand tools'
-p1327
-F0.9713740458015268
-F0.9786201317462152
-tp1328
-sS'artificial plants & flowers'
-p1329
-(I2
 S'home decor accents'
-p1330
-F0.985039271911233
-F0.9555752436400455
-tp1331
-sS'slow cookers rice cookers & steamers'
-p1332
+p1324
+F0.9137931034482759
+F0.9757412398921833
+tp1325
+sS'beds'
+p1326
+(I2
+S'bedroom furniture'
+p1327
+F0.9759398496240601
+F0.9917822290703646
+tp1328
+sS'vanities & vanity stools'
+p1329
 (I1
-S'kitchen & dining'
+S'furniture'
+p1330
+F0.9157608695652174
+F0.9703264094955489
+tp1331
+sS'floor & cargo mats'
+p1332
+(I2
+S'floor mats & cargo liners'
 p1333
-F0.983370288248337
-F0.9751972942502819
+F0.9956300072833212
+F0.9985369422092173
 tp1334
-sS'china cabinets & buffets'
+sS'taps & dies'
 p1335
 (I1
-S'furniture'
+S'power & hand tools'
 p1336
-F0.8866242038216561
-F0.8796695402298851
+F0.8828828828828829
+F0.7414965986394558
 tp1337
-sS'mailboxes & address plaques'
+sS'drill & router bits'
 p1338
 (I1
-S'hardware'
+S'power & hand tools'
 p1339
-F0.9360505973295854
-F0.933933933933934
+F0.9451158106747231
+F0.9525839104954715
 tp1340
-sS'utensils'
+sS'exercise mats'
 p1341
-(I1
-S'kitchen & dining'
+(I2
+S'home & garden'
 p1342
-F0.9355812783090085
-F0.9521247982786444
+F0.7272727272727273
+F0.7697368421052632
 tp1343
-sS'feminine care'
+sS'hand wrenches'
 p1344
 (I1
-S'personal care'
+S'power & hand tools'
 p1345
-F0.5499276410998553
-F0.7657894736842106
+F0.9712033949681722
+F0.9809612983770287
 tp1346
-sS'ottomans'
+sS'artificial plants & flowers'
 p1347
-(I1
-S'furniture'
-p1348
-F0.956989247311828
-F0.9556982343499197
-tp1349
-sS'sleepwear & robes'
-p1350
 (I2
-S'sleep & lounge'
+S'home decor accents'
+p1348
+F0.9818421921426214
+F0.9542703429724277
+tp1349
+sS'slow cookers rice cookers & steamers'
+p1350
+(I1
+S'kitchen & dining'
 p1351
-F0.8307692307692308
-F0.8462962962962963
+F0.9914529914529915
+F0.9741379310344828
 tp1352
-sS'other home improvement'
+sS'china cabinets & buffets'
 p1353
 (I1
-S'lighting & ceiling fans'
+S'furniture'
 p1354
-F0.35467980295566504
-F0.9212962962962963
+F0.8732037193575655
+F0.8780251694094869
 tp1355
-sS'dresses'
+sS'mailboxes & address plaques'
 p1356
 (I1
-S'women'
+S'hardware'
 p1357
-F0.8427518427518428
-F0.9897959183673469
+F0.9373795761078998
+F0.9249743062692704
 tp1358
-sS'chisels & gouges'
+sS'utensils'
 p1359
 (I1
-S'power & hand tools'
+S'kitchen & dining'
 p1360
-F0.8835877862595419
-F0.896328293736501
+F0.9488559892328399
+F0.948936170212766
 tp1361
-sS'grinders'
+sS'feminine care'
 p1362
 (I1
-S'power & hand tools'
+S'personal care'
 p1363
-F0.870940170940171
-F0.8410206084396468
+F0.5625
+F0.7083333333333334
 tp1364
-sS'posters'
+sS'ottomans'
 p1365
 (I1
-S'artwork'
+S'furniture'
 p1366
-F0.9385446294461667
-F0.9876736584037047
+F0.9543189368770764
+F0.9599651871192341
 tp1367
-sS'specialty fasteners'
+sS'sleepwear & robes'
 p1368
-(I1
-S'hardware'
+(I2
+S'sleep & lounge'
 p1369
-F0.42997888810696694
-F0.7401800327332242
+F0.824
+F0.8446601941747572
 tp1370
-sS'kitchen textiles'
+sS'other home improvement'
 p1371
 (I1
-S'kitchen & dining'
+S'lighting & ceiling fans'
 p1372
-F0.7846301633045148
-F0.9476003917727718
+F0.35377358490566035
+F0.8666666666666667
 tp1373
-sS'door security'
+sS'dresses'
 p1374
-(I2
-S'door hardware & locks'
+(I1
+S'women'
 p1375
-F0.8773388773388774
-F0.8720379146919431
+F0.8443708609271523
+F0.9882352941176471
 tp1376
-sS'camping fan shop'
+sS'chisels & gouges'
 p1377
-(I2
-S'home & garden'
+(I1
+S'power & hand tools'
 p1378
-F0.907859078590786
-F0.8992537313432836
+F0.91
+F0.9230769230769231
 tp1379
-sS'sun care'
+sS'grinders'
 p1380
 (I1
-S'skin care'
+S'power & hand tools'
 p1381
-F0.9551478083588175
-F0.9434364994663821
+F0.8657718120805369
+F0.8552971576227391
 tp1382
-sS'light bulbs'
+sS'posters'
 p1383
 (I1
-S'electrical'
+S'artwork'
 p1384
-F0.9025416869030274
-F0.9481614349775784
+F0.938138189244384
+F0.9885714285714285
 tp1385
-sS'air purifiers'
+sS'specialty fasteners'
 p1386
 (I1
-S'building supplies'
+S'hardware'
 p1387
-F0.4394057857701329
-F0.6476868327402135
+F0.4259433962264151
+F0.7441860465116279
 tp1388
-sS'chairs & stools'
+sS'kitchen textiles'
 p1389
-(I2
-S'home & garden'
-p1390
-F0.96484375
-F0.9919028340080972
-tp1391
-sS'knives & sharpeners'
-p1392
 (I1
 S'kitchen & dining'
+p1390
+F0.7849301397205589
+F0.9383343928798474
+tp1391
+sS'door security'
+p1392
+(I2
+S'door hardware & locks'
 p1393
-F0.94793799356537
-F0.916075285405739
+F0.8925619834710744
+F0.8641975308641975
 tp1394
-sS'fireplace accessories'
+sS'camping fan shop'
 p1395
+(I2
+S'home & garden'
+p1396
+F0.9065934065934066
+F0.8808080808080808
+tp1397
+sS'sun care'
+p1398
+(I1
+S'skin care'
+p1399
+F0.9739130434782609
+F0.9345238095238095
+tp1400
+sS'light bulbs'
+p1401
+(I1
+S'electrical'
+p1402
+F0.9040070453544694
+F0.9459327812956648
+tp1403
+sS'air purifiers'
+p1404
 (I1
 S'building supplies'
-p1396
-F0.5257142857142857
-F0.7360248447204969
-tp1397
-sS'ramps lifts and jacks'
-p1398
+p1405
+F0.4358974358974359
+F0.6519607843137255
+tp1406
+sS'chairs & stools'
+p1407
 (I2
-S'shocks struts & suspension'
-p1399
-F0.4850340136054422
-F0.5539971949509116
-tp1400
+S'home & garden'
+p1408
+F0.9747474747474747
+F0.9896373056994818
+tp1409
+sS'knives & sharpeners'
+p1410
+(I1
+S'kitchen & dining'
+p1411
+F0.9459247648902821
+F0.9221209610604806
+tp1412
+sS'fireplace accessories'
+p1413
+(I1
+S'building supplies'
+p1414
+F0.5127055306427504
+F0.7186588921282799
+tp1415
+sS'ramps lifts and jacks'
+p1416
+(I1
+S'replacement parts'
+p1417
+F0.45353159851301117
+F0.7008196721311475
+tp1418
 sa.
