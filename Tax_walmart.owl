@@ -45,6 +45,10 @@
 	<rdfs:subClassOf rdf:resource="#jewelry"/>
 </owl:Class>
 
+<owl:Class rdf:ID="brooches_and_pins">
+	<rdfs:subClassOf rdf:resource="#jewelry"/>
+</owl:Class>
+
 <owl:Class rdf:ID="jewelry_storage">
 	<rdfs:subClassOf rdf:resource="#jewelry"/>
 </owl:Class>
@@ -181,6 +185,10 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="counter_organizers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="blankets_and_throws">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
@@ -194,6 +202,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="barstools_and_counter_stools">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="garage_storage">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -249,6 +261,10 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="drawers_and_carts">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="furniture_accessories">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
@@ -257,7 +273,15 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="paintings">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="bed_pillows">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="entertainment_centers">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -270,6 +294,14 @@
 </owl:Class>
 
 <owl:Class rdf:ID="kitchen_and_dining_tables">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scarves_and_valances">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="griddles_and_skillets">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -345,6 +377,10 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="drawers_and_cabinet_organizers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="kids_storage">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
@@ -365,11 +401,27 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="travel_duffel_bags">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="coat_racks_and_umbrella_stands">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
 <owl:Class rdf:ID="benches">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="living_room_sets">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mattress_pads_and_toppers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="audio_and_media_towers">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -393,6 +445,10 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="plant_stands_and_telephone_tables">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="vacuums_and_floor_care">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
@@ -413,11 +469,39 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="blenders_and_juicers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="closet_storage_and_organizers">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="washers_and_dryers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decorative_magnets_stickers_and_window_clings">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="guest_and_reception_chairs">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="microwaves">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_decor">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="cushions">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="salt_and_pepper_shakers_mills">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -437,11 +521,27 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="accent_rugs">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="towels">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="comforters">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="slow_cookers_rice_cookers_and_steamers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="kids_bedding">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pillow_cases">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -453,11 +553,31 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="vanities_and_vanity_stools">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="irons_and_ironing_boards">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="specialty_cookware">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="night_stands">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="kids_table_and_chair_sets">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="wine_beer_and_beverage_chillers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="futons_and_loungers">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -469,11 +589,79 @@
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
+<owl:Class rdf:ID="kids_desks_and_chairs">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decor">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dutch_ovens_and_roasters">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cookware_sets">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="food_prep_and_processors">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pots">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="curtain_panels">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bars_and_wine_racks">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
 <owl:Class rdf:ID="lighting_accessories">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
 <owl:Class rdf:ID="kids_beds_and_headboards">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mattresses">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bath_rugs_and_mats">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="luggage_sets">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mixers_and_attachments">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="quilts_and_bedspreads">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toasters_and_ovens">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pot_racks_and_hanging_baskets">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="desktop_and_drawer_organizers">
+	<rdfs:subClassOf rdf:resource="#home"/>
+</owl:Class>
+
+<owl:Class rdf:ID="window_blinds">
 	<rdfs:subClassOf rdf:resource="#home"/>
 </owl:Class>
 
@@ -489,6 +677,10 @@
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
+<owl:Class rdf:ID="dresses">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
 <owl:Class rdf:ID="all_shirts">
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
@@ -497,7 +689,15 @@
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
+<owl:Class rdf:ID="sports_and_duffel_bags">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
 <owl:Class rdf:ID="backpacks">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="mens_workwear_shop">
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
@@ -513,7 +713,15 @@
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
+<owl:Class rdf:ID="gloves">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
 <owl:Class rdf:ID="womens_shoes">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="umbrellas">
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
@@ -525,11 +733,47 @@
 	<rdfs:subClassOf rdf:resource="#apparel"/>
 </owl:Class>
 
+<owl:Class rdf:ID="swimwear">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleepwear_and_robes">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallets_money_and_key_organizers">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sunglasses">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tops">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="briefcases">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_activewear">
+	<rdfs:subClassOf rdf:resource="#apparel"/>
+</owl:Class>
+
 <owl:Class rdf:ID="toys">
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
 
 <owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="play_vehicles">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="clay_and_dough">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -553,11 +797,19 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="microphones_and_headphones">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="kitchens_playfood_and_housekeeping">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
 <owl:Class rdf:ID="guitar_accessories">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="doll_houses_and_furniture">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -569,7 +821,15 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="swing_sets">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="stuffed_animals_and_toys">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bricks_and_blocks">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -581,7 +841,23 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cymbals">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="puppets">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="doll_clothes_and_accessories">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="adult_bikes">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="development_toys">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -589,7 +865,15 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="kids_bikes">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="guitars">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fashion_dolls">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -597,7 +881,27 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="trains_and_train_sets">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="outdoor_games">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="drawing_and_coloring">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pedal_and_push">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="building_sets">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="keyboard_accessories">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -605,11 +909,39 @@
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="robots_and_remote_control">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="electronic_games">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
+<owl:Class rdf:ID="floats_and_pool_games">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_accessories">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="band_instruments">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="diy_kits">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="drum_sticks_and_mallets">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
 <owl:Class rdf:ID="dj_and_live_sound">
+	<rdfs:subClassOf rdf:resource="#toys"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_dolls">
 	<rdfs:subClassOf rdf:resource="#toys"/>
 </owl:Class>
 
@@ -649,6 +981,10 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="golf_balls">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="automotive_fan_shop">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
@@ -681,11 +1017,23 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="fitness_kits_and_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="accessories_fan_shop">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="stretch_bands_and_cords">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="jewelry_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="telescopes">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -697,7 +1045,23 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="fishing_hooks_and_lure_kits">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="trampolines">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="golf_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gun_stocks_and_grips">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baseball_training_and_coaching_equipment">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -705,11 +1069,39 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="water_bottles_and_hydration">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="indoor_seasonal_decor_fan_shop">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="baseball_field_equipment_and_maintenance">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="clocks_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lanterns">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="optic_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="archery_and_bow_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="canopies_and_shelters">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_mats_and_accessories">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -721,7 +1113,19 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="darts">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="storage_and_organization_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="lawn_games">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sleeping_bags">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -729,7 +1133,19 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="boxing_gear_and_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baseball_mitts_and_gloves">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="weight_sets">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chairs_and_stools">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -737,7 +1153,35 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="tools_and_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="billiards">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tents">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gun_sights">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="water_parks_and_towables">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="grills_and_accessories_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="life_vests">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="marine_electronics">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -745,11 +1189,95 @@
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="dartboards">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cookware">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shoes_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="night_vision_and_monoculars">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sports_accessories_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="golf_bags_and_carts">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tent_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="exercise_bikes">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="coolers">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="gun_cases_and_bags">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
+<owl:Class rdf:ID="pumps_and_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="basketball_backboard_systems">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
 <owl:Class rdf:ID="tables">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="exercise_mats">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fitness_balls">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blocks_straps_and_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="table_tennis">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="protective_gear_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="weight_plates_and_racks">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bath_fan_shop">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="weight_training_accessories">
+	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
+</owl:Class>
+
+<owl:Class rdf:ID="trading_cards">
 	<rdfs:subClassOf rdf:resource="#sports_and_outdoors"/>
 </owl:Class>
 
@@ -778,6 +1306,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="boards_and_easels">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bags_and_cases">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -813,6 +1345,10 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="tvs">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="printer_accessories">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
@@ -825,6 +1361,10 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="docking_stations_and_locks">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="cases_and_protectors">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
@@ -833,11 +1373,23 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="tablet_pcs">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="memory_upgrades">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="amplifiers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="networking_cables_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ebook_reader_accessories">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -861,6 +1413,14 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="calculators">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ipad_cases_sleeves_and_bags">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="cases_and_bags">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
@@ -877,6 +1437,14 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="speaker_systems">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="monitor_and_screen_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="mice_and_mice_pads">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
@@ -886,6 +1454,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="tv_mounts">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paper_and_plastic_supplies">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -901,7 +1473,27 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cd_and_dvd_storage">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="notebooks">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="audio_visual_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="paper_shredders">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="all_cameras">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="memory_cards">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -909,7 +1501,19 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="speaker_mounts_and_stands">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="all_phones">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="label_makers_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="portable_audio">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -925,6 +1529,18 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="scanners">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_installation_kits">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="keyboards">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="microphone_and_headsets">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
@@ -933,7 +1549,31 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="routers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="self_stick_notes">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="headsets_and_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="fax_machines">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gps_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tripods">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tv_antennas">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -941,7 +1581,39 @@
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
+<owl:Class rdf:ID="radios">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
 <owl:Class rdf:ID="speakers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="batteries_adaptors_and_chargers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cash_registers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="port_cards_i_o">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="receivers_and_amplifiers">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hard_drive_accessories">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="trash_cans_and_bags">
+	<rdfs:subClassOf rdf:resource="#electronics"/>
+</owl:Class>
+
+<owl:Class rdf:ID="towels_tissues_and_dispensers">
 	<rdfs:subClassOf rdf:resource="#electronics"/>
 </owl:Class>
 
@@ -1017,6 +1689,10 @@
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cards_stationary_and_invitations">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
 <owl:Class rdf:ID="albums">
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
@@ -1041,6 +1717,22 @@
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
 
+<owl:Class rdf:ID="ceramics_and_pottery">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="halloween_make_up">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="christmas_stockings">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="party_tableware">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
 <owl:Class rdf:ID="balloons">
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
@@ -1053,6 +1745,18 @@
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
 
+<owl:Class rdf:ID="greeting_cards_and_invitations">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="womens_halloween_costumes">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toddler_halloween_costumes">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
 <owl:Class rdf:ID="christmas_lights">
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
@@ -1061,12 +1765,40 @@
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cake_baking_and_pastry_supplies">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
 <owl:Class rdf:ID="fabric">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="decorations">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="indoor_halloween_decor">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="halloween_hats">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sewing_and_quilting_accessories">
+	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
+</owl:Class>
+
+<owl:Class rdf:ID="kids_crafts">
 	<rdfs:subClassOf rdf:resource="#party_and_occasions"/>
 </owl:Class>
 
 <owl:Class rdf:ID="health">
 	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="diet_foods_and_drinks">
+	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
 <owl:Class rdf:ID="herbals">
@@ -1081,6 +1813,10 @@
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cough_cold_and_flu">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
 <owl:Class rdf:ID="minerals">
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
@@ -1090,6 +1826,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="deodorants_and_antiperspirant">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scales">
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
@@ -1109,11 +1849,27 @@
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
+<owl:Class rdf:ID="digestion_and_nausea">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
 <owl:Class rdf:ID="patient_care">
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
+<owl:Class rdf:ID="bedroom_aids_and_safety">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="supplements">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
 <owl:Class rdf:ID="braces_and_supports">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="eye_care">
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
@@ -1122,6 +1878,30 @@
 </owl:Class>
 
 <owl:Class rdf:ID="incontinence">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="feminine_care">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="blood_pressure_monitors">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="nutritional_bars_and_drinks">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="foot_care">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hot_and_cold_therapy">
+	<rdfs:subClassOf rdf:resource="#health"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wheelchairs">
 	<rdfs:subClassOf rdf:resource="#health"/>
 </owl:Class>
 
@@ -1154,6 +1934,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="hand_wrenches">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ladders">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1201,6 +1985,10 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="paint_sprayers">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="drills_and_drivers">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
@@ -1218,6 +2006,14 @@
 </owl:Class>
 
 <owl:Class rdf:ID="tool_sets">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="home_security">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="doors">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1242,6 +2038,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="hooks">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="air_filters">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1277,7 +2077,15 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="nails">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="home_safes_and_lock_boxes">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hand_saws">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1293,7 +2101,19 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="pressure_washers">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="screwdrivers">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="door_security">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sanders_and_polishers">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1305,7 +2125,19 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="other_home_improvement">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="clamps_and_vices">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="air_compressor_accessories">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jointers_and_planers">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1317,7 +2149,35 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="grease_guns">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="surface_protectors">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="indoor_fireplaces">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="removal_tools">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tool_belts">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_flooring">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="taps_and_dies">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shower_bases_doors_and_walls">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1329,6 +2189,10 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="door_bells_and_chimes">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="portable_saws">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
@@ -1337,7 +2201,19 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="fire_safety">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="screws">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="water_pumps">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wrenches_and_ratchets">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1349,6 +2225,10 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="grinders">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="sandpaper">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
@@ -1357,7 +2237,59 @@
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
+<owl:Class rdf:ID="prybars_and_crowbars">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="braces_and_straps">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bench_saws">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chisels_and_gouges">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="vinyl_flooring">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
 <owl:Class rdf:ID="numbers_letters_and_signs">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="generators">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ventilation">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="air_purifiers">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="window_hardware">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wallpaper_and_accessories">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="routers">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="shower_and_tub_modules">
+	<rdfs:subClassOf rdf:resource="#home_improvement"/>
+</owl:Class>
+
+<owl:Class rdf:ID="water_storage_and_treatments">
 	<rdfs:subClassOf rdf:resource="#home_improvement"/>
 </owl:Class>
 
@@ -1394,6 +2326,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="travel_reference">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="business">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
@@ -1437,6 +2373,10 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="diet_health_and_fitness">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="science_other">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
@@ -1450,6 +2390,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="religion___general">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="economics">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
@@ -1469,6 +2413,10 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="careers">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="technology">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
@@ -1485,6 +2433,14 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="finance">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="health_and_wellness">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="performing_arts">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
@@ -1493,7 +2449,39 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="suspense">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="drama">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="15+_years">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="europe">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="ancient">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="study_and_teaching">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="world">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="scientific_disciplines">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="3___4_years">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
@@ -1501,7 +2489,67 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="physics">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="short_stories">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="general_reference">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="programming">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="literatura_y_ficcion">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="history">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="humor">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="women_sleuths">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="nursing">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="action_and_adventure">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="christian_living">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="management">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="chemistry">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="classics">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pets">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="educational">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
@@ -1509,7 +2557,27 @@
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
+<owl:Class rdf:ID="all_calendars">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
 <owl:Class rdf:ID="specialties">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="salud_mente_y_cuerpo">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="various_animals">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gardening">
+	<rdfs:subClassOf rdf:resource="#books"/>
+</owl:Class>
+
+<owl:Class rdf:ID="childhood_family_and_personal">
 	<rdfs:subClassOf rdf:resource="#books"/>
 </owl:Class>
 
@@ -1522,6 +2590,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="outdoor_lighting">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gazebos_and_garden_structures">
 	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
 </owl:Class>
 
@@ -1573,6 +2645,18 @@
 	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
 </owl:Class>
 
+<owl:Class rdf:ID="lawn_mowers">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gardening_accessories">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="grills_and_accessories">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
 <owl:Class rdf:ID="bird_baths_and_feeders">
 	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
 </owl:Class>
@@ -1581,7 +2665,31 @@
 	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
 </owl:Class>
 
+<owl:Class rdf:ID="greenhouses">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fertilizer_and_soil">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sheds_and_outdoor_storage">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
 <owl:Class rdf:ID="umbrellas_and_bases">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="snow_removal">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fences_and_trellises">
+	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
+</owl:Class>
+
+<owl:Class rdf:ID="patio_furniture_covers">
 	<rdfs:subClassOf rdf:resource="#patio_and_garden"/>
 </owl:Class>
 
@@ -1601,11 +2709,75 @@
 	<rdfs:subClassOf rdf:resource="#grocery"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cereal">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
 <owl:Class rdf:ID="candy">
 	<rdfs:subClassOf rdf:resource="#grocery"/>
 </owl:Class>
 
+<owl:Class rdf:ID="all_purpose_cleaners">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baking_mixes">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tea">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pasta_and_noodles">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="canned_vegetables">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="juice">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="pest_control">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="soups">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cookies">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="stocks_and_broths">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
 <owl:Class rdf:ID="coffee">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="sauces">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="crackers">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cleaning_tools">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="condiments">
+	<rdfs:subClassOf rdf:resource="#grocery"/>
+</owl:Class>
+
+<owl:Class rdf:ID="jam_jelly_and_preserves">
 	<rdfs:subClassOf rdf:resource="#grocery"/>
 </owl:Class>
 
@@ -1617,11 +2789,27 @@
 	<rdfs:subClassOf rdf:resource="#cell_phones"/>
 </owl:Class>
 
+<owl:Class rdf:ID="chargers">
+	<rdfs:subClassOf rdf:resource="#cell_phones"/>
+</owl:Class>
+
+<owl:Class rdf:ID="screen_protectors">
+	<rdfs:subClassOf rdf:resource="#cell_phones"/>
+</owl:Class>
+
 <owl:Class rdf:ID="beauty">
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
 
+<owl:Class rdf:ID="moisturizers">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
 <owl:Class rdf:ID="all_fragrances">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="facial_treatments">
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
@@ -1629,7 +2817,15 @@
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
+<owl:Class rdf:ID="massagers">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
 <owl:Class rdf:ID="lips">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="conditioners">
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
@@ -1641,11 +2837,31 @@
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
+<owl:Class rdf:ID="sun_care">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="massage_equipment">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="facial_cleansers">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
 <owl:Class rdf:ID="face">
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
 <owl:Class rdf:ID="hand_creams_and_lotions">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hair_styling_tools">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bath_accessories">
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
@@ -1657,7 +2873,27 @@
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
+<owl:Class rdf:ID="hair_color">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="eyes">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
 <owl:Class rdf:ID="hair_brushes_and_styling_accessories">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="body_treatments">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="hair_treatments">
+	<rdfs:subClassOf rdf:resource="#beauty"/>
+</owl:Class>
+
+<owl:Class rdf:ID="skin_care_sets">
 	<rdfs:subClassOf rdf:resource="#beauty"/>
 </owl:Class>
 
@@ -1674,6 +2910,10 @@
 </owl:Class>
 
 <owl:Class rdf:ID="atv_accessories">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="additional_auto_replacement_parts">
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
@@ -1697,11 +2937,31 @@
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
+<owl:Class rdf:ID="interior_car_accessories">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
 <owl:Class rdf:ID="exterior_car_decoration">
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
+<owl:Class rdf:ID="spark_plugs">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
 <owl:Class rdf:ID="auto_safety_accessories">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="auto_paint_and_body">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="anti_theft_devices">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="fluids_and_lubricants">
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
@@ -1717,7 +2977,47 @@
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
+<owl:Class rdf:ID="cargo_management_system">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="tires_accessories">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="coverings_and_protection">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="motorcycle_accessories">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="auto_care_and_cleaning_products">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cargo_management">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
 <owl:Class rdf:ID="car_floor_mats_and_cargo_mats">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_covers_and_car_protection">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_lighting">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="oil_filters">
+	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
+</owl:Class>
+
+<owl:Class rdf:ID="car_battery_chargers_and_accessories">
 	<rdfs:subClassOf rdf:resource="#auto_and_tires"/>
 </owl:Class>
 
@@ -1745,6 +3045,66 @@
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
 
+<owl:Class rdf:ID="learning_toys">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_gates">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="bottle_feeding">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="wall_decor">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_mattresses">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="stroller_accessories">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="diaper_bags">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_proofing">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="convertible_cribs">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="crib_bedding_sets">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_blankets">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="see_all_cribs">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toddler_lounge_seating">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="baby_and_toddler_lighting">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
+<owl:Class rdf:ID="toddler_feeding">
+	<rdfs:subClassOf rdf:resource="#baby"/>
+</owl:Class>
+
 <owl:Class rdf:ID="household_essentials">
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
@@ -1769,6 +3129,14 @@
 	<rdfs:subClassOf rdf:resource="#household_essentials"/>
 </owl:Class>
 
+<owl:Class rdf:ID="surface_care_and_protection">
+	<rdfs:subClassOf rdf:resource="#household_essentials"/>
+</owl:Class>
+
+<owl:Class rdf:ID="laundry">
+	<rdfs:subClassOf rdf:resource="#household_essentials"/>
+</owl:Class>
+
 <owl:Class rdf:ID="pets">
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
@@ -1777,11 +3145,27 @@
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
+<owl:Class rdf:ID="small_pet_food">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="health_care">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
 <owl:Class rdf:ID="horse_supplies">
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
 <owl:Class rdf:ID="filtration_heaters_and_supplies">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_pet_supplies">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="litter_center">
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
@@ -1797,7 +3181,19 @@
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
+<owl:Class rdf:ID="gates_and_doors">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dog_beds">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
 <owl:Class rdf:ID="furniture_and_toys">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="training_and_behavior">
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
@@ -1809,15 +3205,99 @@
 	<rdfs:subClassOf rdf:resource="#pets"/>
 </owl:Class>
 
+<owl:Class rdf:ID="grooming">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cat_food">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="dog_food">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="feeding">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
+<owl:Class rdf:ID="apparel_and_accessories">
+	<rdfs:subClassOf rdf:resource="#pets"/>
+</owl:Class>
+
 <owl:Class rdf:ID="movies_and_tv">
 	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="cartoons">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="classics">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="children_and_family">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="educational">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="crime">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="best_selling_movies_and_tv_for_less">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="action">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="romantic_comedies">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="documentaries">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="classic_dramas">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
 </owl:Class>
 
 <owl:Class rdf:ID="comedy">
 	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
 </owl:Class>
 
+<owl:Class rdf:ID="slapstick">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="action_thrillers">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="rock_and_pop">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
 <owl:Class rdf:ID="drama">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="urban_dramas">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="romantic">
+	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
+</owl:Class>
+
+<owl:Class rdf:ID="action_and_adventure">
 	<rdfs:subClassOf rdf:resource="#movies_and_tv"/>
 </owl:Class>
 
@@ -1833,11 +3313,35 @@
 	<rdfs:subClassOf rdf:resource="#Product"/>
 </owl:Class>
 
+<owl:Class rdf:ID="wallets">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
+<owl:Class rdf:ID="backpacks">
+	<rdfs:subClassOf rdf:resource="#clothing"/>
+</owl:Class>
+
 <owl:Class rdf:ID="handbags">
 	<rdfs:subClassOf rdf:resource="#clothing"/>
 </owl:Class>
 
+<owl:Class rdf:ID="everything_else">
+	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="other_home">
+	<rdfs:subClassOf rdf:resource="#everything_else"/>
+</owl:Class>
+
 <owl:Class rdf:ID="gifts_and_registry">
 	<rdfs:subClassOf rdf:resource="#Product"/>
+</owl:Class>
+
+<owl:Class rdf:ID="personalized_gifts">
+	<rdfs:subClassOf rdf:resource="#gifts_and_registry"/>
+</owl:Class>
+
+<owl:Class rdf:ID="gift_baskets">
+	<rdfs:subClassOf rdf:resource="#gifts_and_registry"/>
 </owl:Class>
 </rdf:RDF>
